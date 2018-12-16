@@ -1,0 +1,27 @@
+backend:
+  name: github
+  repo: koyophysics/web
+
+media_folder: "static/img"
+
+public_folder: "/docs"
+
+collections:
+  - label: "Blog" # 管理画面のサイドバーで使う
+    name: "blog" # 管理画面のパスで使う　例：/admin/collections/blog
+    folder: "content/blog" # Markdownを保存するディレクトリ。Hugoのsectionにあたる
+    create: true # 新しいページを作ることを許可する
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Markdownのファイル名　例：YYYY-MM-DD-title.md
+    fields: # ページ作成画面で使う。Front Matterの値を書く
+      - {label: "タイトル", name: "title", widget: "string"}
+      - {label: "公開URL", name: "slug", widget: "string"}
+      - {label: "公開日", name: "date", widget: "datetime"}
+
+
+      - {label: "サムネイル画像", name: "image", widget: "image"}
+      - {label: "説明", name: "description", widget: "string"}
+      - {label: "作者", name: "author", widget: "string"}
+      - {label: "公開設定(trueで公開)", name: "draft", widget: "string"}
+      - {label: "コメント設定(trueで公開)", name: "comments", widget: "string"}
+      - {label: "数式(trueで有効)", name: "math", widget: "string"}
+      - {label: "本文", name: "body", widget: "markdown"}
