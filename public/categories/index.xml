@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 甲陽学院 高等学校 物理部(新)</title>
-    <link>https://koyogakuin.github.io/butsuri/categories/</link>
+    <link>https://koyophysics.github.io/web/categories/</link>
     <description>Recent content in Categories on 甲陽学院 高等学校 物理部(新)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright © 2018 Koyo Physics. All Rights Reserved.</copyright>
     
-	<atom:link href="https://koyogakuin.github.io/butsuri/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://koyophysics.github.io/web/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Web</title>
-      <link>https://koyogakuin.github.io/butsuri/categories/web/</link>
+      <link>https://koyophysics.github.io/web/categories/web/</link>
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyogakuin.github.io/butsuri/categories/web/</guid>
+      <guid>https://koyophysics.github.io/web/categories/web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>作ってみた</title>
-      <link>https://koyogakuin.github.io/butsuri/categories/%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <link>https://koyophysics.github.io/web/categories/%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyogakuin.github.io/butsuri/categories/%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <guid>https://koyophysics.github.io/web/categories/%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
       <description></description>
     </item>
     
     <item>
       <title>核分裂</title>
-      <link>https://koyogakuin.github.io/butsuri/categories/%E6%A0%B8%E5%88%86%E8%A3%82/</link>
+      <link>https://koyophysics.github.io/web/categories/%E6%A0%B8%E5%88%86%E8%A3%82/</link>
       <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyogakuin.github.io/butsuri/categories/%E6%A0%B8%E5%88%86%E8%A3%82/</guid>
+      <guid>https://koyophysics.github.io/web/categories/%E6%A0%B8%E5%88%86%E8%A3%82/</guid>
       <description></description>
     </item>
     
