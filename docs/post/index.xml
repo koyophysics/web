@@ -2,103 +2,103 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 甲陽学院 高等学校 物理部(新)</title>
-    <link>https://koyogakuin.github.io/butsuri/post/</link>
+    <link>https://koyophysics.github.io/web/post/</link>
     <description>Recent content in Posts on 甲陽学院 高等学校 物理部(新)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright © 2018 Koyo Physics. All Rights Reserved.</copyright>
     <lastBuildDate>Mon, 24 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://koyogakuin.github.io/butsuri/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://koyophysics.github.io/web/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>核分裂と軽水炉の基本原理について</title>
-      <link>https://koyogakuin.github.io/butsuri/post/nuclear/</link>
+      <link>https://koyophysics.github.io/web/post/nuclear/</link>
       <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyogakuin.github.io/butsuri/post/nuclear/</guid>
+      <guid>https://koyophysics.github.io/web/post/nuclear/</guid>
       <description>はじめに どうも、物理部準部員のI井です。H崎部長に「なんか書かへん？」と誘われ、書くことになりました。 実験も何もしておらず、概要をさっとなぞ</description>
     </item>
     
     <item>
       <title>フーリエ変換でお絵かきしてみよう〜実践編〜</title>
-      <link>https://koyogakuin.github.io/butsuri/post/fourier3/</link>
+      <link>https://koyophysics.github.io/web/post/fourier3/</link>
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyogakuin.github.io/butsuri/post/fourier3/</guid>
+      <guid>https://koyophysics.github.io/web/post/fourier3/</guid>
       <description>はじめに 前回、フーリエ変換について詳しく見てきましたが、「いまいちピンとこない」と言う方も多かったのではないでしょうか。 そんな方に、「なんと</description>
     </item>
     
     <item>
       <title>フーリエ変換でお絵かきしてみよう〜導入編〜</title>
-      <link>https://koyogakuin.github.io/butsuri/post/fourier1/</link>
+      <link>https://koyophysics.github.io/web/post/fourier1/</link>
       <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyogakuin.github.io/butsuri/post/fourier1/</guid>
+      <guid>https://koyophysics.github.io/web/post/fourier1/</guid>
       <description>はじめに 物理部部長のH崎です。音展の二週間前を切って午前2時とかに書いているので、誤字脱字があるかもしれませんが、大目にみてくださいね。 皆さ</description>
     </item>
     
     <item>
       <title>オムニホイールで全方向移動</title>
-      <link>https://koyogakuin.github.io/butsuri/post/omni/</link>
+      <link>https://koyophysics.github.io/web/post/omni/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyogakuin.github.io/butsuri/post/omni/</guid>
+      <guid>https://koyophysics.github.io/web/post/omni/</guid>
       <description>はじめに 物理部部長のH崎です。 この記事では今年製作したオムニホイールについて紹介したいと思います。 オムニホイールとは？ まずはこの写真を見てみ</description>
     </item>
     
     <item>
       <title>二重振り子のシミュレーション</title>
-      <link>https://koyogakuin.github.io/butsuri/post/double-pendu/</link>
+      <link>https://koyophysics.github.io/web/post/double-pendu/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyogakuin.github.io/butsuri/post/double-pendu/</guid>
+      <guid>https://koyophysics.github.io/web/post/double-pendu/</guid>
       <description>二重振り子とは？？ 物理部らしいことしてみた 二重振り子はカオス現象ですが、運動方程式をラグランジアンに変換して、Runge–Kutta法で微分</description>
     </item>
     
     <item>
       <title>Processingでライフゲーム</title>
-      <link>https://koyogakuin.github.io/butsuri/post/lifegame/</link>
+      <link>https://koyophysics.github.io/web/post/lifegame/</link>
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyogakuin.github.io/butsuri/post/lifegame/</guid>
+      <guid>https://koyophysics.github.io/web/post/lifegame/</guid>
       <description>きっかけ いつものように、物理部で数学の勉強してたのですが(ｵｲ)、そこにいた準部員の一人が「ライフゲームって知ってる？」と発言したことが発端</description>
     </item>
     
     <item>
       <title>自作ドローン製作記</title>
-      <link>https://koyogakuin.github.io/butsuri/post/drone/</link>
+      <link>https://koyophysics.github.io/web/post/drone/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyogakuin.github.io/butsuri/post/drone/</guid>
+      <guid>https://koyophysics.github.io/web/post/drone/</guid>
       <description>物理部部長のH﨑です。 高1の音展でドローンを自作したのですが、これまた記録等を全く残していなかったので、改めて紹介します。 また、セキュリティ</description>
     </item>
     
     <item>
       <title>木製3Dプリンタ製作記</title>
-      <link>https://koyogakuin.github.io/butsuri/post/3dp/</link>
+      <link>https://koyophysics.github.io/web/post/3dp/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyogakuin.github.io/butsuri/post/3dp/</guid>
+      <guid>https://koyophysics.github.io/web/post/3dp/</guid>
       <description>きっかけ 夏の終わりの風物詩である読書感想文。僕はいつもiPadでいろいろ下書きを書いてからそれをノートに写すというスタイルで書いていたのです</description>
     </item>
     
     <item>
       <title>Hugoでサイト開発入門　第2回</title>
-      <link>https://koyogakuin.github.io/butsuri/post/hugo2/</link>
+      <link>https://koyophysics.github.io/web/post/hugo2/</link>
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyogakuin.github.io/butsuri/post/hugo2/</guid>
+      <guid>https://koyophysics.github.io/web/post/hugo2/</guid>
       <description>どーも。物理部部長のH﨑です。 前回の続きで、Hugoで作ったサイトを自分仕様に変えていく方法を紹介します。 config.tomlの編集 前回、</description>
     </item>
     
     <item>
       <title>Hugoでサイト開発入門　第1回</title>
-      <link>https://koyogakuin.github.io/butsuri/post/hugo1/</link>
+      <link>https://koyophysics.github.io/web/post/hugo1/</link>
       <pubDate>Sat, 21 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyogakuin.github.io/butsuri/post/hugo1/</guid>
+      <guid>https://koyophysics.github.io/web/post/hugo1/</guid>
       <description>どーも。物理部部長のH﨑です。 僕自身Web開発は初めてでしたが、Hugoを使って簡単にカッコいいサイトが作れました！ HugoとGitHub P</description>
     </item>
     
