@@ -1,4 +1,4 @@
-baseurl = "https://koyophysics.github.io/web"
+baseurl = "https://koyophy.netlify.com"
 title = "甲陽学院 高等学校 物理部(新)"
 canonifyurls = true
 paginate = 10
@@ -24,7 +24,7 @@ hasCJKLanguage = "true"
 #  url = "https://twitter.com/humboldtux"
 [[params.social]]
   title = "github"
-  url = "https://koyophysics.github.io/web"
+  url = "https://koyophy.netlify.com"
 #[[params.social]]
 #    title = "twitter"
 #    url = "https://twitter.com/koyobutsuri"

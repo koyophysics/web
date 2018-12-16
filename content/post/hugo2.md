@@ -17,7 +17,7 @@ comments: true
 前回の続きで、Hugoで作ったサイトを自分仕様に変えていく方法を紹介します。
 
 ## config.tomlの編集
-[前回](https://koyophysics.github.io/web/post/hugo1/)、何気にコピペして使用したconfig.tomlですが、ちゃんと意味があります。  
+[前回](https://koyophy.netlify.com/post/hugo1/)、何気にコピペして使用したconfig.tomlですが、ちゃんと意味があります。  
 これを編集すれば、一気に自分のサイトっぽくなります。
 
 ```
