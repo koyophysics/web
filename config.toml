@@ -24,7 +24,7 @@ hasCJKLanguage = "true"
 #  url = "https://twitter.com/humboldtux"
 [[params.social]]
   title = "github"
-  url = "https://koyophy.netlify.com"
+  url = "https://github.com/koyophysics/web"
 #[[params.social]]
 #    title = "twitter"
 #    url = "https://twitter.com/koyobutsuri"
