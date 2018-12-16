@@ -6,8 +6,7 @@ tags:
     - "数学"
     - "フーリエ変換"
     - "processing"
-categories:
-    - "作ってみた"
+categories: "作ってみた"
 image: "/img/fourier/9.png"
 description: "フーリエ変換を視覚的に理解できるお絵かきプログラムを作ってみましょう！"
 author: H﨑
