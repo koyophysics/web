@@ -1,0 +1,53 @@
+baseurl = "https://koyogakuin.github.io/butsuri/"
+title = "甲陽学院 高等学校 物理部(新)"
+canonifyurls = true
+paginate = 10
+languageCode = "ja-jp"
+copyright = "Copyright © 2018 Koyo Physics. All Rights Reserved."
+googleAnalytics = "UA-117865841-1" # delete or comment to disable Google Analytics JS generation
+disqusShortname = "jia-yang-xue-yuan-wu-li-bu" #delete or comment to disable Disqus comments
+hasCJKLanguage = "true"
+
+[author]
+  name = "T.H."
+
+[params]
+  DateForm = "2006年1月2日"#変えるな絶対！！呪文やこれは！！
+  Description = "Koyo Gakuin High School Physics Club"
+  Author = "H﨑"
+  email = "koyobutsuri@gmail.com"
+  postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)
+  showReadTime = false #set to false to exclude read time from header of post
+
+#[[params.social]]
+#  title = "twitter"
+#  url = "https://twitter.com/humboldtux"
+[[params.social]]
+  title = "github"
+  url = "https://github.com/koyogakuin/"
+#[[params.social]]
+#    title = "twitter"
+#    url = "https://twitter.com/koyobutsuri"
+#[[params.social]]
+#  title = "youtube"
+#  url = "https://www.youtube.com/channel/UCoM7hhjA0OisVtQv2ZwlEfw"
+
+[[menu.main]]
+  name = "ホーム"
+  url = "/"
+  weight = -500
+
+[[menu.main]]
+  name = "活動記録"
+  url = "/post/"
+  weight = -400
+
+[[menu.main]]
+  name = "クラブ紹介"
+  url = "/page/クラブ紹介/"
+  weight = -300
+
+[[menu.main]]
+  name = "作品ギャラリー"
+  url = "/page/作品ギャラリー/"
+  weight = -100

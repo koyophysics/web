@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>二重振り子 on 甲陽学院 高等学校 物理部(新)</title>
+    <link>https://koyogakuin.github.io/butsuri/tags/%E4%BA%8C%E9%87%8D%E6%8C%AF%E3%82%8A%E5%AD%90/</link>
+    <description>Recent content in 二重振り子 on 甲陽学院 高等学校 物理部(新)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Copyright © 2018 Koyo Physics. All Rights Reserved.</copyright>
+    <lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://koyogakuin.github.io/butsuri/tags/%E4%BA%8C%E9%87%8D%E6%8C%AF%E3%82%8A%E5%AD%90/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>二重振り子のシミュレーション</title>
+      <link>https://koyogakuin.github.io/butsuri/post/double-pendu/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://koyogakuin.github.io/butsuri/post/double-pendu/</guid>
+      <description>二重振り子とは？？ 物理部らしいことしてみた 二重振り子はカオス現象ですが、運動方程式をラグランジアンに変換して、Runge–Kutta法で微分</description>
+    </item>
+    
+  </channel>
+</rss>

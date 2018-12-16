@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+
+<head>
+  
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="2017年度の音展でも展示していましたが、諸事情あって1 から制作することになりました。">
+    <meta name="author" content="H﨑">
+    <meta name="keywords" content="">
+
+
+    <title>オムニホイールで全方向移動 -- 甲陽学院 高等学校 物理部(新)</title>
+
+    
+
+    
+    <link href="https://koyogakuin.github.io/butsuri//css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="https://koyogakuin.github.io/butsuri//css/clean-blog.min.css" rel="stylesheet">
+
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+
+    
+    
+    
+
+    <style>
+     
+    .korokoro {
+      -webkit-animation: korokoro 2.5s linear 0s 1;
+      animation: korokoro 2.5s linear 0s 1;
+      animation-iteration-count: infinite;
+    }
+    @-webkit-keyframes korokoro {
+      0%   { -webkit-transform: translate(0%, 0%); }
+      5%   { -webkit-transform: translate(10%, 0%) rotate(10deg); }
+      25%  { -webkit-transform: translate(20%, 0%) rotate(20deg); }
+      30%  { -webkit-transform: translate(-10%, 0%) rotate(-10deg); }
+      35%  { -webkit-transform: translate(-15%, 0%) rotate(-15deg); }
+      45%  { -webkit-transform: translate(10%, 0%) rotate(10deg); }
+      50%  { -webkit-transform: translate(15%, 0%) rotate(15deg); }
+      60%  { -webkit-transform: translate(-5%, 0%) rotate(-5deg); }
+      65%  { -webkit-transform: translate(-7%, 0%) rotate(-7deg); }
+      75%  { -webkit-transform: translate(0%, 0%) rotate(0deg); }
+      100% { -webkit-transform: translate(0%, 0%) rotate(0deg); }
+    }
+    @keyframes korokoro {
+      0%   { transform: translate(0%, 0%); }
+      5%   { transform: translate(10%, 0%) rotate(10deg); }
+      25%  { transform: translate(20%, 0%) rotate(20deg); }
+      30%  { transform: translate(-10%, 0%) rotate(-10deg); }
+      35%  { transform: translate(-15%, 0%) rotate(-15deg); }
+      45%  { transform: translate(10%, 0%) rotate(10deg); }
+      50%  { transform: translate(15%, 0%) rotate(15deg); }
+      60%  { transform: translate(-5%, 0%) rotate(-5deg); }
+      65%  { transform: translate(-7%, 0%) rotate(-7deg); }
+      75%  { transform: translate(0%, 0%) rotate(0deg); }
+      100% { transform: translate(0%, 0%) rotate(0deg); }
+    }
+  </style>
+</head>
+
+<body>
+
+    
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://koyogakuin.github.io/butsuri/">Koyo Physics Club</a>
+            </div>
+
+                       
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li>
+                        <a href="https://koyogakuin.github.io/butsuri/">ホーム</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyogakuin.github.io/butsuri/post/">活動記録</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyogakuin.github.io/butsuri/page/%E3%82%AF%E3%83%A9%E3%83%96%E7%B4%B9%E4%BB%8B/">クラブ紹介</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyogakuin.github.io/butsuri/page/%E4%BD%9C%E5%93%81%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC/">作品ギャラリー</a>
+                    </li>
+                    
+                  </ul>
+            </div>
+           
+
+        </div>
+        
+    </nav>
+
+
+    
+    
+    <header class="intro-header" style="background-image: url('https://koyogakuin.github.io/butsuri//img/blue.jpg')">
+      
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+             <div class="post-heading">
+               <h1>オムニホイールで全方向移動</h1>
+               <br>
+               <h2 class="subheading">2017年度の音展でも展示していましたが、諸事情あって1 から制作することになりました。</h2>
+               <span class="meta">
+                 
+投稿者：  H﨑　更新日  2018年8月22日
+<br />
+タグ : <a href="https://koyogakuin.github.io/butsuri/tags/%E3%82%AA%E3%83%A0%E3%83%8B%E3%83%9B%E3%82%A4%E3%83%BC%E3%83%AB">オムニホイール</a>, <a href="https://koyogakuin.github.io/butsuri/tags/blynk">blynk</a>
+
+
+               </span>
+             </div>
+           </div>
+        </div>
+      </div>
+    </header>
+
+    
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  
+
+<h2 id="はじめに">はじめに</h2>
+
+<p>物理部部長のH崎です。<br />
+この記事では今年製作したオムニホイールについて紹介したいと思います。</p>
+
+<h2 id="オムニホイールとは">オムニホイールとは？</h2>
+
+<p><img src="https://koyogakuin.github.io/butsuri/img/omni/1.jpg" alt="Drawing" style="width: 60%"/></p>
+
+<p>まずはこの写真を見てみて下さい。</p>
+
+<h3 id="んん-車輪の上に車輪がついてる">んん？　車輪の上に車輪がついてる、、、</h3>
+
+<p>と思ったあなた、なかなか勘が鋭い！<br />
+このようにオムニホイールは車輪の外周に<strong>回転方向に対して垂直の方向</strong>で車輪がついています。</p>
+
+<h2 id="なぜ垂直">なぜ垂直？</h2>
+
+<div class="movie-wrap">
+  <iframe width="854" height="480" src="https://www.youtube.com/embed/Yh-UOlq65_k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+<p>この動画を見てもらうのが一番わかりやすいと思います。<br />
+普通の車輪の場合、横方向に対する動きは摩擦が大きく、滑らかに移動することができません。<br />
+しかし、オムニホイールの場合、横方向に対して新たに車輪がついてるため、摩擦なく全方向に移動することができます。</p>
+
+<h3 id="まあ-音展に来てもらうのが一番なんですけどねww">まあ、音展に来てもらうのが一番なんですけどねww</h3>
+
+<p>ということで、北館4F物理講義室でお待ちしています。</p>
+
+<h2 id="作り方-ハード編">作り方(ハード編)</h2>
+
+<p>必要な主な材料は以下の通りです。</p>
+
+<ul>
+<li>オムニホイール　× 4</li>
+<li>ステッピングモーター(NEMA17) × 4</li>
+<li>Arduino UNO × 1</li>
+<li>A4988 ×4</li>
+<li>BLE4.0モジュール　× 1</li>
+<li>12V電源アダプター × 1</li>
+<li>モーター固定用の金具 × 4</li>
+<li>MDF版など(土台)</li>
+</ul>
+
+<p><img src="https://koyogakuin.github.io/butsuri/img/omni/6.jpg" alt="Drawing" style="width: 30%"/>
+自作モーターシールド(A4988とArduinoを接続)</p>
+
+<p><img src="https://koyogakuin.github.io/butsuri/img/omni/3.jpg" alt="Drawing" style="width: 30%"/>
+A4988とBLEモジュールを接続したところ(旧バージョン)</p>
+
+<p>実はオムニホイールを使った作品は去年も展示していました。</p>
+
+<p><img src="https://koyogakuin.github.io/butsuri/img/omni/5.jpg" alt="Drawing" style="width: 30%"/></p>
+
+<h3 id="うーん-ちゃっちい">うーん。ちゃっちい。</h3>
+
+<p>オムニホイールを買う資金がなかったので、3Dプリンタで設計して印刷しました。印刷時間は合計二日にも及びます。そこそこの出来ではありましたが、純正品とは滑らかさの点で比べ物になりませんでした。</p>
+
+<p>回路図は、じきに公開します</p>
+
+<h2 id="作り方-ソフト編">作り方(ソフト編)</h2>
+
+<p>去年のバージョンはパソコンの画面上でマウスを動かして操作するという、ユーザービリティのかけらもないような仕様でしたが、今年は違います。</p>
+
+<h3 id="スマホから操作できます">スマホから操作できます！！</h3>
+
+<p>これは大きいのではないでしょうか。多分赤ちゃんでも操作できます(今時の子供はスマホリテラシーが高い)<br />
+具体的にはBlynkというアプリを用いて、BLE経由でコマンドをオムニホイール車に送信しています。</p>
+
+<h3 id="ソースコード">ソースコード</h3>
+
+<pre><code>#include &lt;TimerOne.h&gt;
+#include &lt;BlynkSimpleSerialBLE.h&gt;
+
+#define BLYNK_USE_DIRECT_CONNECT
+#define STEP1 12
+#define STEP2 10
+#define STEP3 7
+#define STEP4 5
+#define DIR1 11
+#define DIR2 9
+#define DIR3 6
+#define DIR4 4
+
+int counter, c, p0, p1, p2, p3;
+char auth[] = &quot;enter your passcode&quot;;
+
+BLYNK_WRITE(V0){
+  p0 = param.asInt();
+}
+
+BLYNK_WRITE(V1){
+  p1 = param.asInt();
+}
+
+BLYNK_WRITE(V2){
+  p2 = param.asInt();
+}
+
+BLYNK_WRITE(V3){
+  p3 = param.asInt();
+}
+
+void setup() {
+  pinMode(STEP1, OUTPUT);
+  pinMode(DIR1, OUTPUT);
+  pinMode(STEP2, OUTPUT);
+  pinMode(DIR2, OUTPUT);
+  pinMode(STEP3, OUTPUT);
+  pinMode(DIR3, OUTPUT);
+  pinMode(STEP4, OUTPUT);
+  pinMode(DIR4, OUTPUT);
+
+  digitalWrite(DIR1, LOW);
+  digitalWrite(DIR2, LOW);
+  digitalWrite(DIR3, LOW);
+  digitalWrite(DIR4, LOW);
+
+  Timer1.initialize(150); //マイクロ秒単位で設定
+  Timer1.attachInterrupt(timer1);
+
+  Serial.begin(115200);
+  Blynk.begin(Serial, auth);
+}
+
+void loop() {
+  Blynk.run();
+  if (p0 &lt; 0) {
+    digitalWrite(DIR2, LOW);
+    digitalWrite(DIR3, HIGH);
+  } else {
+    digitalWrite(DIR2, HIGH);
+    digitalWrite(DIR3, LOW);
+  }
+  if (p1 &lt; 0) {
+    digitalWrite(DIR1, HIGH);
+    digitalWrite(DIR4, LOW);
+  } else {
+    digitalWrite(DIR1, LOW);
+    digitalWrite(DIR4, HIGH);
+  }
+  if (p2 == 1) {
+    digitalWrite(DIR1, HIGH);
+    digitalWrite(DIR2, HIGH);
+    digitalWrite(DIR3, HIGH);
+    digitalWrite(DIR4, HIGH);
+  } else if (p3 == 1) {
+    digitalWrite(DIR1, LOW);
+    digitalWrite(DIR2, LOW);
+    digitalWrite(DIR3, LOW);
+    digitalWrite(DIR4, LOW);
+  }
+}
+
+void timer1() {
+  int s = abs(p0);
+  int j = abs(p1);
+  if (p0 != 0 &amp;&amp; c &lt; s) {
+    digitalWrite(STEP2, HIGH);
+    digitalWrite(STEP3, HIGH);
+    delayMicroseconds(15);
+    digitalWrite(STEP2, LOW);
+    digitalWrite(STEP3, LOW);
+  }
+  if (p1 != 0 &amp;&amp; c &lt; j) {
+    digitalWrite(STEP1, HIGH);
+    digitalWrite(STEP4, HIGH);
+    delayMicroseconds(15);
+    digitalWrite(STEP1, LOW);
+    digitalWrite(STEP4, LOW);
+  }
+  if (p2 == 1 || p3 == 1) {
+    digitalWrite(STEP1, HIGH);
+    digitalWrite(STEP2, HIGH);
+    digitalWrite(STEP3, HIGH);
+    digitalWrite(STEP4, HIGH);
+    delayMicroseconds(15);
+    digitalWrite(STEP1, LOW);
+    digitalWrite(STEP2, LOW);
+    digitalWrite(STEP3, LOW);
+    digitalWrite(STEP4, LOW);
+  }
+  c++;
+  if (c == 10) {
+    c = 0;
+  }
+}
+</code></pre>
+
+<h2 id="完成">完成！</h2>
+
+<p><blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">オムニホイールで全方向移動車作ったから、その動画<br>iPadとはBluetoothで接続してます。またホームページにまとめるかも <a href="https://t.co/UwGVQnTvvv">pic.twitter.com/UwGVQnTvvv</a></p>&mdash; 甲陽學院髙等學挍 物理部 (@koyobutsuri) <a href="https://twitter.com/koyobutsuri/status/1018021585960120320?ref_src=twsrc%5Etfw">2018年7月14日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p>どうでしょうか。真ん中の円をタッチして動かすだけで、その方向に移動するようになり、直感的な操作が可能になりました。<br />
+動かす大きさが大きいほど、早く移動するようになっています。また右回転や左回転にも対応しています。</p>
+
+<p>ロボコンに出場する気はさらさらありませんので、これ以上の機能をつけるつもりはありません（風船割るとか）<br />
+オムニホイールの仕組みだけでも理解していただければ幸いです。</p>
+
+                  
+   <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jia-yang-xue-yuan-wu-li-bu" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+    
+    <footer>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <ul class="list-inline text-center">
+
+                    
+                      <li>
+                        <a href="mailto:koyobutsuri@gmail.com">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                    
+                    
+                    
+                    <li>
+                      <a href="https://github.com/koyogakuin/">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://twitter.com/koyobutsuri">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCoM7hhjA0OisVtQv2ZwlEfw">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    
+                  </ul>
+                  <p class="copyright text-muted">Copyright © 2018 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
+                  <p id="pageTop"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    
+    <script src="https://koyogakuin.github.io/butsuri//js/jquery.min.js"></script>
+
+    
+    <script src="https://koyogakuin.github.io/butsuri//js/bootstrap.min.js"></script>
+
+    
+    <script src="https://koyogakuin.github.io/butsuri//js/clean-blog.js"></script>
+
+    
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-117865841-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+</body>
+
+</html>
+

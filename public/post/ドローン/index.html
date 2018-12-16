@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+
+<head>
+  
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="2017年度の音展でドローンを製作した時の製作記です。">
+    <meta name="author" content="H﨑">
+    <meta name="keywords" content="">
+
+
+    <title>自作ドローン製作記 -- 甲陽学院 高等学校 物理部(新)</title>
+
+    
+
+    
+    <link href="https://koyogakuin.github.io/butsuri//css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="https://koyogakuin.github.io/butsuri//css/clean-blog.min.css" rel="stylesheet">
+
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+
+    
+    
+    
+
+    <style>
+     
+    .korokoro {
+      -webkit-animation: korokoro 2.5s linear 0s 1;
+      animation: korokoro 2.5s linear 0s 1;
+      animation-iteration-count: infinite;
+    }
+    @-webkit-keyframes korokoro {
+      0%   { -webkit-transform: translate(0%, 0%); }
+      5%   { -webkit-transform: translate(10%, 0%) rotate(10deg); }
+      25%  { -webkit-transform: translate(20%, 0%) rotate(20deg); }
+      30%  { -webkit-transform: translate(-10%, 0%) rotate(-10deg); }
+      35%  { -webkit-transform: translate(-15%, 0%) rotate(-15deg); }
+      45%  { -webkit-transform: translate(10%, 0%) rotate(10deg); }
+      50%  { -webkit-transform: translate(15%, 0%) rotate(15deg); }
+      60%  { -webkit-transform: translate(-5%, 0%) rotate(-5deg); }
+      65%  { -webkit-transform: translate(-7%, 0%) rotate(-7deg); }
+      75%  { -webkit-transform: translate(0%, 0%) rotate(0deg); }
+      100% { -webkit-transform: translate(0%, 0%) rotate(0deg); }
+    }
+    @keyframes korokoro {
+      0%   { transform: translate(0%, 0%); }
+      5%   { transform: translate(10%, 0%) rotate(10deg); }
+      25%  { transform: translate(20%, 0%) rotate(20deg); }
+      30%  { transform: translate(-10%, 0%) rotate(-10deg); }
+      35%  { transform: translate(-15%, 0%) rotate(-15deg); }
+      45%  { transform: translate(10%, 0%) rotate(10deg); }
+      50%  { transform: translate(15%, 0%) rotate(15deg); }
+      60%  { transform: translate(-5%, 0%) rotate(-5deg); }
+      65%  { transform: translate(-7%, 0%) rotate(-7deg); }
+      75%  { transform: translate(0%, 0%) rotate(0deg); }
+      100% { transform: translate(0%, 0%) rotate(0deg); }
+    }
+  </style>
+</head>
+
+<body>
+
+    
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://koyogakuin.github.io/butsuri/">Koyo Physics Club</a>
+            </div>
+
+                       
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li>
+                        <a href="https://koyogakuin.github.io/butsuri/">ホーム</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyogakuin.github.io/butsuri/post/">活動記録</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyogakuin.github.io/butsuri/page/%E3%82%AF%E3%83%A9%E3%83%96%E7%B4%B9%E4%BB%8B/">クラブ紹介</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyogakuin.github.io/butsuri/page/%E3%83%90%E3%83%83%E3%82%AF%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC/">バックナンバー</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyogakuin.github.io/butsuri/page/%E4%BD%9C%E5%93%81%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC/">作品ギャラリー</a>
+                    </li>
+                    
+                  </ul>
+            </div>
+           
+
+        </div>
+        
+    </nav>
+
+
+    
+    
+    <header class="intro-header" style="background-image: url('https://koyogakuin.github.io/butsuri///img/drone/1.jpg')">
+      
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+             <div class="post-heading">
+               <h1>自作ドローン製作記</h1>
+               <br>
+               <h2 class="subheading">2017年度の音展でドローンを製作した時の製作記です。</h2>
+               <span class="meta">
+                 
+投稿者：  濱﨑 拓　更新日  2018年5月3日
+<br /><br />
+カテゴリ : <a href="https://koyogakuin.github.io/butsuri/categories/%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F">作ってみた</a>
+
+<br />
+タグ : <a href="https://koyogakuin.github.io/butsuri/tags/%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3">ドローン</a>, <a href="https://koyogakuin.github.io/butsuri/tags/%E3%82%B8%E3%83%A7%E3%82%A4%E3%82%B3%E3%83%B3">ジョイコン</a>
+
+
+               </span>
+             </div>
+           </div>
+        </div>
+      </div>
+    </header>
+
+    
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  
+
+<p>物理部部長のH﨑です。<br />
+高1の音展でドローンを自作したのですが、これまた記録等を全く残していなかったので、改めて紹介します。<br />
+また、セキュリティ・キャンプのための資料も兼ねてます。</p>
+
+<h2 id="きっかけ">きっかけ</h2>
+
+<p>総理官邸にドローンが落ちた事件以来、ドローンの規制がかなり厳しくなってしまいました。それによって、本来の目的で使用したい人、例えば「空撮を楽しみたい人」「ドローンレース出たい人」に対しての門戸が狭まったような気がします。</p>
+
+<h3 id="それに屈していいのか">それに屈していいのか？</h3>
+
+<p>出ました反骨精神。もちろん法律で定められている以上、<strong>捕まりたくない</strong> のでちゃんと守るわけですが、飛ばしちゃダメとは言われてない。<br />
+作るしかないやん。</p>
+
+<h2 id="ドローンの仕組み">ドローンの仕組み</h2>
+
+<p>ドローンはヘリコプターとは違って、プロペラ４枚で機体を制御しています。<br />
+単純にプロペラの数が多いので、上下左右、旋回などの操作がより柔軟にできるようになっているというわけです。<br />
+<img src="https://koyogakuin.github.io/butsuri/img/drone/9.jpg" alt="Drawing" style="width: 40%"/></p>
+
+<p>この図の通り、プロペラの回転の向きは対称となっていて、これらのプロペラの回転の速さをうまく調節して飛行します。
+その際に重要となるのは、機体の「<strong>速度</strong>」や「<strong>傾き</strong>」といった情報です。<br />
+僕が製作したドローンには様々なセンサーが搭載されています。（ちょっとオーバースペック）</p>
+
+<ul>
+<li>加速度センサ(機体の速度の検出)</li>
+<li>ジャイロセンサ(機体の回転を検出)</li>
+<li>気圧センサ(機体の高度を検出)</li>
+<li>地磁気センサ(機体の方向を検知)</li>
+<li>GPS(機体の緯度経度を取得)</li>
+</ul>
+
+<p>原理的には地球上の全ての場所を情報として表すことが可能です。これらのセンサーによって安定したフライトが可能になっています。<br />
+正確にはまだまだ安定とは言えませんが、、、</p>
+
+<h2 id="製作開始">製作開始</h2>
+
+<p>まずはお決まりの設計から。<br />
+<img src="https://koyogakuin.github.io/butsuri/img/drone/10.png" alt="Drawing" style="width: 100%"/></p>
+
+<p>ドローンのアーム部分の画像です(Fusion360でレンダリング)<br />
+これを3Dプリンタで印刷しました。この程度の部品であれば購入してもいいのですが、そこは自作ッカーとしては譲れないところ。全部で30時間ぐらいかけて印刷しました。</p>
+
+<p>設計できたら、次は部品の購入です。ほぼAmazonで揃います。</p>
+
+<ul>
+<li><p><a href="https://www.amazon.co.jp/gp/product/B01FJA0J1K/ref=oh_aui_detailpage_o07_s00?ie=UTF8&amp;psc=1">ESC</a></p></li>
+<li><p><a href="https://www.amazon.co.jp/gp/product/B015W2BUBS/ref=oh_aui_detailpage_o07_s00?ie=UTF8&amp;psc=1">モーター</a></p></li>
+<li><p><a href="https://www.amazon.co.jp/gp/product/B00X7FRJXG/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;psc=1">プロペラ</a></p></li>
+<li><p><a href="https://www.amazon.co.jp/gp/product/B017VOL574/ref=oh_aui_detailpage_o01_s00?ie=UTF8&amp;psc=1">LiPoバッテリー</a></p></li>
+<li><p><a href="https://www.amazon.co.jp/gp/product/B06XHBYH5Z/ref=oh_aui_detailpage_o07_s03?ie=UTF8&amp;psc=1">Bluetoothモジュール(スマホとの接続用)</a></p></li>
+<li><p><a href="https://www.amazon.co.jp/gp/product/B01D1D0F5M/ref=oh_aui_detailpage_o09_s00?ie=UTF8&amp;psc=1">GPSモジュール</a></p></li>
+
+<li><p>LiPo充電器(なぜか物理部にあった。先輩に感謝。)</p></li>
+
+<li><p>MultiWii AIOP(フライトコントローラ)</p></li>
+</ul>
+
+<p>まずモーターについてですが、ドローンのモーターはミニ四駆とかに使われるモーターと違って、<strong>ブラシレスモーター</strong> と呼ばれるものです。</p>
+
+<ul>
+<li>高速回転が可能</li>
+<li>効率がいい</li>
+<li>磨耗しにくい</li>
+<li>回転速度を細かく調整可能
+といった特徴があります。</li>
+</ul>
+
+<p>次にMultiwii AIOPについてですが、これはMultiwii SE V2.5の上位互換品で</p>
+
+<ul>
+<li>マイコンがATmega328PからATmega2560に</li>
+<li>気圧センサの精度が向上(分解能が10cm)</li>
+<li>各種センサーの精度向上</li>
+</ul>
+
+<p>などなど、嬉しい機能がてんこ盛り。Multiwiiのボードも自作しようか考えたのですが、重量のことを考えるとこれだけ入って5cm角のサイズに収まっているのは素晴らしい！<br />
+即買いしましたw （ebayで探しましょう。）</p>
+
+<h2 id="あれ-コントローラどうするの">あれ、コントローラどうするの？</h2>
+
+<p>そうなんです。本来ならプロポというでっかいコントローラが必要なのですが、、、軍資金が底をついた(泣)</p>
+
+<h3 id="よっしゃ-とことんケチってやる">よっしゃ、とことんケチってやる！</h3>
+
+<p>調べてみると、ある動画を発見。
+<div class="movie-wrap">
+  <iframe width="854" height="480" src="https://www.youtube.com/embed/cas9g0J6Jyk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div></p>
+
+<p>これなら家にあるもので作れそうだ！仕組みとしては</p>
+
+<ol>
+<li>ジョイコンの値をパソコンで読み込む</li>
+<li>その値をパソコンでMultiwiiプロトコルに変換</li>
+<li>Xbeeで信号を飛ばす</li>
+<li>ドローンがそれを受け取って、機体制御</li>
+</ol>
+
+<p>みなさんのご家庭のタンスの中に眠っているXbeeを引っ張り出しましょう。</p>
+
+<p><img src="https://koyogakuin.github.io/butsuri/img/drone/11.jpg" alt="Drawing" style="width: 50%"/></p>
+
+<p>一応リンク貼っておきます。<a href="http://foamcopter.blogspot.jp/2016/02/joystick-and-gamepad-support-for.html">MultiWii Joystick</a></p>
+
+<p>全て英語で書かれているので難しいかもですが、わからないことがあればコメント欄にでも書いていただければ、お手伝いできるかもしれません。</p>
+
+<h2 id="回路図-簡略図">回路図（簡略図）</h2>
+
+<p><img src="https://koyogakuin.github.io/butsuri/img/drone/13.jpg" alt="Drawing" style="width: 100%"/></p>
+
+<p>5V,12V,GNDの取り回しとかテキトーですが、イメージこんな感じです。<br />
+実際に制作するときの注意としては、<strong>青く塗っているライン</strong> をできるだけ太い線で配線するということです。なぜかというとここのラインにはかなりの電流が流れるからです。<br />
+ここを細い線で結線すると、線が発熱するだけでなく、モーターに十分な電流が流れなくなり、本来のパワーを出すことができません。</p>
+
+<p><img src="https://koyogakuin.github.io/butsuri/img/drone/7.jpg" alt="Drawing" style="width: 70%"/></p>
+
+<p>最大で20A流れるものが4つもついてるわけです。流石に80A流れないにしても、余裕を持って配線しましょう。</p>
+
+<h2 id="プログラム">プログラム</h2>
+
+<p>ジョイコンを使えるソフトがMultiwiiだけということもあり、素直にMultiwii使います。「プログラミングしろよ」　って言われそうですけど、しょうがない。オープンソースの方が絶対高品質。<br />
+Multiwiiですが、実はArduino  Megaの互換ボードなので、Arduinoと同じように扱うことができます。<br />
+そういうこともあってMultiwiiにしました。</p>
+
+<h2 id="完成">完成</h2>
+
+<p>はやっ。まさかブログに書くなんて思ってないから、あんまり写真撮ってないんです、、、反省。
+もっと写真撮っとけばよかった。</p>
+
+<p><img src="https://koyogakuin.github.io/butsuri/img/drone/1.jpg" alt="Drawing" style="width: 90%"/></p>
+
+<p>全体図</p>
+
+<p><img src="https://koyogakuin.github.io/butsuri/img/drone/6.jpg" alt="Drawing" style="width: 70%"/></p>
+
+<p>真ん中にあるのがMultiwii AIOPのボードです。</p>
+
+<p><img src="https://koyogakuin.github.io/butsuri/img/drone/4.jpg" alt="Drawing" style="width: 70%"/></p>
+
+<p>下向きでXbeeが乗っかってます。</p>
+
+<p><img src="https://koyogakuin.github.io/butsuri/img/drone/5.jpg" alt="Drawing" style="width: 70%"/></p>
+
+<p>左がGPS、右がBluetoothのモジュールです。</p>
+
+<p><img src="https://koyogakuin.github.io/butsuri/img/drone/14.gif" alt="Drawing" style="width: 90%"/></p>
+
+<p>ちょっとミライ感じません？</p>
+
+<h3 id="bluetoothモジュールについて">Bluetoothモジュールについて</h3>
+
+<p>専用のiOSアプリでドローンと接続すると、機体の情報や設定などが画面上でできてしまうというスグレものです。</p>
+
+<p><img src="https://koyogakuin.github.io/butsuri/img/drone/15.png" alt="Drawing" style="width: 50%"/>
+センサーの状態表示</p>
+
+<p><img src="https://koyogakuin.github.io/butsuri/img/drone/16.png" alt="Drawing" style="width: 50%"/>
+機体の傾き</p>
+
+<p>まるで飛行機のパイロットみたいですよね？<br />
+気圧計だけで10cm単位で高度測れるとか、便利な時代ですな〜</p>
+
+<h2 id="飛行動画">飛行動画</h2>
+
+<p>作ったはいいものの、どこで飛ばすか考えてなかったんですよね〜〜<br />
+物理部顧問のH本先生に頼み込んで、朝の7時に<strong>安全を確保して</strong>校庭で飛ばしました。<br />
+動画を見ていただいたらわかると思いますが、紐で繋がれてます。お前は犬かと。</p>
+
+<p>暴走の原因はXbeeの電波が不安定であることだとわかったので、今度はちゃんとプロポ買います。ケチって失敗したぁ、、、</p>
+
+<h3 id="今年こそ-紐なしで飛ばしてやる">今年こそ、紐なしで飛ばしてやる！！</h3>
+
+<p><div class="movie-wrap">
+  <iframe width="854" height="480" src="https://www.youtube.com/embed/8p-v2uP4Ypg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+<br></p>
+
+<h2 id="参考リンク">参考リンク</h2>
+
+<p><a href="https://drone-aerial-corps.com/2016/07/02/post-212/">ドローンの飛行原理</a>
+<br></p>
+
+                  
+   <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jia-yang-xue-yuan-wu-li-bu" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+    
+    <footer>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <ul class="list-inline text-center">
+
+                    
+                      <li>
+                        <a href="mailto:koyobutsuri@gmail.com">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                    
+                    
+                    
+                    <li>
+                      <a href="https://github.com/koyogakuin/">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://twitter.com/koyobutsuri">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCoM7hhjA0OisVtQv2ZwlEfw">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    
+                  </ul>
+                  <p class="copyright text-muted">Copyright © 2018 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
+                  <p id="pageTop"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    
+    <script src="https://koyogakuin.github.io/butsuri//js/jquery.min.js"></script>
+
+    
+    <script src="https://koyogakuin.github.io/butsuri//js/bootstrap.min.js"></script>
+
+    
+    <script src="https://koyogakuin.github.io/butsuri//js/clean-blog.js"></script>
+
+    
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-117865841-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+</body>
+
+</html>
+

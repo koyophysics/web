@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on 甲陽学院 高等学校 物理部(新)</title>
+    <link>https://koyogakuin.github.io/butsuri/categories/web/</link>
+    <description>Recent content in Web on 甲陽学院 高等学校 物理部(新)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Copyright © 2018 Koyo Physics. All Rights Reserved.</copyright>
+    <lastBuildDate>Mon, 23 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://koyogakuin.github.io/butsuri/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugoでサイト開発入門　第2回</title>
+      <link>https://koyogakuin.github.io/butsuri/post/hugo2/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://koyogakuin.github.io/butsuri/post/hugo2/</guid>
+      <description>どーも。物理部部長のH﨑です。 前回の続きで、Hugoで作ったサイトを自分仕様に変えていく方法を紹介します。 config.tomlの編集 前回、</description>
+    </item>
+    
+    <item>
+      <title>Hugoでサイト開発入門　第1回</title>
+      <link>https://koyogakuin.github.io/butsuri/post/hugo1/</link>
+      <pubDate>Sat, 21 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://koyogakuin.github.io/butsuri/post/hugo1/</guid>
+      <description>どーも。物理部部長のH﨑です。 僕自身Web開発は初めてでしたが、Hugoを使って簡単にカッコいいサイトが作れました！ HugoとGitHub P</description>
+    </item>
+    
+  </channel>
+</rss>

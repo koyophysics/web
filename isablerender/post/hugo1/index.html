@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+
+<head>
+  
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="記念すべき第一回。何を投稿しようか迷ったのですが、後輩が今後もこのサイトを運営できるように（入部する前提w）ということで、Hugoの使い方を書いていきます。">
+    <meta name="author" content="H﨑">
+    <meta name="keywords" content="">
+
+
+    <title>Hugoでサイト開発入門　第1回 -- 甲陽学院 高等学校 物理部(新)</title>
+
+    
+
+    
+    <link href="https://koyogakuin.github.io/butsuri//css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="https://koyogakuin.github.io/butsuri//css/clean-blog.min.css" rel="stylesheet">
+
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+
+    
+    
+    
+
+    <style>
+     
+    .korokoro {
+      -webkit-animation: korokoro 2.5s linear 0s 1;
+      animation: korokoro 2.5s linear 0s 1;
+      animation-iteration-count: infinite;
+    }
+    @-webkit-keyframes korokoro {
+      0%   { -webkit-transform: translate(0%, 0%); }
+      5%   { -webkit-transform: translate(10%, 0%) rotate(10deg); }
+      25%  { -webkit-transform: translate(20%, 0%) rotate(20deg); }
+      30%  { -webkit-transform: translate(-10%, 0%) rotate(-10deg); }
+      35%  { -webkit-transform: translate(-15%, 0%) rotate(-15deg); }
+      45%  { -webkit-transform: translate(10%, 0%) rotate(10deg); }
+      50%  { -webkit-transform: translate(15%, 0%) rotate(15deg); }
+      60%  { -webkit-transform: translate(-5%, 0%) rotate(-5deg); }
+      65%  { -webkit-transform: translate(-7%, 0%) rotate(-7deg); }
+      75%  { -webkit-transform: translate(0%, 0%) rotate(0deg); }
+      100% { -webkit-transform: translate(0%, 0%) rotate(0deg); }
+    }
+    @keyframes korokoro {
+      0%   { transform: translate(0%, 0%); }
+      5%   { transform: translate(10%, 0%) rotate(10deg); }
+      25%  { transform: translate(20%, 0%) rotate(20deg); }
+      30%  { transform: translate(-10%, 0%) rotate(-10deg); }
+      35%  { transform: translate(-15%, 0%) rotate(-15deg); }
+      45%  { transform: translate(10%, 0%) rotate(10deg); }
+      50%  { transform: translate(15%, 0%) rotate(15deg); }
+      60%  { transform: translate(-5%, 0%) rotate(-5deg); }
+      65%  { transform: translate(-7%, 0%) rotate(-7deg); }
+      75%  { transform: translate(0%, 0%) rotate(0deg); }
+      100% { transform: translate(0%, 0%) rotate(0deg); }
+    }
+  </style>
+</head>
+
+<body>
+
+    
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://koyogakuin.github.io/butsuri/">Koyo Physics Club</a>
+            </div>
+
+                       
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li>
+                        <a href="https://koyogakuin.github.io/butsuri/">ホーム</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyogakuin.github.io/butsuri/post/">活動記録</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyogakuin.github.io/butsuri/page/%E3%82%AF%E3%83%A9%E3%83%96%E7%B4%B9%E4%BB%8B/">クラブ紹介</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyogakuin.github.io/butsuri/page/%E4%BD%9C%E5%93%81%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC/">作品ギャラリー</a>
+                    </li>
+                    
+                  </ul>
+            </div>
+           
+
+        </div>
+        
+    </nav>
+
+
+    
+    
+    <header class="intro-header" style="background-image: url('https://koyogakuin.github.io/butsuri//img/blue.jpg')">
+      
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+             <div class="post-heading">
+               <h1>Hugoでサイト開発入門　第1回</h1>
+               <br>
+               <h2 class="subheading">記念すべき第一回。何を投稿しようか迷ったのですが、後輩が今後もこのサイトを運営できるように（入部する前提w）ということで、Hugoの使い方を書いていきます。</h2>
+               <span class="meta">
+                 
+投稿者：  H﨑　更新日  2018年4月21日
+<br />
+タグ : <a href="https://koyogakuin.github.io/butsuri/tags/hugo">hugo</a>
+
+
+               </span>
+             </div>
+           </div>
+        </div>
+      </div>
+    </header>
+
+    
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  
+
+<p>どーも。物理部部長のH﨑です。
+僕自身Web開発は初めてでしたが、Hugoを使って簡単にカッコいいサイトが作れました！
+HugoとGitHub Pagesを使ってサイトを公開するまでを紹介したいと考えています。</p>
+
+<p><img src="https://koyogakuin.github.io/butsuri/img/0421/1.png" alt="Hugo" /></p>
+
+<h2 id="hugoとは">Hugoとは？</h2>
+
+<p>静的サイトジェネレータといって、初心者でも結構簡単にサイトを作れてしまうソフト。<br />
+正攻法でサイト作ると、HTMLちゃんと書いて、CSS作って、JavaScript、、、そんなん知るかとなるわけですが、そんな面倒な作業を肩代わりしてくれます！</p>
+
+<p>ちなみに公式サイトでもGo言語がどうたらこうたらと書かれてますが、実際はGo言語の存在を意識する必要は全くありません。</p>
+
+<h2 id="インストール">インストール</h2>
+
+<p>僕はMacユーザなので(ﾄﾞﾔ!)、Macでのインストールの方法です。</p>
+
+<pre><code>//homebrewをすでにインストールしている場合は不要
+xcode-select --install
+ruby -e &quot;$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)&quot;
+//ここまで
+
+brew update
+brew install hugo
+hugo version
+</code></pre>
+
+<p>Hugoのバージョンが表示されれば完了です。</p>
+
+<h2 id="使ってみよう">使ってみよう！</h2>
+
+<p>作りたい場所のディレクトリに入って、</p>
+
+<pre><code>hugo new site サイト名
+</code></pre>
+
+<p>僕は今回</p>
+
+<pre><code>hugo new site test
+</code></pre>
+
+<p>としています。
+これでサイトの雛形が出来上がりました。</p>
+
+<h3 id="テーマの適応">テーマの適応</h3>
+
+<p>僕はこのテーマを使って、作成しました。
+<a href="https://themes.gohugo.io/startbootstrap-clean-blog/">https://themes.gohugo.io/startbootstrap-clean-blog/</a><br />
+Downloadからzipをダウンロードしましょう！</p>
+
+<p>では、ファイルの移行作業です。<br />
+・archetypes→archetypesに置換<br />
+・imagesそのままコピー<br />
+・layouts→layoutに置換<br />
+・static→static置換</p>
+
+<p>次にconfig.tomlを編集します。<br />
+本家サイトとほぼ同じですが、これをコピーして保存しましょう。<br />
+パラメータは適宜変更して下さい。</p>
+
+<pre><code>baseurl = &quot;http://humboldtux.github.io/&quot;
+title = &quot;Start Bootstrap Clean Blog&quot;
+canonifyurls = true
+paginate = 10
+languageCode = &quot;ja-jp&quot;
+copyright = &quot;Code released under the Apache 2.0 license.&quot;
+googleAnalytics = &quot;&quot;
+disqusShortname = &quot;&quot;
+
+[author]
+  name = &quot;name&quot;
+
+[params]
+  DateForm = &quot;Mon, Jan 2, 2006&quot;
+  Description = &quot;Your site description&quot;
+  Author = &quot;Benoît Benedetti&quot;
+  email = &quot;benoit.benedetti@gmail.com&quot;
+  postSummariesFrontPage = 4
+  showReadTime = true
+
+[[params.social]]
+  title = &quot;twitter&quot;
+  url = &quot;https://twitter.com/humboldtux&quot;
+[[params.social]]
+  title = &quot;github&quot;
+  url = &quot;https://github.com/humboldtux&quot;
+[[params.social]]
+  title = &quot;facebook&quot;
+  url = &quot;https://www.facebook.com/FACEBOOKHANDLE&quot;
+
+[[menu.main]]
+  name = &quot;home&quot;
+  url = &quot;/&quot;
+  weight = -200
+[[menu.main]]
+  name = &quot;Archives&quot;
+  url = &quot;/post/&quot;
+  weight = -180
+</code></pre>
+
+<h2 id="記事を書いてみる">記事を書いてみる</h2>
+
+<p>次のコードを実行すると、post以下にtest.mdというMarkdownが作成されます。</p>
+
+<pre><code>hugo new post/test.md
+</code></pre>
+
+<p>試しに以下のコードをtest.mdに書き込みましょう。</p>
+
+<pre><code>---
+title: testテスト
+draft: false
+slug: testテスト
+date: '2018-04-15'
+---
+
+Hello World!!
+</code></pre>
+
+<p>保存できたら、testディレクトリの中で</p>
+
+<pre><code>hugo server --disableFastRender
+</code></pre>
+
+<p>を実行し、ブラウザで <a href="http://localhost:1313/">http://localhost:1313/</a> にアクセス！</p>
+
+<p><img src="https://koyogakuin.github.io/butsuri/img/0421/2.png" alt="Drawing" style="width: 100%"/></p>
+
+<p>このようなサイトが表示されたら、大成功！<br />
+あとは自分仕様にパラメータを変更していけば、サイトの完成です。</p>
+
+<h2 id="まとめ">まとめ</h2>
+
+<p>どうでしょうか。うまく表示されましたか？<br />
+基本コマンドライン操作でなかなかとっつきにくいですが、慣れてしまえば便利なんだなーこれが。<br />
+皆さんもぜひ、Hugoを使って見て下さい。</p>
+
+<h1 id="make-it-possible">Make IT Possible!!</h1>
+
+<p><br></p>
+
+                  
+   <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jia-yang-xue-yuan-wu-li-bu" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+    
+    <footer>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <ul class="list-inline text-center">
+
+                    
+                      <li>
+                        <a href="mailto:koyobutsuri@gmail.com">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                    
+                    
+                    
+                    <li>
+                      <a href="https://github.com/koyogakuin/">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://twitter.com/koyobutsuri">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCoM7hhjA0OisVtQv2ZwlEfw">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    
+                  </ul>
+                  <p class="copyright text-muted">Copyright © 2018 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
+                  <p id="pageTop"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    
+    <script src="https://koyogakuin.github.io/butsuri//js/jquery.min.js"></script>
+
+    
+    <script src="https://koyogakuin.github.io/butsuri//js/bootstrap.min.js"></script>
+
+    
+    <script src="https://koyogakuin.github.io/butsuri//js/clean-blog.js"></script>
+
+    
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-117865841-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+</body>
+
+</html>
+

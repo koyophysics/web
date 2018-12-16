@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>オムニホイール on 甲陽学院 高等学校 物理部(新)</title>
+    <link>http://localhost:1313/butsuri/tags/%E3%82%AA%E3%83%A0%E3%83%8B%E3%83%9B%E3%82%A4%E3%83%BC%E3%83%AB/</link>
+    <description>Recent content in オムニホイール on 甲陽学院 高等学校 物理部(新)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Copyright © 2018 Koyo Physics. All Rights Reserved.</copyright>
+    <lastBuildDate>Sun, 19 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/butsuri/tags/%E3%82%AA%E3%83%A0%E3%83%8B%E3%83%9B%E3%82%A4%E3%83%BC%E3%83%AB/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>オムニホイールで全方向移動</title>
+      <link>http://localhost:1313/butsuri/post/omni/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/butsuri/post/omni/</guid>
+      <description>オムニホイールとは？ まずはこの写真を見てみて下さい。 んん？ 車輪の上に車輪がついてる、、、 と思ったあなた、なかなか勘が鋭い！ このようにオムニホ</description>
+    </item>
+    
+  </channel>
+</rss>

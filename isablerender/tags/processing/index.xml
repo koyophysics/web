@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Processing on 甲陽学院 高等学校 物理部(新)</title>
+    <link>https://koyogakuin.github.io/butsuri/tags/processing/</link>
+    <description>Recent content in Processing on 甲陽学院 高等学校 物理部(新)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Copyright © 2018 Koyo Physics. All Rights Reserved.</copyright>
+    <lastBuildDate>Wed, 27 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://koyogakuin.github.io/butsuri/tags/processing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Processingでライフゲーム</title>
+      <link>https://koyogakuin.github.io/butsuri/post/lifegame/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://koyogakuin.github.io/butsuri/post/lifegame/</guid>
+      <description>きっかけ いつものように、物理部で数学の勉強してたのですが(ｵｲ)、そこにいた準部員の一人が「ライフゲームって知ってる？」と発言したことが発端</description>
+    </item>
+    
+  </channel>
+</rss>

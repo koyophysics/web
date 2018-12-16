@@ -1,0 +1,10 @@
+#!/bin/sh
+hugo
+cp -r /Users/Mactaku/Documents/物理部ホームページ/butsuri/public/ /Users/Mactaku/Documents/物理部ホームページ/butsuri/docs/
+cp /Users/Mactaku/Documents/物理部ホームページ/butsuri/google19dccd7c0b69f534.html /Users/Mactaku/Documents/物理部ホームページ/butsuri/docs/google19dccd7c0b69f534.html
+cp /Users/Mactaku/Documents/物理部ホームページ/butsuri/favicon.ico /Users/Mactaku/Documents/物理部ホームページ/butsuri/docs/favicon.ico
+cp /Users/Mactaku/Documents/物理部ホームページ/butsuri/apple-touch-icon.png /Users/Mactaku/Documents/物理部ホームページ/butsuri/docs/apple-touch-icon.png
+cp /Users/Mactaku/Documents/物理部ホームページ/butsuri/icon-192x192.png /Users/Mactaku/Documents/物理部ホームページ/butsuri/docs/icon-192x192.png
+git add .
+git commit -m "change some parts"
+git push origin master

@@ -1,0 +1,11 @@
+<div class="post-preview">
+  <a href="{{ .Permalink }}">
+       <img src={{ .Site.BaseURL }}{{ .Params.image }} alt="Drawing" style="width: 60%"/>
+       <h2 class="post-title">{{ .Title }}</h2>
+       <h3 class="post-subtitle">{{ .Description }}</h3>
+     </a>
+     <p class="post-meta">
+       {{ partial "meta.html" .}}
+   </p>
+ </div>
+ <hr>
