@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>Copyright © 2018 Koyo Physics. All Rights Reserved.</copyright>
-    <lastBuildDate>Mon, 24 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://koyophy.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2018年度　数学・理科甲子園に出場しました！</title>
+      <link>https://koyophy.netlify.com/post/olympic/</link>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://koyophy.netlify.com/post/olympic/</guid>
+      <description>はじめに 数学・理科オタク界隈では超有名な「数学・理科甲子園」の兵庫県予選に出場してきました。天文部部長のO野君に実技担当(電子工作に限る)と</description>
+    </item>
     
     <item>
       <title>核分裂と軽水炉の基本原理について</title>
