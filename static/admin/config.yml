@@ -5,7 +5,7 @@ backend:
 
 media_folder: "static/img"
 publish_mode: editorial_workflow
-public_folder: "/public"
+public_folder: "/static/img"
 
 collections:
   - label: "記事" # 管理画面のサイドバーで使う
