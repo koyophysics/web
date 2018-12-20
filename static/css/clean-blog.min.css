@@ -44,7 +44,8 @@ a:focus, a:hover {
 }
 
 a img:focus, a img:hover {
-  cursor: zoom-in
+  cursor: zoom-in;
+  width: 80%
 }
 
 blockquote {
