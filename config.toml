@@ -25,7 +25,7 @@ hasCJKLanguage = "true"
   url = "https://github.com/koyophysics/web"
 [[params.social]]
     title = "twitter"
-    url = "https://twitter.com/koyobutsuri"
+    url = "https://twitter.com/koyophysics"
 [[params.social]]
   title = "youtube"
   url = "https://www.youtube.com/channel/UCoM7hhjA0OisVtQv2ZwlEfw"
