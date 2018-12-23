@@ -49,3 +49,8 @@ hasCJKLanguage = "true"
   name = "作品ギャラリー"
   url = "/page/作品ギャラリー/"
   weight = -100
+
+[[menu.main]]
+  name = "ログイン"
+  url = "/admin/#/"
+  weight = 0
