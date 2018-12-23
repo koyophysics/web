@@ -22,7 +22,7 @@ collections:
       - {label: "タグ", name: "tags", widget: "list"}
       - {label: "数式", name: "math", widget: "boolean", default: false}
       - {label: "コメント", name: "comments", widget: "boolean", default: true}
-      - {label: "公開設定(falseで公開)", name: "draft", widget: "boolean", default: false}
+      - {label: "非公開(ONで非公開)", name: "draft", widget: "boolean", default: false}
       - {label: "本文", name: "body", widget: "markdown"}
 
   - label: "固定ページ" # 管理画面のサイドバーで使う
