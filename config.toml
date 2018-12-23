@@ -51,6 +51,6 @@ hasCJKLanguage = "true"
   weight = -100
 
 [[menu.main]]
-  name = "ログイン"
+  name = "管理者ログイン"
   url = "/admin/#/"
   weight = 0
