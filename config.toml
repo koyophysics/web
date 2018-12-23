@@ -19,18 +19,18 @@ hasCJKLanguage = "true"
   postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)
   showReadTime = false #set to false to exclude read time from header of post
 
-#[[params.social]]
-#  title = "twitter"
-#  url = "https://twitter.com/humboldtux"
+[[params.social]]
+  title = "twitter"
+  url = "https://twitter.com/humboldtux"
 [[params.social]]
   title = "github"
   url = "https://github.com/koyophysics/web"
-#[[params.social]]
-#    title = "twitter"
-#    url = "https://twitter.com/koyobutsuri"
-#[[params.social]]
-#  title = "youtube"
-#  url = "https://www.youtube.com/channel/UCoM7hhjA0OisVtQv2ZwlEfw"
+[[params.social]]
+    title = "twitter"
+    url = "https://twitter.com/koyobutsuri"
+[[params.social]]
+  title = "youtube"
+  url = "https://www.youtube.com/channel/UCoM7hhjA0OisVtQv2ZwlEfw"
 
 [[menu.main]]
   name = "ホーム"
