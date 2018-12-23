@@ -29,10 +29,18 @@ collections:
     name: "page" # 管理画面のパスで使う　例：/admin/collections/blog
     folder: "content/page" # Markdownを保存するディレクトリ。Hugoのsectionにあたる
     create: true # 新しいページを作ることを許可する
-    draft;: false
+    draft: false
     comments: true
     fields: # ページ作成画面で使う。Front Matterの値を書く
       - {label: "タイトル", name: "title", widget: "string"}
       - {label: "公開URL名", name: "slug", widget: "string"}
       - {label: "サムネイル画像", name: "image", widget: "image"}
+      - {label: "本文", name: "body", widget: "markdown"}
+
+  - label: "トップページ" # 管理画面のサイドバーで使う
+    name: "toppage" # 管理画面のパスで使う　例：/admin/collections/blog
+    folder: "content" # Markdownを保存するディレクトリ。Hugoのsectionにあたる
+    create: false # 新しいページを作ることを許可する
+    draft: false
+    fields: # ページ作成画面で使う。Front Matterの値を書く
       - {label: "本文", name: "body", widget: "markdown"}
