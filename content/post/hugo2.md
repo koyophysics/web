@@ -2,15 +2,14 @@
 title: Hugoでサイト開発入門　第2回
 slug: hugo2
 date: '2018-04-23'
-tags:
-    - "Hugo"
-categories:
-    - "Web"
-image: "/img/emc.png"
-description: "HugoでWeb開発の第二回。今回はサイトを自分好みに変更する方法を紹介します。"
+image: /img/aa8adad1-77c3-4635-b662-baa2ce17baa5.png
+description: HugoでWeb開発の第二回。今回はサイトを自分好みに変更する方法を紹介します。
 author: H﨑
-draft: false
+tags:
+  - Hugo
+math: false
 comments: true
+draft: false
 ---
 
 どーも。物理部部長のH﨑です。  
