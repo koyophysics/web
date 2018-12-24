@@ -52,20 +52,20 @@ draft: false
 - モーター固定用の金具 × 4
 - MDF版など(土台)
 
-<img src="/img/omni/6.jpg" alt="Drawing" style="width: 30%"/>
-自作モーターシールド(A4988とArduinoを接続)
+<img src="/img/omni/6.jpg" alt="Drawing" style="width: 60%"/>
 
-<img src="/img/omni/3.jpg" alt="Drawing" style="width: 30%"/>
-A4988とBLEモジュールを接続したところ(旧バージョン)
+↑自作モーターシールド(A4988とArduinoを接続)
+
+<img src="/img/omni/3.jpg" alt="Drawing" style="width: 60%"/>
+
+↑A4988とBLEモジュールを接続したところ(旧バージョン)
 
 実はオムニホイールを使った作品は去年も展示していました。
 
-<img src="/img/omni/5.jpg" alt="Drawing" style="width: 30%"/>
+<img src="/img/omni/5.jpg" alt="Drawing" style="width: 60%"/>
 
-### うーん。ちゃっちい。
-オムニホイールを買う資金がなかったので、3Dプリンタで設計して印刷しました。印刷時間は合計二日にも及びます。そこそこの出来ではありましたが、純正品とは滑らかさの点で比べ物になりませんでした。
+車輪を見るとわかるのですが、オムニホイールを買う資金がなかったので、自分で設計して3Dプリンタで印刷しました。印刷時間は合計二日にも及びます。そこそこの出来ではありましたが、純正品とは滑らかさの点で比べ物になりませんでした。
 
-回路図は、じきに公開します
 
 ## 作り方(ソフト編)
 
