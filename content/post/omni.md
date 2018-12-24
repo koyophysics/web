@@ -1,18 +1,16 @@
 ---
-title: "オムニホイールで全方向移動"
+title: オムニホイールで全方向移動
 slug: omni
 date: '2018-08-22'
-tags:
-    - "オムニホイール"
-    - "Blynk"
-categories:
-    - "作ってみた"
-image: "/img/omni/4.jpg"
-description: "2017年度の音展でも展示していましたが、諸事情あって1
-から制作することになりました。"
+image: /img/dd098827-92fd-43f1-9563-6aac5acea5bd.png
+description: 2017年度の音展でも展示していましたが、諸事情あって1 から制作することになりました。
 author: H﨑
-draft: false
+tags:
+  - オムニホイール
+  - Blynk
+math: false
 comments: true
+draft: false
 ---
 
 ## はじめに
