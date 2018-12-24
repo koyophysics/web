@@ -40,15 +40,25 @@ math: true
 おもり2は質量$m_2$で紐の長さは$l_2$で角度を$\theta_2$、座標を$(X,Y)$とします。  
 そうすると
 
+<div class="h-scroll">
+
 $$x = l_1\sin\theta_1　,　y = -l_1\cos\theta_1$$
 $$X = l_1\sin\theta_1+l_2\sin\theta_2　,　Y = -l_1\cos\theta_1-l_2\cos\theta_2$$
 
+</div>
+
 各座標の速度は時間tで微分して  
+
+<div class="h-scroll">
 
 $$\dot{x} = l_1\dot{\theta_1}\cos\theta_1　,　\dot{y} = l_1\dot{\theta_1}\sin\theta_1$$
 $$\dot{X} = l_1\dot{\theta_1}\cos\theta_1+l_2\dot{\theta_2}\sin\theta_2　,　\dot{Y} = l_1\dot{\theta_1}\sin\theta_1+l_2\dot{\theta_2}\sin\theta_2$$
 
+</div>
+
 おもり１の速度を$v$、おもり２の速度を$V$とすると  
+
+<div class="h-scroll">
 
 $$v^2 = \dot{x}^2+\dot{y}^2 = l_1^2\dot{\theta_1}^2$$
 \begin{align}
@@ -58,52 +68,80 @@ V^2 &= \dot{X}^2+\dot{Y}^2\\\\\\
 &=l_1^2\dot{\theta_1}^2+l_2^2\dot{\theta_2}^2+2l_1l_2\dot{\theta_1}\dot{\theta_2}cos(\theta_1-\theta_2)
 \end{align}
 
+</div>
+
 よって運動エネルギーは
+
+<div class="h-scroll">
 
 \begin{align}
 T &= \frac{1}{2}m_1v^2+\frac{1}{2}m_2V^2\\\\\\
 &=\frac{1}{2}(m_1+m_2)l_1^2\dot(\theta_1)^2+\frac{1}{2}m_2l_2^2\dot{\theta_2}^2+m_2l_1l_2\dot{\theta_1}\dot{\theta_2}cos(\theta_1-\theta_2)
 \end{align}
 
+</div>
+
 位置エネルギーは
+
+<div class="h-scroll">
 
 \begin{align}
 U &= m_1gl_1(1-\cos\theta_1)+m_2g\Bigl(l_1(1-\cos\theta_1)+l_2(1-\cos\theta_2)\Bigr)\\\\\\
 &= (m_1+m_2)gl_1(1-cos\theta_1)+m_2gl_2(1-cos\theta_2)
 \end{align}
 
+</div>
+
 ラグランジアンは
+
+<div class="h-scroll">
 
 \begin{align}
 L &= \frac{1}{2}(m_1+m_2)l_1^2\dot{\theta_1}^2+\frac{1}{2}m_2l_2^2\dot{\theta_2}^2+m_2l_1l_2\dot{\theta_1}\dot{\theta_2}cos(\theta_1-\theta_2)\\\\\\
 &-(m_1+m_2)gl_1(1-\cos\theta_1)-m_2gl_2(1-\cos\theta_2)
 \end{align}
 
+</div>
+
 簡便のため$m_1=m_2=m$、$l_1=l_2=l$という場合を考えると
 
+<div class="h-scroll">
+
 \begin{align}
-L &= ml^2\dot{\theta_1}^2+\frac{m}{2}l^2\dot{\theta_2}+ml^2\dot{\theta_2}\dot{\theta_2}\cos(\theta_1-\theta_2)\\\\\\
-&-2mgl(1-cos\theta_1)-mgl(2\cos\theta_1+\cos\theta_2-3)\\\\\\
-&= ml^2\Bigl(\dot{\theta_1}^2+\frac{1}{2}\dot{\theta_2}^2+\dot{\theta_1}\dot{\theta_2}cos(\theta_1-\theta_2)\Bigr)\\\\\\
-&+mgl(2\cos\theta_1+\cos\theta_2-3)
+L &= ml^2\dot{\theta_1}^2+\frac{m}{2}l^2\dot{\theta_2}+ml^2\dot{\theta_2}\dot{\theta_2}\cos(\theta_1-\theta_2)-2mgl(1-cos\theta_1)-mgl(2\cos\theta_1+\cos\theta_2-3)\\\\\\
+&= ml^2\Bigl(\dot{\theta_1}^2+\frac{1}{2}\dot{\theta_2}^2+\dot{\theta_1}\dot{\theta_2}cos(\theta_1-\theta_2)\Bigr)+mgl(2\cos\theta_1+\cos\theta_2-3)
 \end{align}
 
+</div>
+
 保存力場中でのラグランジュ運動方程式は
+
+<div class="h-scroll">
 
 $$\frac{d}{dt}(\frac{\partial L }{\partial \dot{\theta_1}})-\frac{\partial L }{\partial \theta_1} = 0$$
 $$\frac{d}{dt}(\frac{\partial L }{\partial \dot{\theta_2}})-\frac{\partial L }{\partial \theta_2} = 0$$
 
+</div>
+
 それぞれの項を計算すると
+
+<div class="h-scroll">
 
 $$\frac{d}{dt}\Bigl(\frac{\partial L }{\partial \dot{\theta_1}}\Bigl)= 2ml^2\ddot{\theta_1}+ml^2\Bigl(\ddot{\theta_2}\cos(\theta_1-\theta_2)-\dot{\theta_2}(\dot{\theta_1}-\dot{\theta_2})sin(\theta_1-\theta_2)\Bigl)$$
 $$\frac{\partial L }{\partial \theta_1} = -ml^2\dot{\theta_1}\dot{\theta_2}\sin(\theta_1-\theta_2)-2mgl\sin\theta_1$$
 $$\frac{d}{dt}\Bigl(\frac{\partial L }{\partial \dot{\theta_2}}\Bigl)= ml^2\ddot{\theta_2}+ml^2\Bigl(\ddot{\theta_1}\cos(\theta_1-\theta_2)-\dot{\theta_1}(\dot{\theta_1}-\dot{\theta_2})sin(\theta_1-\theta_2)\Bigl)$$
 $$\frac{\partial L }{\partial \theta_2} = ml^2\dot{\theta_2}\dot{\theta_2}\sin(\theta_1-\theta_2)-mgl\sin\theta_2$$
 
+</div>
+
 $\ddot{\theta_1}$、$\ddot{\theta_2}$について整理すると
+
+<div class="h-scroll">
 
 $$\ddot{\theta_1} = \frac{1}{2}\Bigl(-\ddot{\theta_2}\cos(\theta_1-\theta_2)-\dot{\theta_2}^2\sin(\theta_1-\theta_2)-2\frac{g}{l}\sin\theta_1\Bigl)$$
 $$\ddot{\theta_2} = -\ddot{\theta_1}\cos(\theta_1-\theta_2)+\dot{\theta_1}^2\sin(\theta_1-\theta_2)-\frac{g}{l}\sin\theta_2$$
+
+</div>
 
 ## まとめ
 $\ddot{\theta_1}$、$\ddot{\theta_2}$に関しての常微分方程式までは導出できたので、次回はルンゲ・クッタ法を用いて数値計算してみたいと思います。
