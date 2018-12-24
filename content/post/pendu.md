@@ -108,10 +108,8 @@ L &= \frac{1}{2}(m_1+m_2)l_1^2\dot{\theta_1}^2+\frac{1}{2}m_2l_2^2\dot{\theta_2}
 <div class="h-scroll">
 
 \begin{align}
-L &= ml^2\dot{\theta_1}^2+\frac{m}{2}l^2\dot{\theta_2}+ml^2\dot{\theta_2}\dot{\theta_2}\cos(\theta_1-\theta_2)\\\\\\
-&-2mgl(1-cos\theta_1)-mgl(2\cos\theta_1+\cos\theta_2-3)\\\\\\
-&= ml^2\Bigl(\dot{\theta_1}^2+\frac{1}{2}\dot{\theta_2}^2+\dot{\theta_1}\dot{\theta_2}cos(\theta_1-\theta_2)\Bigr)\\\\\\
-&+mgl(2\cos\theta_1+\cos\theta_2-3)
+L &= ml^2\dot{\theta_1}^2+\frac{m}{2}l^2\dot{\theta_2}+ml^2\dot{\theta_2}\dot{\theta_2}\cos(\theta_1-\theta_2)-2mgl(1-cos\theta_1)-mgl(2\cos\theta_1+\cos\theta_2-3)\\\\\\
+&= ml^2\Bigl(\dot{\theta_1}^2+\frac{1}{2}\dot{\theta_2}^2+\dot{\theta_1}\dot{\theta_2}cos(\theta_1-\theta_2)\Bigr)+mgl(2\cos\theta_1+\cos\theta_2-3)
 \end{align}
 
 </div>
