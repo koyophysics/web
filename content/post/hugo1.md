@@ -2,15 +2,14 @@
 title: Hugoでサイト開発入門　第1回
 slug: hugo1
 date: '2018-04-21'
-tags:
-    - "Hugo"
-categories:
-    - "Web"
-image: "/img/emc.png"
-description: "記念すべき第一回。何を投稿しようか迷ったのですが、後輩が今後もこのサイトを運営できるように（入部する前提w）ということで、Hugoの使い方を書いていきます。"
+image: /img/fb945349-8115-45d2-bdb1-8e9f81644a25.png
+description: 記念すべき第一回。何を投稿しようか迷ったのですが、後輩が今後もこのサイトを運営できるように（入部する前提w）ということで、Hugoの使い方を書いていきます。
 author: H﨑
-draft: false
+tags:
+  - Hugo
+math: false
 comments: true
+draft: false
 ---
 
 どーも。物理部部長のH﨑です。
