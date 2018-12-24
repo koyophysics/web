@@ -13,8 +13,8 @@ html {
 }
 
 body {
-  margin: 0
-  word-break: break-all;
+  margin: 0;
+  word-break: break-all
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
