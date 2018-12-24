@@ -2,17 +2,15 @@
 title: フーリエ変換でお絵かきしてみよう〜理論編〜
 slug: fourier2
 date: '2018-09-10'
-tags:
-    - "数学"
-    - "フーリエ変換"
-categories:
-    - "作ってみた"
-image: "/img/fourier/8.jpg"
-description: "数式を使って、フーリエ変換の仕組みを徹底解剖！"
+image: /img/c85068e9-852d-442e-a299-3ea502db1673.png
+description: 数式を使って、フーリエ変換の仕組みを徹底解剖！
 author: H﨑
-draft: true
-comments: true
+tags:
+  - 数学
+  - フーリエ変換
 math: true
+comments: true
+draft: true
 ---
 
 ## はじめに
