@@ -7018,3 +7018,7 @@ button.close {
   text-decoration: none;
   opacity: .7
 }
+
+.h-scroll{
+overflow-x: auto;
+}
