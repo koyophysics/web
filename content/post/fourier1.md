@@ -2,17 +2,15 @@
 title: フーリエ変換でお絵かきしてみよう〜導入編〜
 slug: fourier1
 date: '2018-09-08'
-tags:
-    - "数学"
-    - "フーリエ変換"
-categories:
-    - "作ってみた"
-image: "/img/fourier/8.jpg"
-description: "現代のあらゆる技術を支えているフーリエ変換について、できる限りわかりやすく解説します。"
+image: /img/c85068e9-852d-442e-a299-3ea502db1673.png
+description: 現代のあらゆる技術を支えているフーリエ変換について、できる限りわかりやすく解説します。
 author: H﨑
-draft: false
-comments: true
+tags:
+  - 数学
+  - フーリエ変換
 math: true
+comments: true
+draft: false
 ---
 
 <img src="/img/fourier/8.jpg" alt="Drawing" style="width: 100%"/>  
