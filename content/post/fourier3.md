@@ -47,10 +47,10 @@ sinとcosはそもそも単位円周上を回る点のXY方向の座標を表す
 <script src="https://gist.github.com/hamataku/bf80143d858f6d9729ed8b1e64dcb984.js"></script>
 引数として渡された波形データを下の数式を元に離散フーリエ変換を行い、配列に代入します。realは実数部分をimagは虚数部分の配列です。渡されるimagのデータは全て0であるため、計算の際は使用していません。
 
-$$\begin{eqnarray}
+\begin{eqnarray}
 F\_n &=&\frac{1}{N}\sum\_{k=0}^{N-1} f\_ke^{-i\frac{2n\pi}{N}k}\\\\\
      &=&\frac{1}{N}\sum\_{k=0}^{N-1} f\_k\Bigl(\cos(\frac{2n\pi}{N}k)-i\sin(\frac{2n\pi}{N}k)\Bigl)
-\end{eqnarray}$$
+\end{eqnarray}
 
 ### 円の座標に変換
 
