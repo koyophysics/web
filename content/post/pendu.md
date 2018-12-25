@@ -2,17 +2,15 @@
 title: 二重振り子のシミュレーション
 slug: double-pendu
 date: '2018-06-28'
-tags:
-    - "力学"
-    - "二重振り子"
-categories:
-    - "作ってみた"
-image: "/img/pendu/2.jpg"
-description: "ゴリゴリの力学です"
+image: /img/7a519aae-daac-4117-8e29-a212c7e16499.jpeg
+description: ゴリゴリの力学です
 author: H﨑
-draft: false
-comments: true
+tags:
+  - 力学
+  - 二重振り子
 math: true
+comments: true
+draft: false
 ---
 
 ## 二重振り子とは？？
