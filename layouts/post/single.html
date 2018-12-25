@@ -29,8 +29,10 @@
                   {{ if  (gt .WordCount 400 )}}
                      <div class="toc">
                      <aside>
-                       <p>Table of Contents</p>
-                         {{.TableOfContents}}
+                       
+                         {{.TableOfContents | replaceRE " <nav id=\"TableOfContents\">
+<ul>
+<li>"" <nav id=\"TableOfContents\">" | safeHTML}}
                      </aside>
                      </div>
                   {{ end }}
