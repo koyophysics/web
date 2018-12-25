@@ -138,6 +138,7 @@ hugo server --disableFastRender
 を実行し、ブラウザで http://localhost:1313/ にアクセス！  
 エラー吐いたりうまく表示されない場合は、どこかの工程でミスをしている可能性が高いです。  
 僕はこの方法で大丈夫だったので、あなたもうまくいったはず、、、
+
 <img src="/img/0423/1.png" alt="Drawing" style="width: 100%"/>
 
 このように表示されたら大成功です。
