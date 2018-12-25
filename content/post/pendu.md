@@ -32,7 +32,7 @@ math: true
 それ言ったら、全ておしまいなので、先進みます。
 
 ## ひたすら計算
-<img src="/img/pendu/1.jpg" alt="Drawing" style="width: 50%"/>
+<img src="/img/pendu/1.jpg" alt="Drawing" style="width: 100%"/>
 
 二つのおもりで構成される二重振り子について考えてみたいと思います。  
 
