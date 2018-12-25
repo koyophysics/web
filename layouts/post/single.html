@@ -30,7 +30,7 @@
                       {{ if eq .Params.math true }}
                           {{ .Content | replaceRE ".begin{(.+)}" "<div class=\"h-scroll\">\\begin{$1}" | replaceRE ".end{(.+)}" "\\end{$1} </div>" | replaceRE "<p>\\$\\$" "<p><div class=\"h-scroll\">$$$$"| replaceRE "\\$\\$</p>" "$$$$</div></p>" | safeHTML}}
                       {{else}}
-                          {{ .Content | replaceRE "\.(jpeg|jpg|png|gif)" "h" | safeHTML}}
+                          {{ .Content | replaceRE "\.jpg" "h" | safeHTML}}
                       {{end}}
                   {{ end }}
                  
