@@ -3,7 +3,7 @@ title: オムニホイールで全方向移動
 slug: omni
 date: '2018-08-22'
 image: /img/dd098827-92fd-43f1-9563-6aac5acea5bd.png
-description: 2017年度の音展でも展示していましたが、諸事情あって1 から制作することになりました。
+description: パンジャンドラムではなく、オムニホイールです。
 author: H﨑
 tags:
   - オムニホイール
