@@ -28,9 +28,9 @@
                 <div class="col-lg-12 col-lg-offset-0 col-md-18 col-md-offset-1">
                   {{ if isset .Params "math" }}
                       {{ if eq .Params.math true }}
-                          {{ .Content | replaceRE ".begin{(.+)}" "<div class=\"h-scroll\">\\begin{$1}" | replaceRE ".end{(.+)}" "\\end{$1} </div>" | replaceRE "<p>\\$\\$" "<p><div class=\"h-scroll\">$$$$"| replaceRE "\\$\\$</p>" "$$$$</div></p>" | replaceRE "!\[\]\((." ""| safeHTML}}
+                          {{ .Content | replaceRE ".begin{(.+)}" "<div class=\"h-scroll\">\\begin{$1}" | replaceRE ".end{(.+)}" "\\end{$1} </div>" | replaceRE "<p>\\$\\$" "<p><div class=\"h-scroll\">$$$$"| replaceRE "\\$\\$</p>" "$$$$</div></p>" | replaceRE "!\[\]\((.+)\.(jpeg|jpg|png|gif)" "<img src=\"$1\.$2\" style=\"width: 100%\"/>"| safeHTML}}
                       {{else}}
-                          {{ .Content }}
+                          {{ .Content | replaceRE "!\[\]\((.+)\.(jpeg|jpg|png|gif)" "<img src=\"$1\.$2\" style=\"width: 100%\"/>" | safeHTML}}
                       {{end}}
                   {{ end }}
                  
