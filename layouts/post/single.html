@@ -30,8 +30,7 @@
                      <div class="toc">
                      <aside>
                        
-                         {{.TableOfContents | replaceRE " <nav id=\"TableOfContents\">
-l\\n<ul>\\n<li>"" <nav id=\"TableOfContents\">" | safeHTML}}
+                         {{.TableOfContents | replaceRE " <nav id=\"TableOfContents\">\\n<ul>\\n<li>" "<nav id=\"TableOfContents\">" | safeHTML}}
                      </aside>
                      </div>
                   {{ end }}
