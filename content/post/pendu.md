@@ -39,9 +39,12 @@ math: true
 おもり1は質量$m_1$で紐の長さは$l_1$で角度を$\theta_1$、座標を$(x,y)$  
 おもり2は質量$m_2$で紐の長さは$l_2$で角度を$\theta_2$、座標を$(X,Y)$とします。  
 そうすると
+
 $$x = l_1\sin\theta_1　,　y = -l_1\cos\theta_1$$
 $$X = l_1\sin\theta_1+l_2\sin\theta_2　,　Y = -l_1\cos\theta_1-l_2\cos\theta_2$$
+
 各座標の速度は時間tで微分して  
+
 $$\dot{x} = l_1\dot{\theta_1}\cos\theta_1　,　\dot{y} = l_1\dot{\theta_1}\sin\theta_1$$
 $$\dot{X} = l_1\dot{\theta_1}\cos\theta_1+l_2\dot{\theta_2}\sin\theta_2　,　\dot{Y} = l_1\dot{\theta_1}\sin\theta_1+l_2\dot{\theta_2}\sin\theta_2$$
 
