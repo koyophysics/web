@@ -5,11 +5,10 @@ date: '2018-06-27'
 tags:
     - "ライフゲーム"
     - "Processing"
-categories:
-    - "作ってみた"
 image: "/img/lifegame/1.png"
 description: "ライフゲームってご存知ですか？まるで生きているかのような振る舞いをする、とても興味深いプログラムです。"
 author: H崎
+math: false
 draft: false
 comments: true
 ---

@@ -48,7 +48,8 @@ abbr[title] {
 }
 
 b, strong {
-  font-weight: 700
+  font-weight: 700;
+  background: linear-gradient(transparent 40%, #ffff66 40%);
 }
 
 dfn {
@@ -1781,12 +1782,12 @@ pre {
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #333;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f5f5f5;
+  background-color: #363f4f;
   border: 1px solid #ccc;
   border-radius: 4px
 }
@@ -1794,7 +1795,7 @@ pre {
 pre code {
   padding: 0;
   font-size: inherit;
-  color: inherit;
+  color: white;
   white-space: pre-wrap;
   background-color: transparent;
   border-radius: 0

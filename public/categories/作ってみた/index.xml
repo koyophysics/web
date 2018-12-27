@@ -21,14 +21,5 @@
       <description>はじめに 前回、フーリエ変換について詳しく見てきましたが、「いまいちピンとこない」と言う方も多かったのではないでしょうか。 そんな方に、「なんと</description>
     </item>
     
-    <item>
-      <title>Processingでライフゲーム</title>
-      <link>https://koyophy.netlify.com/post/lifegame/</link>
-      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://koyophy.netlify.com/post/lifegame/</guid>
-      <description>きっかけ いつものように、物理部で数学の勉強してたのですが(ｵｲ)、そこにいた準部員の一人が「ライフゲームって知ってる？」と発言したことが発端</description>
-    </item>
-    
   </channel>
 </rss>
