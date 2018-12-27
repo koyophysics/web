@@ -7,12 +7,20 @@
 
     
       
+        <script type="text/x-mathjax-config">
+          MathJax.Hub.Config({
+              tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+              linebreaks: {automatic: true}
+          });
+        </script>
+        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
     
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="これを読めば、サイト運営できる。簡単にな">
+    <meta name="description" content="これを読めば、誰でもサイト運営できる！はず。">
     <meta name="author" content="H﨑">
     <meta name="keywords" content="">
 
@@ -100,7 +108,7 @@
              <div class="post-heading">
                <h1>サイト整備の備忘録</h1>
                <br>
-               <h2 class="subheading">これを読めば、サイト運営できる。簡単にな</h2>
+               <h2 class="subheading">これを読めば、誰でもサイト運営できる！はず。</h2>
                <span class="meta">
                  
 投稿者：  H﨑　更新日  2018年12月26日
@@ -132,6 +140,8 @@
 
 <h2 id="物理部サイトの構造">物理部サイトの構造</h2>
 
+<p><img src="https://koyophy.netlify.com/img/スクリーンショット-2018-12-27-21.15.59.png" alt="" style="width: 100%" /></p>
+
 <p>今のところ(2018年現在)、<a href="https://github.com/koyophysics/web">GitHub</a>と<a href="https://app.netlify.com/sites/koyophy/overview">Netlify</a>を用いたシステムで構築しています。</p>
 
 <p><a href="https://github.com/koyophysics/web">GitHub</a>というのは簡単に言うとクラウド上にプログラムのコードなどを保管できるサービスで、ここにサイトの全てのソースコードが保管されています。このコードはgo言語を使ったhugoというソフトで管理されています。</p>
@@ -144,18 +154,23 @@
 
 <h2 id="記事を書く">記事を書く</h2>
 
-<p>※iOSのSafari以外の環境を使うことをオススメします。PC環境が一番使いやすいと思います。</p>
+<p>物理部サイトに活動記録（記事）を追加する方法をお教えします。　
+※記事を追加する際はPC環境を使うのがオススメです。iOSのSafariとかだと、上手く編集出来ません。</p>
 
-<h3 id="ログイン">〜ログイン〜</h3>
+<h3 id="まずはログイン">　まずはログイン！</h3>
+
+<p><img src="https://koyophy.netlify.com/img/スクリーンショット-2018-12-27-22.16.05.png" alt="" style="width: 100%" /></p>
 
 <p>まず、物理部サイトの上部のメニューから<strong>管理者ログイン</strong>をクリックして下さい。すると、GitHubのログインページが出てくると思うので、部長から受け継がれるであろう、メールアドレスとパスワードを入力して、ログイン！</p>
 
+<p><img src="https://koyophy.netlify.com/img/スクリーンショット-2018-12-27-22.17.36.png" alt="" style="width: 100%" /></p>
+
 <p>管理者画面が出てきたと思います。次に、新しく記事を追加する場合は上部のメニューの<strong>Quick Add</strong>をクリックして、<strong>記事</strong>を選択して下さい。</p>
 
-<h3 id="記事の設定">〜記事の設定〜</h3>
+<h3 id="記事の設定をする">　記事の設定をする</h3>
 
-<p>すると編集画面が出てきます。ここの空欄を埋めていけば、記事が出来上がります。
-項目は</p>
+<p>記事の編集画面が出てきたと思います。<br />
+設定項目は</p>
 
 <p>・タイトル(記事のタイトル)<br />
 ・公開URL名(記号なしの単語がオススメ)<br />
@@ -170,59 +185,76 @@
 
 <p>以上が記事の設定欄です。全て埋めないと、記事の表示が狂います。面倒でも全て埋めてください。</p>
 
-<h3 id="本文">〜本文〜</h3>
+<h3 id="本文を書く">　本文を書く</h3>
+
+<p><img src="https://koyophy.netlify.com/img/スクリーンショット-2018-12-27-22.19.15.png" alt="" style="width: 100%" /></p>
+
+<p>本文に関しては上部の「Rich Text」モードにすれば、ワードと同じような感覚で<strong>文字を大きく</strong>したり、<strong>URLを貼り付けたり</strong>出来るので問題無いかと思います。
+「Markdown」モードについてですが、これはマークダウン書式で原稿を書くモードです。詳細については、<a href="https://qiita.com/kamorits/items/6f342da395ad57468ae3">こちら</a>をご覧下さい。慣れるとマークダウンの方が便利なので、使ってみるのもアリかもしれません。</p>
 
 <p>※この編集画面はある一定時間が過ぎると接続が切れてしまい、原稿がリセットされてしまう可能性があるので、原稿はメモ帳などで予め作っておいて、編集画面にコピペして下さい。</p>
 
-<p>本文に関しては上部の「Rich Text」モードにすれば、ワードと同じような感覚で<strong>文字を大きく</strong>したり、<strong>URLを貼り付けたり</strong>出来るので問題無いかと思います。
-「Markdown」モードについてですが、これはマークダウン書式で原稿を書くモードです。詳細については、<a href="https://qiita.com/kamorits/items/6f342da395ad57468ae3">こちら</a>を見て下さい。慣れるとこっちの方が便利なので、使ってみるのもアリかもしれません。</p>
-
-<h3 id="改行する時">〜改行する時〜</h3>
+<h3 id="改行">　改行</h3>
 
 <p>仕様のためどうしようもないのですが、改行する場合、ただ改行しただけでは、改行されません。
-改行したい場合は<strong>半角の空白を2つと改行</strong>入れると改行できます。</p>
+改行したい場合は<strong>半角の空白を2つと改行</strong>入れると改行できます。意外と忘れやすいので、念のため釘を刺しておきます。</p>
 
 <pre><code>Hello  ←半角空白2つ
-World
-
+World  ←半角空白2つ
 Hello←空白なし
 World
 </code></pre>
 
 <p>Hello<br />
+World<br />
+Hello
 World</p>
 
-<p>Hello
-World</p>
+<p>違いをお分りいただけたでしょうか。</p>
 
-<h4 id="写真の挿入">〜写真の挿入〜</h4>
+<h3 id="写真の挿入">　写真の挿入</h3>
 
-<p>写真は本文メニューの<strong>+</strong>ボタンをクリックすると、<strong>image</strong>というボタンが表示されるのでそれをクリックしして下さい。すると、本文に<strong>image</strong>というフォームが追加されたと思います。
-ここに入力するのは</p>
+<p><img src="https://koyophy.netlify.com/img/スクリーンショット-2018-12-27-23.22.44.png" alt="" style="width: 100%" /></p>
+
+<p>写真は本文メニューの<strong>+</strong>ボタンをクリックすると、<strong>image</strong>というボタンが表示されるのでそれをクリックして下さい。すると、本文に<strong>image</strong>というフォームが追加されたと思います。</p>
+
+<p><img src="https://koyophy.netlify.com/img/スクリーンショット-2018-12-27-23.24.56.png" alt="" style="width: 100%" /></p>
+
+<p>ここに入力するのは</p>
 
 <p>・image<br />
 ・alt text<br />
 ・title</p>
 
-<p>imageは<strong>choose an image</strong>、次に<strong>upload</strong>をクリックして、入れたい写真をアップロードして下さい。アップロードされた写真をクリックして<strong>choose</strong>
-すれば、写真が挿入されます。
+<p>この３つです。</p>
+
+<p>imageは<strong>choose an image</strong>、次に<strong>upload</strong>をクリックして、入れたい写真をアップロードして下さい。アップロードされた写真をクリックして<strong>choose Selected</strong>すれば、写真が挿入されます。
 alt textは写真の説明でも入れて下さい。空白でも大丈夫です。</p>
 
-<p>しかし！！！</p>
+<p><strong>でもtitleに文章を入れないで！！</strong></p>
 
-<p><strong>titleには文章を入れないで！！</strong></p>
+<p>確かに本来であればここにはタイトルを入れるのですが、記事を書く上で写真サイズを変えるメニューがないのが不便だったので、ここに1〜100の数字を入れて写真サイズを変えられるように仕様変更しています。100で画面一杯に表示されます。基本は100を入力してください。</p>
 
-<p>確かに本来であればここにはタイトルを入れるのですが、記事を書く上で写真サイズを変えるメニューがないのが不便だったので、ここに1〜100の数字を入れて写真サイズを変えられるように仕様変更しています。
-100で画面一杯に表示されます。</p>
+<h3 id="文書の保存">　文書の保存</h3>
 
-<h3 id="文書の保存">文書の保存</h3>
+<p>文章が書けたら保存して、公開してみましょう。記事設定の非公開をオンにしていると保存しても公開されないので注意しましょう。これがオフになっていることを確認して、上部の<strong>save</strong>ボタンを押してください。</p>
 
-<p>文章が書けたら保存して、公開してみましょう。記事設定の非公開をオンにしていると保存しても公開されないので注意しましょう。これがオフになっていることを確認して、上部の<strong>save</strong>ボタンを押してください。数秒すると、右のほうに<strong>set</strong>が表示されるのでクリックして下に出てきた<strong>Ready</strong>をクリックして下さい。また数秒後に、<strong>Entry Status Updated</strong>というお知らせが表示されたら、<strong>Publish</strong>をクリックししたに出てきた<strong>Publish now</strong>をクリックすれば、保存と記事の公開が完了します。お疲れ様でした。</p>
+<p><img src="https://koyophy.netlify.com/img/スクリーンショット-2018-12-27-22.22.19.png" alt="" style="width: 100%" /></p>
 
-<h3 id="中間ゴール">中間ゴール</h3>
+<p>数秒すると、右のほうに<strong>set</strong>が表示されるのでクリックして下に出てきた<strong>Ready</strong>をクリックして下さい。</p>
+
+<p><img src="https://koyophy.netlify.com/img/スクリーンショット-2018-12-27-22.23.55.png" alt="" style="width: 100%" /></p>
+
+<p>また数秒後に、<strong>Entry Status Updated</strong>というお知らせが表示されたら、<strong>Publish</strong>をクリックししたに出てきた<strong>Publish now</strong>をクリック！</p>
+
+<p><img src="https://koyophy.netlify.com/img/スクリーンショット-2018-12-27-22.24.42.png" alt="" style="width: 100%" /></p>
+
+<p>そうすれば、保存と記事の公開が完了します。お疲れ様でした。</p>
+
+<h2 id="中間ゴール">中間ゴール</h2>
 
 <p>このような感じで、記事を投稿することができます。簡単、、、でしょ？
-固定ページ(部員紹介)もこのような感じで編集できます。部員紹介はHTML使ってるけどね！</p>
+固定ページ(部員紹介)もこのような感じで編集できます。部員紹介はJavascript使ってるけどね！</p>
 
 <p>記事の投稿が出来れば、ほぼ仕事は終わったようなもの。あとは、これだけでは物足りないであろう上級者編に移りたいと思います。分からなかったら見て見ぬフリをしてください。</p>
 
@@ -231,8 +263,10 @@ alt textは写真の説明でも入れて下さい。空白でも大丈夫です
 <p>手書きの数式を写真に撮って載せるのもアリですけど、見にくいし醜い。
 そんな時は記事設定のmathをオンにして、MathJaxコードを記事に書けば綺麗な数式を表示することができます。</p>
 
+<p><div class="h-scroll">$$\frac{d}{dt}(\frac{\partial L }{\partial \dot{\theta_1}})-\frac{\partial L }{\partial \theta_1} = 0$$</div></p>
+
 <p>Mathjaxコードについては、<a href="http://easy-copy-mathjax.xxxx7.com">サンプル</a>を見てもらうとわかりやすいと思います。<br />
-また僕が昔書いた<a href="https://koyophy.netlify.com/post/double-pendu/">二重振り子についての記事</a>やその<a href="https://raw.githubusercontent.com/koyophysics/web/master/content/post/pendu.md">ソースコード</a>を見てもらうとわかりやすいと思います。また、手書きの文字をLatexに変換してくれる便利なサービス(<a href="https://webdemo.myscript.com/views/main/math.html#">こちら</a>)もあるようなので、活用してみてください。</p>
+また僕が昔書いた<a href="https://koyophy.netlify.com/post/double-pendu/">二重振り子についての記事</a>やその<a href="https://raw.githubusercontent.com/koyophysics/web/master/content/post/pendu.md">ソースコード</a>を見てもらうとわかりやすいと思います。また、手書きの文字をLaTexに変換してくれる便利なサービス(<a href="https://webdemo.myscript.com/views/main/math.html#">こちら</a>)もあるようなので、活用してみてください。</p>
 
 <h2 id="物理部のアカウント">物理部のアカウント</h2>
 
@@ -243,7 +277,9 @@ alt textは写真の説明でも入れて下さい。空白でも大丈夫です
 ・DISQUS(記事の最後のコメント欄)<br />
 ・Youtube<br />
 ・Twitter<br />
-・googleアカウント<br />
+・googleアカウント</p>
+
+<p><br />
 この6つです。Twitterとかも定期的に更新してます。学校の評判を地に貶めるような発言は慎むようにしてくださいね(ブーメラン)</p>
 
 <p><a href="https://search.google.com/search-console?utm_source=about-page">google console</a>にアクセスすれば、サイト閲覧数などの分析を見ることができます。気になったら見てみてください。</p>
