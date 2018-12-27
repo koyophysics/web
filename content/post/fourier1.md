@@ -13,7 +13,6 @@ comments: true
 draft: false
 ---
 
-<img src="" alt="Drawing"/>  
 <img src="/img/fourier/8.jpg" alt="Drawing" style="width: 100%"/>
 
 ## はじめに
@@ -35,7 +34,7 @@ draft: false
 
 いきなりsinとかcosとかなんやねん！ってなった方を放って話を進めるわけにはいきませんので、一応説明しておきます。  
 
-<img src="/img/fourier/3.gif" alt="Drawing" style="width: 60%"/>
+<img src="/img/fourier/3.gif" alt="Drawing" style="width: 100%"/>
 
 sinやcosというのは半径１の円周(単位円)上を回る時のそれぞれ縦方向の長さ、横方向の長さを表します。画像を見てわかるように、とても綺麗な形をした波形です。つまり、この綺麗な波形を任意で組み合わせると、どんな複雑な波形であっても表現できるといったのです。
 
@@ -64,7 +63,7 @@ sinやcosというのは半径１の円周(単位円)上を回る時のそれぞ
 その条件とは **「区分的に滑らかで、絶対可積分である」** ということです。下の図を見ると、０,1.0,2.0の部分で不連続（繋がっていない）であることがわかります。これは区分的に滑らかという条件に反し、またその不連続点で**ギブスの現象**と呼ばれる出っ張りがどうしてもできてしまうことが数学的に証明されています。
 
 
-<img src="/img/fourier/2.gif" alt="Drawing" style="width: 60%"/>  
+<img src="/img/fourier/2.gif" alt="Drawing" style="width: 100%"/>  
 
 ### ブラウザバックはちょっと待った！！まだまだお話は続きます。
 
