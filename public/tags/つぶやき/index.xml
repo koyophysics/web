@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>つぶやき on 甲陽学院 高等学校 物理部(新)</title>
+    <link>https://koyophy.netlify.com/tags/%E3%81%A4%E3%81%B6%E3%82%84%E3%81%8D/</link>
+    <description>Recent content in つぶやき on 甲陽学院 高等学校 物理部(新)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>© 2018 Koyo Physics. All Rights Reserved.</copyright>
+    <lastBuildDate>Sun, 23 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://koyophy.netlify.com/tags/%E3%81%A4%E3%81%B6%E3%82%84%E3%81%8D/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>来年、部員増えるってよ</title>
+      <link>https://koyophy.netlify.com/post/nextyear/</link>
+      <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://koyophy.netlify.com/post/nextyear/</guid>
+      <description>冬、代替わりの季節 物理部部長のH﨑です。もう冬休みに突入して、他の部活の部長は一年生に代替わりしている中、あれ、おかしいな。物理部だけこの席</description>
+    </item>
+    
+  </channel>
+</rss>

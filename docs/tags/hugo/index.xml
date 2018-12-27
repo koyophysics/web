@@ -6,11 +6,20 @@
     <description>Recent content in Hugo on 甲陽学院 高等学校 物理部(新)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>Copyright © 2018 Koyo Physics. All Rights Reserved.</copyright>
-    <lastBuildDate>Mon, 23 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>© 2018 Koyo Physics. All Rights Reserved.</copyright>
+    <lastBuildDate>Wed, 26 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://koyophy.netlify.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>サイト整備の備忘録</title>
+      <link>https://koyophy.netlify.com/post/maintain/</link>
+      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://koyophy.netlify.com/post/maintain/</guid>
+      <description>物理部部長のH﨑です。もうそろそろ受験に向けてスイッチを切り替えないといけない季節なので、このサイト運営に必要な知識をここに全て残しておきた</description>
+    </item>
     
     <item>
       <title>Hugoでサイト開発入門　第2回</title>

@@ -6,14 +6,32 @@
     <description>Recent content in ホーム on 甲陽学院 高等学校 物理部(新)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>Copyright © 2018 Koyo Physics. All Rights Reserved.</copyright>
-    <lastBuildDate>Mon, 17 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>© 2018 Koyo Physics. All Rights Reserved.</copyright>
+    <lastBuildDate>Wed, 26 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://koyophy.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>2018年度　数学・理科甲子園に出場しました！</title>
+      <title>サイト整備の備忘録</title>
+      <link>https://koyophy.netlify.com/post/maintain/</link>
+      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://koyophy.netlify.com/post/maintain/</guid>
+      <description>物理部部長のH﨑です。もうそろそろ受験に向けてスイッチを切り替えないといけない季節なので、このサイト運営に必要な知識をここに全て残しておきた</description>
+    </item>
+    
+    <item>
+      <title>来年、部員増えるってよ</title>
+      <link>https://koyophy.netlify.com/post/nextyear/</link>
+      <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://koyophy.netlify.com/post/nextyear/</guid>
+      <description>冬、代替わりの季節 物理部部長のH﨑です。もう冬休みに突入して、他の部活の部長は一年生に代替わりしている中、あれ、おかしいな。物理部だけこの席</description>
+    </item>
+    
+    <item>
+      <title>数学・理科甲子園2018に出場しました！</title>
       <link>https://koyophy.netlify.com/post/olympic/</link>
       <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
       
@@ -54,7 +72,7 @@
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://koyophy.netlify.com/post/omni/</guid>
-      <description>はじめに 物理部部長のH崎です。 この記事では今年製作したオムニホイールについて紹介したいと思います。 オムニホイールとは？ まずはこの写真を見てみ</description>
+      <description>はじめに 物理部部長のH崎です。 この記事では今年製作したオムニホイールについて紹介したいと思います。 ※パンジャンドラムではありません オムニホイ</description>
     </item>
     
     <item>
@@ -90,7 +108,7 @@
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://koyophy.netlify.com/post/3dp/</guid>
-      <description>きっかけ 夏の終わりの風物詩である読書感想文。僕はいつもiPadでいろいろ下書きを書いてからそれをノートに写すというスタイルで書いていたのです</description>
+      <description>きっかけ 夏の終わりの風物詩である読書感想文。僕はいつもiPadで作文の下書きを書いてからそれをノートに写すというスタイルで書いていたのですが</description>
     </item>
     
     <item>

@@ -13,7 +13,8 @@ comments: true
 draft: false
 ---
 
-<img src="/img/fourier/8.jpg" alt="Drawing" style="width: 100%"/>  
+<img src="" alt="Drawing"/>  
+<img src="/img/fourier/8.jpg" alt="Drawing" style="width: 100%"/>
 
 ## はじめに
 

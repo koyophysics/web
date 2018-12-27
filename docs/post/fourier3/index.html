@@ -9,7 +9,8 @@
       
         <script type="text/x-mathjax-config">
           MathJax.Hub.Config({
-              tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+              tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+              linebreaks: {automatic: true}
           });
         </script>
         <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
@@ -24,7 +25,7 @@
     <meta name="keywords" content="">
 
 
-    <title>フーリエ変換でお絵かきしてみよう〜実践編〜 -- 甲陽学院 高等学校 物理部(新)</title>
+    <title>フーリエ変換でお絵かきしてみよう〜実践編〜 - 甲陽学院 高等学校 物理部(新)</title>
 
     
 
@@ -84,6 +85,10 @@
                         <a href="https://koyophy.netlify.com/page/%E4%BD%9C%E5%93%81%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC/">作品ギャラリー</a>
                     </li>
                     
+                    <li>
+                        <a href="https://koyophy.netlify.com/admin/#/">管理者ログイン</a>
+                    </li>
+                    
                   </ul>
             </div>
            
@@ -124,6 +129,8 @@
             <div class="row">
                 <div class="col-lg-12 col-lg-offset-0 col-md-18 col-md-offset-1">
                   
+                      
+                          
 
 <h2 id="はじめに">はじめに</h2>
 
@@ -162,10 +169,10 @@
 <p><script src="https://gist.github.com/hamataku/bf80143d858f6d9729ed8b1e64dcb984.js"></script>
 引数として渡された波形データを下の数式を元に離散フーリエ変換を行い、配列に代入します。realは実数部分をimagは虚数部分の配列です。渡されるimagのデータは全て0であるため、計算の際は使用していません。</p>
 
-<p>$$\begin{eqnarray}
+<p><div class="h-scroll">\begin{eqnarray}
 F_n &amp;=&amp;\frac{1}{N}\sum_{k=0}^{N-1} f_ke^{-i\frac{2n\pi}{N}k}\\<br />
      &amp;=&amp;\frac{1}{N}\sum_{k=0}^{N-1} f_k\Bigl(\cos(\frac{2n\pi}{N}k)-i\sin(\frac{2n\pi}{N}k)\Bigl)
-\end{eqnarray}$$</p>
+\end{eqnarray} </div></p>
 
 <h3 id="円の座標に変換">円の座標に変換</h3>
 
@@ -176,7 +183,7 @@ $$\tan\alpha=\frac{b}{a}$$
 問題はどうやって$\alpha$を求めるかということですが、processingには便利な関数が用意されています。<br />
 それは<strong>atan2関数</strong>です。これは$\tan$の逆関数で、aとbを代入することでαの値を求めることができます。</p>
 
-<h3 id="お待ちかねの全プログラム公開">お待ちかねの全プログラム公開！</h3>
+<h2 id="お待ちかねの全プログラム公開">お待ちかねの全プログラム公開！</h2>
 
 <p><script src="https://gist.github.com/hamataku/7da767bdd1953763fe15eb51446d6c16.js"></script>
 processingで書いたコードですので、ご自身のパソコンにprocessingをインストールして、お試しください。<br />
@@ -184,6 +191,9 @@ processingで書いたコードですので、ご自身のパソコンにprocess
 
 <p>ここの箇所はご自身の環境に合わせて調節して見て下さい。</p>
 
+                      
+                  
+                 
                   
    <div id="disqus_thread"></div>
 <script type="application/javascript">
@@ -244,9 +254,27 @@ processingで書いたコードですので、ご自身のパソコンにprocess
                       </a>
                     </li>
                     
+                    <li>
+                      <a href="https://twitter.com/koyophysics">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCoM7hhjA0OisVtQv2ZwlEfw">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
                     
                   </ul>
-                  <p class="copyright text-muted">Copyright © 2018 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
+                  <p class="copyright text-muted">© 2018 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
                   <p id="pageTop"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
 
                 </div>

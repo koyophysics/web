@@ -15,7 +15,7 @@
     <meta name="keywords" content="">
 
 
-    <title>Processingでライフゲーム -- 甲陽学院 高等学校 物理部(新)</title>
+    <title>Processingでライフゲーム - 甲陽学院 高等学校 物理部(新)</title>
 
     
 
@@ -75,6 +75,10 @@
                         <a href="https://koyophy.netlify.com/page/%E4%BD%9C%E5%93%81%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC/">作品ギャラリー</a>
                     </li>
                     
+                    <li>
+                        <a href="https://koyophy.netlify.com/admin/#/">管理者ログイン</a>
+                    </li>
+                    
                   </ul>
             </div>
            
@@ -115,56 +119,7 @@
             <div class="row">
                 <div class="col-lg-12 col-lg-offset-0 col-md-18 col-md-offset-1">
                   
-
-<h2 id="きっかけ">きっかけ</h2>
-
-<p>いつものように、物理部で数学の勉強してたのですが(ｵｲ)、そこにいた準部員の一人が「ライフゲームって知ってる？」と発言したことが発端です。<br />
-僕自身、全く知らなかったので、即興でProcessingでコードを書くことに。<br />
-残念ながら謎のバグのせいで、その日の物理部では完成しませんでしたが、家に帰って完成させたので紹介します。</p>
-
-<h2 id="ライフゲームとは">ライフゲームとは？</h2>
-
-<div class="movie-wrap">
-  <iframe width="854" height="480" src="https://www.youtube.com/embed/ZOkm867AleM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-
-<p>ルールはいたって簡単。</p>
-
-<blockquote>
-<p>誕生<br />
-死んでいるセルに隣接する生きたセルがちょうど3つあれば、次の世代が誕生する。<br />
-生存<br />
-生きているセルに隣接する生きたセルが2つか3つならば、次の世代でも生存する。<br />
-過疎<br />
-生きているセルに隣接する生きたセルが1つ以下ならば、過疎により死滅する。<br />
-過密<br />
-生きているセルに隣接する生きたセルが4つ以上ならば、過密により死滅する。<br />
-(Wikipedia引用)</p>
-</blockquote>
-
-<p>これだけです。
-一つずつのセルに対して、８近傍の状態を調べて次の世代を決定するというプログラムを組めば良いわけです。</p>
-
-<h2 id="ソースコード">ソースコード</h2>
-
-<script src="https://gist.github.com/hamataku/76b7a566c9f2287ef79b731d0d618970.js"></script>
-
-<p>注意としては、ControlP5というライブラリを使用しているので、
-スケッチ＞ライブラリをインポート＞ライブラリを追加
-から、インストールしてください。</p>
-
-<p>ライフゲーム単体だけであれば、もっと短くて済みますが、他の機能として、</p>
-
-<ul>
-<li>消去、書き込み機能</li>
-<li>スピード変更機能</li>
-<li>グライダー銃をプリセット</li>
-</ul>
-
-<p>を追加。ちょっと長くなってしまいました。（頑張ればもうちょっと短くなると思いますが）</p>
-
-<p>このプログラムは全てのマスに対して８近傍の数を調べる総当たり方式ですが、他にもビットボードと呼ばれるビット演算で次の世代を決定するという方式もあるようなので、余裕があれば挑戦してみたいと思います。</p>
-
+                 
                   
    <div id="disqus_thread"></div>
 <script type="application/javascript">
@@ -225,9 +180,27 @@
                       </a>
                     </li>
                     
+                    <li>
+                      <a href="https://twitter.com/koyophysics">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCoM7hhjA0OisVtQv2ZwlEfw">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
                     
                   </ul>
-                  <p class="copyright text-muted">Copyright © 2018 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
+                  <p class="copyright text-muted">© 2018 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
                   <p id="pageTop"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
 
                 </div>

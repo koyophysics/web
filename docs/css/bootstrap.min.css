@@ -13,7 +13,8 @@ html {
 }
 
 body {
-  margin: 0
+  margin: 0;
+  word-break: break-all
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -81,10 +82,6 @@ sup {
 
 sub {
   bottom: -.25em
-}
-
-img {
-  border: 0
 }
 
 svg:not(:root) {
@@ -226,7 +223,7 @@ td, th {
     page-break-inside: avoid
   }
   img {
-    max-width: 100% !important
+    max-width: 100%; !important
   }
   h2, h3, p {
     orphans: 3;
@@ -2688,6 +2685,11 @@ table td[class*=col-], table th[class*=col-] {
   }
   .table-responsive>.table-bordered>tbody>tr:last-child>td, .table-responsive>.table-bordered>tbody>tr:last-child>th, .table-responsive>.table-bordered>tfoot>tr:last-child>td, .table-responsive>.table-bordered>tfoot>tr:last-child>th {
     border-bottom: 0
+  }
+
+  img {
+    border: 0;
+    max-width: 100%
   }
 }
 
@@ -5173,6 +5175,11 @@ a.badge:focus, a.badge:hover {
   .jumbotron .h1, .jumbotron h1 {
     font-size: 63px
   }
+
+  img {
+    border: 0;
+    max-width: 65%;
+  }
 }
 
 .thumbnail {
@@ -7016,4 +7023,8 @@ button.close {
 #pageTop a:hover {
   text-decoration: none;
   opacity: .7
+}
+
+.h-scroll{
+overflow-x: auto;
 }
