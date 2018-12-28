@@ -18,7 +18,8 @@ p {
 
 p a {
   text-decoration: underline;
-  color: #3b75b7
+  color: #3b75b7;
+  word-break: break-all
 }
 
 p a:hover {

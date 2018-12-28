@@ -14,7 +14,6 @@ html {
 
 body {
   margin: 0;
-  word-break: break-all
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -37,6 +36,7 @@ audio:not([controls]) {
 
 a {
   background-color: transparent
+  word-break: break-all
 }
 
 a:active, a:hover {
