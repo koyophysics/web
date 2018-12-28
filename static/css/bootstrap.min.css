@@ -5180,6 +5180,8 @@ a.badge:focus, a.badge:hover {
   img {
     border: 0;
     max-width: 65%;
+    margin-left: 15%;
+
   }
 }
 

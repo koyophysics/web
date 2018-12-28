@@ -228,7 +228,7 @@ hr.small {
 }
 
 .post-preview>a {
-  color: #3b75b7
+  color: #3b75b7;
 }
 
 .post-preview>a:focus, .post-preview>a:hover {
@@ -263,7 +263,11 @@ hr.small {
 
 @media only screen and (min-width:768px) {
   .post-preview>a>.post-title {
-    font-size: 22px
+    font-size: 22px;
+    margin-left: 15%;
+  }
+  .post-preview>a>.post-subtitle {
+    margin-left: 15%;
   }
 }
 
