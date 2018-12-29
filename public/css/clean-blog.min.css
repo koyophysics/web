@@ -225,6 +225,9 @@ hr.small {
   .intro-header .post-heading .subheading {
     font-size: 30px
   }
+  .post-preview>.post-meta {
+    margin-left: 17.5%
+  }
 }
 
 .post-preview>a {
@@ -248,12 +251,14 @@ hr.small {
   color: gray;
   font-size: 13px;
   font-style: italic;
-  margin-top: 0
+  margin-top: 0;
+
 }
 
 .post-preview>.post-meta>a {
   text-decoration: none;
-  color: #404040
+  color: #404040;
+
 }
 
 .post-preview>.post-meta>a:focus, .post-preview>.post-meta>a:hover {
