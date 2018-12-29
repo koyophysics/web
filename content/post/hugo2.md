@@ -3,7 +3,7 @@ title: Hugoでサイト開発入門　第2回
 slug: hugo2
 date: '2018-04-23'
 image: /img/aa8adad1-77c3-4635-b662-baa2ce17baa5.png
-description: HugoでWeb開発の第二回。今回はサイトを自分好みに変更する方法を紹介します。
+description: HugoでWeb開発の第二回。今回はサイトを自分好みに変更する方法をご紹介します。
 author: H﨑
 tags:
   - Hugo
@@ -13,7 +13,7 @@ draft: false
 ---
 
 どーも。物理部部長のH﨑です。  
-前回の続きで、Hugoで作ったサイトを自分仕様に変えていく方法を紹介します。
+前回の続きで、Hugoで作ったサイトを自分仕様に変えていく方法をご紹介します。
 
 ## config.tomlの編集
 [前回](https://koyophy.netlify.com/post/hugo1/)、何気にコピペして使用したconfig.tomlですが、ちゃんと意味があります。  
