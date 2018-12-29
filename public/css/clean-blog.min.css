@@ -264,10 +264,10 @@ hr.small {
 @media only screen and (min-width:768px) {
   .post-preview>a>.post-title {
     font-size: 22px;
-    margin-left: 15%;
+    margin-left: 17.5%;
   }
   .post-preview>a>.post-subtitle {
-    margin-left: 15%;
+    margin-left: 17.5%;
   }
 }
 
