@@ -1801,6 +1801,11 @@ pre code {
   border-radius: 0
 }
 
+pre code a{
+  color: white;
+}
+
+
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll
