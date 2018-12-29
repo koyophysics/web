@@ -20,6 +20,7 @@ comments: true
 
 ## ライフゲームとは？
 
+
 <div class="movie-wrap">
   <iframe width="854" height="480" src="https://www.youtube.com/embed/ZOkm867AleM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
