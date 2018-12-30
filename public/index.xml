@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>© 2018 Koyo Physics. All Rights Reserved.</copyright>
-    <lastBuildDate>Wed, 26 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://koyophy.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ミカエリスメンテン公式の導出とその意味</title>
+      <link>https://koyophy.netlify.com/post/hanao/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://koyophy.netlify.com/post/hanao/</guid>
+      <description>はじめに どうも、物理部員のT中K太郎です。僕は音展で特に出し物もせず、このままでは物理部員としての活動を何もすることなく卒業してしまいそうな</description>
+    </item>
     
     <item>
       <title>サイト整備の備忘録</title>
@@ -99,7 +108,7 @@
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://koyophy.netlify.com/post/drone/</guid>
-      <description>物理部部長のH﨑です。 高1の音展でドローンを自作したのですが、これまた記録等を全く残していなかったので、改めて紹介します。 また、セキュリティ</description>
+      <description>物理部部長のH﨑です。 高1の音展でドローンを自作したのですが、これまた記録等を全く残していなかったので、改めて紹介します。 きっかけ 総理官邸に</description>
     </item>
     
     <item>
@@ -117,7 +126,7 @@
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://koyophy.netlify.com/post/hugo2/</guid>
-      <description>どーも。物理部部長のH﨑です。 前回の続きで、Hugoで作ったサイトを自分仕様に変えていく方法を紹介します。 config.tomlの編集 前回、</description>
+      <description>どーも。物理部部長のH﨑です。 前回の続きで、Hugoで作ったサイトを自分仕様に変えていく方法をご紹介します。 config.tomlの編集 前回</description>
     </item>
     
     <item>
@@ -126,7 +135,7 @@
       <pubDate>Sat, 21 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://koyophy.netlify.com/post/hugo1/</guid>
-      <description>どーも。物理部部長のH﨑です。 僕自身Web開発は初めてでしたが、Hugoを使って簡単にカッコいいサイトが作れました！ HugoとGitHub P</description>
+      <description>どーも。物理部部長のH﨑です。記事を書くのは初めてなので拙い部分もあるかもしれませんが、大目に見ていただければなぁと思います。 初回はHugo</description>
     </item>
     
     <item>
