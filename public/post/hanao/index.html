@@ -20,7 +20,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="聞いたことがあるようでないようなミカエリスメンテン公式について解説します">
+    <meta name="description" content="オハエリスメンテン？いや、ミカエリスメンテン">
     <meta name="author" content="H﨑">
     <meta name="keywords" content="">
 
@@ -108,7 +108,7 @@
              <div class="post-heading">
                <h1>ミカエリスメンテン公式の導出とその意味</h1>
                <br>
-               <h2 class="subheading">聞いたことがあるようでないようなミカエリスメンテン公式について解説します</h2>
+               <h2 class="subheading">オハエリスメンテン？いや、ミカエリスメンテン</h2>
                <span class="meta">
                  
 投稿者：  T中　更新日  2018年12月29日
@@ -148,6 +148,8 @@
 
 <p>図１</p>
 
+<p><img src="https://koyophy.netlify.com/img/36378.jpg" alt="" style="width: 100%" /></p>
+
 <p>グラフを詳しく見ていきます。
 生成物(P)は最初は0であるが徐々に濃度が高くなっていきます。
 基質(S)は酵素と反応することで濃度が低くなっていきます。
@@ -156,21 +158,21 @@
 (このグラフではそれぞれの物質の濃度変化についてわかりやすくするために※の領域を広く書いていますが、実際は一瞬で※の領域は終わってしまいます。)
 今回は特に生成物(P)がどのような速度で生成されていくかについて考えます。ここで、いざ①の式を解こう！と思っても解くことは出来ません。全ての時間で比べて解くことは難しいので、ある特定の時間の区間について考えます。それは図①の青色で囲まれた区間です。この青色の区間には特徴があります。酵素基質複合体の濃度をほぼ一定とみなすことが出来ます。このような状態を反応速度論では「定常状態」といいます。(今回は酵素の濃度より基質の濃度の方が十分に大きいものとし、定常状態が存在するものとします)</p>
 
-<p><div class="h-scroll">$$\mathrm{E} + \mathrm{S} \, \overset{k_{+1}}{\underset{k_{-1}} \rightleftharpoons} \, \mathrm{ES} \, \overset{k_{+2}} {\longrightarrow} \, \mathrm{E} + \mathrm{P}　\cdots②$$</div></p>
+<p><div class="h-scroll">$$\mathrm{E} + \mathrm{S} , \overset{k_{+1}}{\underset{k_{-1}} \rightleftharpoons} , \mathrm{ES} , \overset{k_{+2}} {\longrightarrow} , \mathrm{E} + \mathrm{P}　\cdots②$$</div></p>
 
 <p>E+SがESとなる時の右向きの反応の速度定数を　左向きの反応の速度定数を　　ESがE＋Pとなるときの速度定数をとします。
 このとき酵素基質複合体(ES)の濃度変化に注目すると、</p>
 
-<p><div class="h-scroll">$$\frac{ \mathrm{d}[\mathrm{ES}]}{\mathrm{d}t} = k_{+1}[\mathrm{E}][\mathrm{S}]-(k_{-1}+k_{+2})[\mathrm{ES}]　\cdots③$$</div></p>
+<p><div class="h-scroll">$$\frac{ \mathrm{d}[\mathrm{ES}]}{\mathrm{d}t} = k_{+1}[\mathrm{E}]-(k_{-1}+k_{+2})[\mathrm{ES}]　\cdots③$$</div></p>
 
-<p>$\frac{ \mathrm{d}[\mathrm{ES}]}{\mathrm{d}t}$は$[\mathrm{ES}]$の速度を表し(数学Ⅲ)、$k_{+1}[\mathrm{E}][\mathrm{S}]$は生成物の速度を表し、$(k_{-1}+k_{+2})[\mathrm{ES}]$は消費物の速度を表します。今回は定常状態が存在すると仮定しているので、③は左辺=右辺＝0となります。</p>
+<p>$\frac{ \mathrm{d}[\mathrm{ES}]}{\mathrm{d}t}$は$[\mathrm{ES}]$の速度を表し(数学Ⅲ)、$k_{+1}[\mathrm{E}]$は生成物の速度を表し、$(k_{-1}+k_{+2})[\mathrm{ES}]$は消費物の速度を表します。今回は定常状態が存在すると仮定しているので、③は左辺=右辺＝0となります。</p>
 
 <p><div class="h-scroll">$$[\mathrm{E}]_r=[\mathrm{E}]+[\mathrm{ES}]　\cdots④$$</div></p>
 
 <p>酵素($\mathrm{E}$)にはまだ基質と反応していない状態か、基質と反応できている状態しか存在しないので、$[\mathrm{E}]$と$[\mathrm{ES}]$の和であるは一定であることを④は示します。
 ここで③と④から$[\mathrm{E}]$を消去し整理すると
 <div class="h-scroll">\begin{align}
-[\mathrm{ES}] &amp;= \frac{k_{+1}[\mathrm{E}]_r[\mathrm{S}]} {k_{-1}+k_{+2}+k_{+1}[\mathrm{S}]}\\<br />
+[\mathrm{ES}] &amp;= \frac{k_{+1}[\mathrm{E}]_r[\mathrm{S}]} {k_{-1}+k_{+2}+k_{+1}[\mathrm{S}]}\<br />
 &amp;=\frac{[\mathrm{E}]_r[\mathrm{S}]} {\frac{k_{-1}+k_{+2}}{k_{+1}}+[\mathrm{S}]}　\cdots⑤
 \end{align} </div></p>
 
@@ -179,9 +181,9 @@
 ここで⑥の式に⑤の式を代入します。すると
 $$v=\frac{ \mathrm{d}[\mathrm{P}]}{\mathrm{d}t}=k_{+2}[\mathrm{ES}]=\frac{k_{+2}[\mathrm{E}]_r[\mathrm{S}]} {\frac{k_{-1}+k_{+2}}{k_{+1}}+[\mathrm{S}]}  \cdots⑦$$</div></p>
 
-<p>⑦の式における$\frac{k_{-1}+k_{+2}}{k_{+1}}$を<strong>ミカエリスメンテン定数(Km)</strong>と言います。
+<p>⑦の式における$\frac{k_{-1}+k_{+2}}{k<em>{+1}}$を<strong>ミカエリスメンテン定数(Km)</strong>と言います。
 ⑦の式で[S]が大きくなるほどミカエリスメンテン定数を無視することができ、[S]で約分することができます。<br />
-そして基質が多いほど速度($v$)は上がり、$k_{+2}[\mathrm{E}]_r$は定数なので、$k_{+2}[\mathrm{E}]_r=v_{max}$とすることができます。
+そして基質が多いほど速度($v$)は上がり、$k</em>{+2}[\mathrm{E}]_r$は定数なので、$k_{+2}[\mathrm{E}]_r=v_{max}$とすることができます。
 よって、</p>
 
 <p><div class="h-scroll">$$v=\frac{ \mathrm{d}[\mathrm{P}]}{\mathrm{d}t}=k_{+2}[\mathrm{ES}]=\frac{k_{+2}[\mathrm{E}]_r[\mathrm{S}]} {\frac{k_{-1}+k_{+2}}{k_{+1}}+[\mathrm{S}]}$$
@@ -190,6 +192,10 @@ $$\Rightarrow v=\frac{v_{max}[\mathrm{S}]}{\mathrm{K}_m+[\mathrm{S}]}$$</div></p
 <p>この$v=\frac{v_{max}[\mathrm{S}]}{\mathrm{K}_m+[\mathrm{S}]}$という式を<strong>ミカエリスメンテン公式</strong>といいます。</p>
 
 <h2 id="ミカエリスメンテン公式の意味">ミカエリスメンテン公式の意味</h2>
+
+<p>図２</p>
+
+<p><img src="https://koyophy.netlify.com/img/400px-s-vplot.gif" alt="" style="width: 100%" /></p>
 
 <p>図２のグラフは縦軸が<strong>反応速度</strong>、横軸が<strong>基質濃度</strong>となっています。</p>
 
