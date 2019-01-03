@@ -6,7 +6,6 @@ image: /img/c85068e9-852d-442e-a299-3ea502db1673.png
 description: 数式を使って、フーリエ変換の仕組みを徹底解剖！
 author: H﨑
 tags:
-  - 数学
   - フーリエ変換
 math: true
 comments: true

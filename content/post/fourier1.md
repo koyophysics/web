@@ -6,7 +6,6 @@ image: /img/c85068e9-852d-442e-a299-3ea502db1673.png
 description: 現代のあらゆる技術を支えているフーリエ変換について、できる限りわかりやすく解説します。
 author: H﨑
 tags:
-  - 数学
   - フーリエ変換
 math: true
 comments: true
