@@ -161,18 +161,18 @@ Eは<strong>酵素</strong>、Sは<strong>基質</strong>、ESは<strong>酵素�
 <strong>酵素(E)</strong>は基質と結びつくことで酵素基質複合体になって濃度は低くなりますが、酵質基質複合体が分解されることによって元と同じ濃度に戻ります。<br />
 <strong>酵素基質複合体(ES)</strong>は0から徐々に濃度が上昇するものの、分解によって濃度が低下していきます。</p>
 
-<p>特に生成物(P)がどのような速度で生成されていくかについて考えてみます。ここで、いざ①の式を解こう！と思っても簡単に解くことは出来ません。全ての時間について解くのは難しいので、図①の青色で囲まれた区間に限って考えます。</p>
+<p>生成物(P)がどのような速度で生成されていくかについて考えてみます。ここでいざ「①の式を解こう！」と思っても簡単に解くことは出来ません。全ての時間について解くのは難しいので、図①の青色で囲まれた区間に限って考えます。</p>
 
-<p>この青色の区間には特徴があり、酵素基質複合体の濃度を<strong>ほぼ一定とみなす</strong>ことが出来ます。このような状態を反応速度論では「<strong>定常状態</strong>」というそうです(酵素の濃度より基質の濃度の方が十分に大きく、定常状態が存在するものとします)</p>
+<p>この青色の区間には特徴があり、酵素基質複合体の濃度を<strong>ほぼ一定</strong>とみなすことが出来るのです！このような状態を反応速度論では「<strong>定常状態</strong>」といいます(酵素の濃度より基質の濃度の方が十分に大きく、定常状態が存在するものとします)</p>
 
-<p><div class="h-scroll">$$\mathrm{E} + \mathrm{S} \overset{k_{+1}}{\underset{k_{-1}} \rightleftharpoons} \mathrm{ES}  \overset{k_{+2}} {\longrightarrow} \mathrm{E} + \mathrm{P}　\cdots②$$</div></p>
+<p><div class="h-scroll">$$\mathrm{E} + \mathrm{S} \overset{\mathrm{k}_{+1}}{\underset{\mathrm{k}_{-1}} \rightleftharpoons} \mathrm{ES}  \overset{\mathrm{k}_{+2}} {\longrightarrow} \mathrm{E} + \mathrm{P}　\cdots②$$</div></p>
 
-<p>E+SがESとなる時の右向きの反応の速度定数を$k_{+1}$左向きの反応の速度定数を$k_{-1}$、ESが$\mathrm{E}＋\mathrm{P}$となるときの速度定数をとします。
+<p>E+SがESとなる時の右向きの反応の速度定数を$\mathrm{k}_{+1}$左向きの反応の速度定数を$\mathrm{k}_{-1}$、ESが$\mathrm{E}＋\mathrm{P}$となるときの速度定数を$\mathrm{k}_{+2}$とします。
 このとき酵素基質複合体(ES)の濃度変化に注目すると、</p>
 
-<p><div class="h-scroll">$$\frac{ \mathrm{d}[\mathrm{ES}]}{\mathrm{d}t} = k_{+1}[\mathrm{E}][\mathrm{S}]-(k_{-1}+k_{+2})[\mathrm{ES}]　\cdots③$$</div></p>
+<p><div class="h-scroll">$$\frac{ \mathrm{d}[\mathrm{ES}]}{\mathrm{d}t} = \mathrm{k}_{+1}[\mathrm{E}][\mathrm{S}]-(\mathrm{k}_{-1}+\mathrm{k}_{+2})[\mathrm{ES}]　\cdots③$$</div></p>
 
-<p>$\frac{ \mathrm{d}[\mathrm{ES}]}{\mathrm{d}t}$は$[\mathrm{ES}]$の速度を表し(数学Ⅲ)、$k_{+1}[\mathrm{E}]$は生成物の速度を表し、$(k_{-1}+k_{+2})[\mathrm{ES}]$は消費物の速度を表します。今回は定常状態が存在すると仮定しているので、③は左辺=右辺＝0となります。</p>
+<p>$\frac{ \mathrm{d}[\mathrm{ES}]}{\mathrm{d}t}$は$[\mathrm{ES}]$の速度を表し(数学Ⅲ)、$\mathrm{k}_{+1}[\mathrm{E}] [\mathrm{S}] $は生成物の速度を表し、$(\mathrm{k}_{-1}+\mathrm{k}_{+2})[\mathrm{ES}]$は消費物の速度を表します。今回は定常状態が存在すると仮定しているので、③は左辺=右辺＝0となります。</p>
 
 <p><div class="h-scroll">$$[\mathrm{E}]_r=[\mathrm{E}]+[\mathrm{ES}]　\cdots④$$</div></p>
 
@@ -180,22 +180,22 @@ Eは<strong>酵素</strong>、Sは<strong>基質</strong>、ESは<strong>酵素�
 ここで③と④から$[\mathrm{E}]$を消去し整理すると</p>
 
 <p><div class="h-scroll">\begin{align}
-[\mathrm{ES}] &amp;= \frac{k_{+1}[\mathrm{E}]_r[\mathrm{S}]} {k_{-1}+k_{+2}+k_{+1}[\mathrm{S}]}\\<br />
-&amp;=\frac{[\mathrm{E}]_r[\mathrm{S}]} {\frac{k_{-1}+k_{+2}}{k_{+1}}+[\mathrm{S}]}　\cdots⑤
+[\mathrm{ES}] &amp;= \frac{\mathrm{k}_{+1}[\mathrm{E}]_r[\mathrm{S}]} {\mathrm{k}_{-1}+\mathrm{k}_{+2}+\mathrm{k}_{+1}[\mathrm{S}]}\\<br />
+&amp;=\frac{[\mathrm{E}]_r[\mathrm{S}]} {\frac{\mathrm{k}_{-1}+\mathrm{k}_{+2}}{\mathrm{k}_{+1}}+[\mathrm{S}]}　\cdots⑤
 \end{align} </div></p>
 
 <p>$[\mathrm{P}]$の速度を$v$とすると$v=\frac{ \mathrm{d}[\mathrm{P}]}{\mathrm{d}t}$と表せます(数Ⅲ)。<br />
-そして②の式から$$v=\frac{ \mathrm{d}[\mathrm{P}]}{\mathrm{d}t}=k_{+2}[\mathrm{ES}]  \cdots⑥$$<br />
+そして②の式から$$v=\frac{ \mathrm{d}[\mathrm{P}]}{\mathrm{d}t}=\mathrm{k}_{+2}[\mathrm{ES}]  \cdots⑥$$<br />
 ここで⑥の式に⑤の式を代入します。すると</p>
 
-<p><div class="h-scroll">$$v=\frac{ \mathrm{d}[\mathrm{P}]}{\mathrm{d}t}=k_{+2}[\mathrm{ES}]=\frac{k_{+2}[\mathrm{E}]_r[\mathrm{S}]} {\frac{k_{-1}+k_{+2}}{k_{+1}}+[\mathrm{S}]}  \cdots⑦$$</div></p>
+<p><div class="h-scroll">$$v=\frac{ \mathrm{d}[\mathrm{P}]}{\mathrm{d}t}=\mathrm{k}_{+2}[\mathrm{ES}]=\frac{\mathrm{k}_{+2}[\mathrm{E}]_r[\mathrm{S}]} {\frac{\mathrm{k}_{-1}+\mathrm{k}_{+2}}{\mathrm{k}_{+1}}+[\mathrm{S}]}  \cdots⑦$$</div></p>
 
-<p>⑦の式における$\frac{k_{-1}+k_{+2}}{k_{+1}}$を<strong>ミカエリスメンテン定数(Km)</strong>と言います。
+<p>⑦の式における$\frac{\mathrm{k}_{-1}+\mathrm{k}_{+2}}{\mathrm{k}_{+1}}$を<strong>ミカエリスメンテン定数(Km)</strong>と言います。
 ⑦の式で[S]が大きくなるほどミカエリスメンテン定数を無視することができ、[S]で約分することができます。<br />
-そして基質が多いほど速度($v$)は上がり、$k_{+2}[\mathrm{E}]_r$は定数なので、$k_{+2}[\mathrm{E}]_r=v_{max}$とすることができます。
+そして基質が多いほど速度($v$)は上がり、$\mathrm{k}_{+2}[\mathrm{E}]_r$は定数なので、$\mathrm{k}_{+2}[\mathrm{E}]_r=v_{max}$とすることができます。
 よって、</p>
 
-<p><div class="h-scroll">$$v=\frac{ \mathrm{d}[\mathrm{P}]}{\mathrm{d}t}=k_{+2}[\mathrm{ES}]=\frac{k_{+2}[\mathrm{E}]_r[\mathrm{S}]} {\frac{k_{-1}+k_{+2}}{k_{+1}}+[\mathrm{S}]}$$
+<p><div class="h-scroll">$$v=\frac{ \mathrm{d}[\mathrm{P}]}{\mathrm{d}t}=\mathrm{k}_{+2}[\mathrm{ES}]=\frac{\mathrm{k}_{+2}[\mathrm{E}]_r[\mathrm{S}]} {\frac{\mathrm{k}_{-1}+\mathrm{k}_{+2}}{\mathrm{k}_{+1}}+[\mathrm{S}]}$$
 $$\Rightarrow v=\frac{v_{max}[\mathrm{S}]}{\mathrm{K}_m+[\mathrm{S}]}$$</div></p>
 
 <p>この$v=\frac{v_{max}[\mathrm{S}]}{\mathrm{K}_m+[\mathrm{S}]}$という式を<strong>ミカエリスメンテン公式</strong>といいます。</p>
@@ -261,16 +261,14 @@ $$\Rightarrow v=\frac{v_{max}[\mathrm{S}]}{\mathrm{K}_m+[\mathrm{S}]}$$</div></p
         </div>
     </article>
 
-    <hr>
+    <br><br>
     
     <footer>
 
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                  <div style="text-align: center;"><font size="6">甲陽学院高校 物理部</font></div><br>
-
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">  
                   <ul class="list-inline text-center">
                     
                       <li>
@@ -313,7 +311,7 @@ $$\Rightarrow v=\frac{v_{max}[\mathrm{S}]}{\mathrm{K}_m+[\mathrm{S}]}$$</div></p
                     
                     
                   </ul>
-                  <p class="copyright text-muted">© 2018 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
+                  <p class="copyright text-muted">© 2018-2019 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
                   <p id="pageTop"><a href="#"><i class="fa fa-chevron-up"></i></a></p>
 
                 </div>

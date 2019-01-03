@@ -32,9 +32,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  padding-left: 10px;
-  border-left: 7px solid #9cb4a4
+  padding: 15px;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  text-align: center;
 }
+
+
 
 a {
   color: #404040
@@ -198,6 +202,12 @@ hr.small {
   font-size: 32px
 }
 
+.intro-header .post-heading h2 {
+  padding: none;
+  border: none;
+  text-align: left;
+}
+
 .intro-header .post-heading .meta, .intro-header .post-heading .subheading {
   line-height: 1.1;
   display: block
@@ -269,6 +279,13 @@ hr.small {
   text-decoration: underline
 }
 
+.post-preview>a>.post-title {
+  padding: 0px;
+  border-top: none;
+  border-bottom: none;
+  text-align: left;
+}
+
 @media only screen and (min-width:768px) {
   .post-preview>a>.post-title {
     font-size: 22px;
@@ -297,7 +314,8 @@ hr.small {
 }
 
 footer {
-  padding: 50px 0 65px
+  padding: 30px 0 30px;
+  background-color: #0F1E25;
 }
 
 footer .list-inline {

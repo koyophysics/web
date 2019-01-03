@@ -4,5 +4,3 @@
 
 <!--日数カウンター-->
 <script type="text/javascript" src="/js/count.js" charset="utf-8"></script>
-
-<h2><p><a href="/post/">活動記録</a></p></h2>

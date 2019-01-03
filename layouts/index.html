@@ -24,6 +24,7 @@
       </article>
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <p><a href="/post/"><h2>活動記録</h2></a></p>
           {{ $posts := or .Site.Params.PostSummariesFrontPage 4 }}
           {{ range first $posts (where .Data.Pages "Type" "post") }}
               {{ .Render "summary"}}
@@ -36,9 +37,6 @@
           </ul>
         </div>
       </div>
-      <hr>
-      <h2><p><a href="/page/クラブ紹介/">クラブ紹介</a></p></h2>
-      <h2><p><a href="/page/作品ギャラリー">作品ギャラリー</a></p></h2>
     </div>
 
 {{ partial "footer.html" .}}
