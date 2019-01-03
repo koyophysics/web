@@ -1,2 +1,0 @@
-ホームの題名を変える時
-/layout/index.htmlを変更
