@@ -12,7 +12,7 @@ hasCJKLanguage = "true"
   name = "T.H."
 
 [params]
-  DateForm = "2006年1月2日"#変えるな絶対！！呪文やこれは！！
+  DateForm = "2006/1/2"#変えるな絶対！！呪文やこれは！！
   Description = "Koyo Gakuin High School Physics Club"
   Author = "H﨑"
   email = "koyobutsuri@gmail.com"

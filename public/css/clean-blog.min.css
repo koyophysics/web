@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  padding: 7px;
+  padding: 8px;
   border-top: 2px solid gray;
   border-bottom: 2px solid gray;
   text-align: center;
@@ -63,6 +63,11 @@ hr.small {
   margin: 15px auto;
   border-width: 4px;
   border-color: #fff
+}
+
+hr.middle {
+  border-width: 1px;
+  border-color: gray
 }
 
 .navbar-custom {
@@ -172,6 +177,11 @@ hr.small {
   .intro-header .page-heading, .intro-header .post-heading, .intro-header .site-heading {
     padding: 150px 0
   }
+
+  hr.middle {
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+  }
 }
 
 .intro-header .page-heading, .intro-header .site-heading {
@@ -203,7 +213,7 @@ hr.small {
 }
 
 .intro-header .post-heading h2 {
-  padding: none;
+  padding: 0px;
   border: none;
   text-align: left;
 }
@@ -222,9 +232,8 @@ hr.small {
 
 .intro-header .post-heading .meta {
   font-family: Lora, Times New Roman, serif;
-  font-style: italic;
   font-weight: 300;
-  font-size: 17px
+  font-size: 18px
 }
 
 .intro-header .post-heading .meta a {
@@ -260,7 +269,6 @@ hr.small {
 }
 
 .post-preview>a>.post-subtitle {
-  margin: 10;
   font-size: 16px;
   font-weight: 150;
   color: #80807f;
@@ -270,7 +278,6 @@ hr.small {
 .post-preview>.post-meta {
   color: gray;
   font-size: 13px;
-  font-style: italic;
   margin-top: 0;
 
 }
@@ -297,9 +304,11 @@ hr.small {
   .post-preview>a>.post-title {
     font-size: 22px;
     margin-left: 17.5%;
+    margin-right: 17.5%;
   }
   .post-preview>a>.post-subtitle {
     margin-left: 17.5%;
+    margin-right: 17.5%;
   }
 }
 
@@ -333,7 +342,8 @@ footer .list-inline {
 footer .copyright {
   font-size: 14px;
   text-align: center;
-  margin-bottom: 0
+  margin-bottom: 0;
+  color: #717E83;
 }
 
 .floating-label-form-group {

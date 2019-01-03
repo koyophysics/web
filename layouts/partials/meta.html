@@ -1,6 +1,5 @@
 {{ if .Site.Params.ShowReadTime }}
   A {{ .ReadingTime }} minute read,
 {{ end }}
-投稿者：  {{ .Params.author }}　更新日  {{ dateFormat (.Site.Params.DateForm | default "Mon, Jan 2, 2006") .Date }}
-<br />
+<i class="far fa-edit"></i> {{ .Params.author }}　<i class="far fa-clock"></i>  {{ dateFormat (.Site.Params.DateForm | default "Mon, Jan 2, 2006") .Date }}　
 {{ partial "tags.html" .}}
