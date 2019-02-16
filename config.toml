@@ -1,5 +1,5 @@
 baseurl = "https://koyophy.netlify.com"
-title = "甲陽学院 高等学校 物理部(新)"
+title = "甲陽学院高校 物理部(新)"
 canonifyurls = true
 paginate = 10
 languageCode = "ja-jp"
