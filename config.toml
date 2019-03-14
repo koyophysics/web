@@ -11,6 +11,22 @@ hasCJKLanguage = "true"
 [author]
   name = "T.H."
 
+[related]
+ 
+threshold = 80
+ 
+includeNewer = false
+ 
+toLower = false
+
+[[related.indices]]
+name  = "author"
+toLower = true
+weight = 100
+[[related.indices]]
+name  = "tags"
+weight = 100
+
 [params]
   DateForm = "2006/1/2"#変えるな絶対！！呪文やこれは！！
   Description = "Koyo Gakuin High School Physics Club"
