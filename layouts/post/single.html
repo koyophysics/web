@@ -33,9 +33,9 @@
                           {{ .Content | replaceRE "<img src=\"(.+)\\.(png|jpeg|jpg|gif)\" alt=\"(.*)\" title=\"(.*)\"" "<img src=\"$1.$2\" alt=\"$3\" style=\"width: $4%\"" | safeHTML}}
                       {{end}}
                   {{ end }}
-                 
+
                   {{ partial "comments.html" .}}
-                  {{ partial "related.html" . }}
+
                 </div>
             </div>
         </div>
