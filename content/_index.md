@@ -9,4 +9,3 @@ title: トップページ
 
 <!--日数カウンター-->
 <script type="text/javascript" src="/js/count.js" charset="utf-8"></script>
-<br>
