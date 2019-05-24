@@ -73,11 +73,6 @@
   </url>
   
   <url>
-    <loc>https://koyophy.netlify.com/</loc>
-    <lastmod>2018-12-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://koyophy.netlify.com/tags/3d%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -146,6 +141,11 @@
   </url>
   
   <url>
+    <loc>https://koyophy.netlify.com/</loc>
+    <lastmod>2018-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://koyophy.netlify.com/tags/%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3/</loc>
     <lastmod>2018-05-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -166,12 +166,6 @@
   <url>
     <loc>https://koyophy.netlify.com/tags/%E4%BA%8C%E9%87%8D%E6%8C%AF%E3%82%8A%E5%AD%90/</loc>
     <lastmod>2018-06-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://koyophy.netlify.com/categories/%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</loc>
-    <lastmod>2018-09-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

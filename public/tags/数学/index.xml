@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>数学 on 甲陽学院 高等学校 物理部(新)</title>
+    <title>数学 on 甲陽学院高校 物理部(新)</title>
     <link>https://koyophy.netlify.com/tags/%E6%95%B0%E5%AD%A6/</link>
-    <description>Recent content in 数学 on 甲陽学院 高等学校 物理部(新)</description>
+    <description>Recent content in 数学 on 甲陽学院高校 物理部(新)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>© 2018-2019 Koyo Physics. All Rights Reserved.</copyright>
@@ -19,24 +19,6 @@
       
       <guid>https://koyophy.netlify.com/post/olympic/</guid>
       <description>はじめに 数学・理科オタク界隈では超有名な「数学・理科甲子園」の兵庫県予選に出場してきました。天文部部長のO野君に実技担当(電子工作に限る)と</description>
-    </item>
-    
-    <item>
-      <title>フーリエ変換でお絵かきしてみよう〜実践編〜</title>
-      <link>https://koyophy.netlify.com/post/fourier3/</link>
-      <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://koyophy.netlify.com/post/fourier3/</guid>
-      <description>はじめに 前回、フーリエ変換について詳しく見てきましたが、「いまいちピンとこない」と言う方も多かったのではないでしょうか。 そんな方に、「なんと</description>
-    </item>
-    
-    <item>
-      <title>フーリエ変換でお絵かきしてみよう〜導入編〜</title>
-      <link>https://koyophy.netlify.com/post/fourier1/</link>
-      <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://koyophy.netlify.com/post/fourier1/</guid>
-      <description>はじめに 物理部部長のH崎です。音展の二週間前を切って午前2時とかに書いているので、誤字脱字があるかもしれませんが、大目にみてくださいね。 皆さ</description>
     </item>
     
   </channel>
