@@ -9,7 +9,7 @@ tags:
   - 雑談
 math: false
 comments: true
-draft: true
+draft: false
 ---
 
 ## はじめに
