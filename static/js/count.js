@@ -84,7 +84,7 @@
         + '</div>');
 
 
-    var Dlt = new DLTTimer("dlt-blogparts-count-172591", 2020, 0, 11, 09, 30, 00, 'down');
+    var Dlt = new DLTTimer("dlt-blogparts-count-172591", 2020, 0, 18, 09, 30, 00, 'down');
     Dlt.run();
 
 })();
