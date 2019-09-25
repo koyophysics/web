@@ -9,7 +9,7 @@ tags:
   - フーリエ変換
 math: true
 comments: true
-draft: false
+draft: true
 ---
 
 ## はじめに
