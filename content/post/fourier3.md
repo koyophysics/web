@@ -19,6 +19,7 @@ math: true
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">フーリエ変換でピーポくん書くやつの進化版!?作った<br>ペンの軌跡をXY方向でそれぞれに離散フーリエ変換(DFT)かけて、円の回転に置き換えるというもの<br>ソースコードは、じきに公開するつもり <a href="https://t.co/4buibaN8Ri">pic.twitter.com/4buibaN8Ri</a></p>&mdash; 甲陽學院髙等學挍 物理部 (@koyobutsuri) <a href="https://twitter.com/koyobutsuri/status/1033577694498238464?ref_src=twsrc%5Etfw">2018年8月26日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
 上の動画を見ていただければわかるように、複数の円がグルグル回っていたのがわかると思います。とても複雑な動きをしているように見えますが、実は円の回転速度や大きさは一定でただ単純に円の周りを円が回っているだけです。ニョロニョロとして気持ち悪いですが、どんな絵でも円の回転運動で描画することができます。  
 どのような仕組みなのか順番にご説明したいと思います。
 
