@@ -79,12 +79,12 @@
     var url  = "http://deadlinetimer.com/timer/172591";
 
         document.write('<div style="text-align: center;">'
-        + '<font size="4">ちなみに2020年度センター試験まで</font>'
+        + '<font size="4">ちなみに2021年度大学入学共通テストまで</font>'
         + '<div id="dlt-blogparts-count-172591"></div>'
         + '</div>');
 
 
-    var Dlt = new DLTTimer("dlt-blogparts-count-172591", 2020, 0, 18, 09, 30, 00, 'down');
+    var Dlt = new DLTTimer("dlt-blogparts-count-172591", 2021, 0, 16, 09, 30, 00, 'down');
     Dlt.run();
 
 })();
