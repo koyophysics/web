@@ -62,8 +62,8 @@ weight = 100
   weight = -300
 
 [[menu.main]]
-  name = "作品ギャラリー"
-  url = "/page/作品ギャラリー/"
+  name = "活動実績"
+  url = "/page/活動実績/"
   weight = -100
 
 [[menu.main]]
