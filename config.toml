@@ -60,12 +60,12 @@ weight = 100
 
 [[menu.main]]
   name = "クラブ紹介"
-  url = "/page/クラブ紹介/"
+  url = "/page/introduction/"
   weight = -300
 
 [[menu.main]]
   name = "活動実績"
-  url = "/page/活動実績/"
+  url = "/page/activity/"
   weight = -100
 
 [[menu.main]]

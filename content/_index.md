@@ -6,9 +6,9 @@ title: トップページ
 <h2>2019年度 音楽と展覧の会</h2>
 <div style="text-align:center">
 
-[2019年度部誌はこちら](/page/作品ギャラリー/)
+[2019年度部誌はこちら](/page/activity/)
 
-[活動記録はこちら](/post/)
+[活動実績はこちら](/post/)
 
 </div>  
 
