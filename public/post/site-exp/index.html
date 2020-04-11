@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+
+<head>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    
+      
+        <script type="text/x-mathjax-config">
+          MathJax.Hub.Config({
+              tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+              linebreaks: {automatic: true}
+          });
+        </script>
+        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML&locale=ja"></script>
+      
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="これを読めば、誰でもサイト運営できる！はず。">
+    <meta name="author" content="H﨑">
+    <meta name="keywords" content="hugo">
+
+
+    <title>サイト整備の備忘録 - 甲陽学院高校 物理部</title>
+
+    
+
+    
+    <link href="https://koyophy.netlify.com/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="https://koyophy.netlify.com/css/clean-blog.min.css" rel="stylesheet">
+
+    
+    <link href="//use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="https://koyophy.netlify.com/favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="https://koyophy.netlify.com/favicon/apple-touch-icon.png" sizes="152x152">
+    <link rel="icon" href="https://koyophy.netlify.com/favicon/icon-192x192.png" sizes="192x192" type="image/png">
+
+    
+    
+    
+
+</head>
+
+<body>
+
+    
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://koyophy.netlify.com">Koyo Physics Club</a>
+            </div>
+
+                       
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li>
+                        <a href="https://koyophy.netlify.com/">ホーム</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyophy.netlify.com/post/">活動記録</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyophy.netlify.com/page/%E3%82%AF%E3%83%A9%E3%83%96%E7%B4%B9%E4%BB%8B/">クラブ紹介</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyophy.netlify.com/page/%E6%B4%BB%E5%8B%95%E5%AE%9F%E7%B8%BE/">活動実績</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyophy.netlify.com/admin/#/">管理者ログイン</a>
+                    </li>
+                    
+                  </ul>
+            </div>
+           
+
+        </div>
+        
+    </nav>
+
+
+    
+    
+    <header class="intro-header" style="background-image: url('https://koyophy.netlify.com/img/blue.jpg')">
+      
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+             <div class="post-heading">
+               <h1>サイト整備の備忘録</h1>
+               <br>
+               <h2 class="subheading">これを読めば、誰でもサイト運営できる！はず。</h2>
+               <span class="meta">
+                 
+<i class="far fa-edit"></i> H﨑　<i class="far fa-clock"></i>  2018/12/26　
+<i class="fas fa-tag"></i> <a href="https://koyophy.netlify.com/tags/hugo">hugo</a>
+
+
+               </span>
+             </div>
+           </div>
+        </div>
+      </div>
+    </header>
+
+    
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-lg-offset-0 col-md-18 col-md-offset-1">
+                  
+                      
+                          <p><img src="https://koyophy.netlify.com/img/9ef34fd2-3730-45a0-83a2-abe1473a950b.jpeg" alt="" style="width: 100%"></p>
+<p>物理部部長のH﨑です。もうそろそろ受験に向けてスイッチを切り替えないといけない季節なので、このサイト運営に必要な知識をここに全て残しておきたいと思います。後輩諸君！これを読めば、物理サイトを運営できるはず。もし分からないことがあれば、遠慮なく聞いてください。</p>
+<p>見ての通り、後輩に向けた完全な身内ネタになると思われますが、どうかお許しを。</p>
+<h2 id="物理部サイトの構造">物理部サイトの構造</h2>
+<p><img src="https://koyophy.netlify.com/img/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2018-12-27-21.15.59.png" alt="" style="width: 100%"></p>
+<p>今のところ(2018年現在)、<a href="https://github.com/koyophysics/web">GitHub</a>と<a href="https://app.netlify.com/sites/koyophy/overview">Netlify</a>を用いたシステムで構築しています。</p>
+<p><a href="https://github.com/koyophysics/web">GitHub</a>というのは簡単に言うとクラウド上にプログラムのコードなどを保管できるサービスで、ここにサイトの全てのソースコードが保管されています。このコードはgo言語を使ったhugoというソフトで管理されています。</p>
+<p>次に<a href="https://app.netlify.com/sites/koyophy/overview">Netlify</a>というサービスがGithubのファイルが更新されたことを感知して、自動でhugoを使ってデプロイ(サイトの組み立て)を行ってくれます。特に押すボタンとかはありません。</p>
+<p>言い換えると、githubのコードを変更すれば、<strong>物理部サイトの設定を自由に変える</strong>ことができます。</p>
+<p>ただ、Github上のコードを直接書き換えるのは、<strong>サイトのデザインを変更する時</strong>や<strong>新しく機能を追加する時</strong>だけです。新しく記事を書いたり、固定ページを編集するだけなら、ウェブ上のページで簡単に編集出来るので安心してください。</p>
+<h2 id="記事を書く">記事を書く</h2>
+<p>物理部サイトに活動記録（記事）を追加する方法をお教えします。　
+※記事を追加する際はPC環境を使うのがオススメです。iOSのSafariとかだと、上手く編集出来ません。</p>
+<h3 id="まずはログイン">まずはログイン！</h3>
+<p><img src="https://koyophy.netlify.com/img/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2018-12-27-22.16.05.png" alt="" style="width: 100%"></p>
+<p>まず、物理部サイトの上部のメニューから<strong>管理者ログイン</strong>をクリックして下さい。すると、GitHubのログインページが出てくると思うので、部長から受け継がれるであろう、メールアドレスとパスワードを入力して、ログイン！</p>
+<p><img src="https://koyophy.netlify.com/img/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2018-12-27-22.17.36.png" alt="" style="width: 100%"></p>
+<p>管理者画面が出てきたと思います。次に、新しく記事を追加する場合は上部のメニューの<strong>Quick Add</strong>をクリックして、<strong>記事</strong>を選択して下さい。</p>
+<h3 id="記事の設定をする">記事の設定をする</h3>
+<p>記事の編集画面が出てきたと思います。<br>
+設定項目は</p>
+<p>・タイトル(記事のタイトル)<br>
+・公開URL名(記号なしの単語がオススメ)<br>
+・公開日<br>
+・サムネイル画像<br>
+・説明(20文字ぐらいがベスト)<br>
+・作者(あなたのペンネーム)<br>
+・タグ(数学や科学といったタグ。カンマ(,)で区切って列挙できます)<br>
+・数式(オンにするとMathJaxを使って数式を書けます。後述)<br>
+・コメント(記事の最後にコメント欄を追加できます。オンでいいと思います。)<br>
+・非公開(これをオンにすると、記事が非公開になります)</p>
+<p>以上が記事の設定欄です。全て埋めないと、記事の表示が狂います。面倒でも全て埋めてください。</p>
+<h3 id="本文を書く">本文を書く</h3>
+<p><img src="https://koyophy.netlify.com/img/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2018-12-27-22.19.15.png" alt="" style="width: 100%"></p>
+<p>本文に関しては上部の「Rich Text」モードにすれば、ワードと同じような感覚で<strong>文字を大きく</strong>したり、<strong>URLを貼り付けたり</strong>出来るので問題無いかと思います。
+「Markdown」モードについてですが、これはマークダウン書式で原稿を書くモードです。詳細については、<a href="https://qiita.com/kamorits/items/6f342da395ad57468ae3">こちら</a>をご覧下さい。慣れるとマークダウンの方が便利なので、使ってみるのもアリかもしれません。</p>
+<p>※この編集画面はある一定時間が過ぎると接続が切れてしまい、原稿がリセットされてしまう可能性があるので、原稿はメモ帳などで予め作っておいて、編集画面にコピペして下さい。</p>
+<h3 id="改行">改行</h3>
+<p>仕様のためどうしようもないのですが、改行する場合、ただ改行しただけでは、改行されません。
+改行したい場合は<strong>半角の空白を2つと改行</strong>入れると改行できます。意外と忘れやすいので、念のため釘を刺しておきます。</p>
+<pre><code>Hello  ←半角空白2つ
+World  ←半角空白2つ
+Hello←空白なし
+World
+</code></pre><p>Hello<br>
+World<br>
+Hello
+World</p>
+<p>違いをお分りいただけたでしょうか。</p>
+<h3 id="写真の挿入">写真の挿入</h3>
+<p><img src="https://koyophy.netlify.com/img/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2018-12-27-23.22.44.png" alt="" style="width: 100%"></p>
+<p>写真は本文メニューの<strong>+</strong>ボタンをクリックすると、<strong>image</strong>というボタンが表示されるのでそれをクリックして下さい。すると、本文に<strong>image</strong>というフォームが追加されたと思います。</p>
+<p><img src="https://koyophy.netlify.com/img/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2018-12-27-23.24.56.png" alt="" style="width: 100%"></p>
+<p>ここに入力するのは</p>
+<p>・image<br>
+・alt text<br>
+・title</p>
+<p>この３つです。</p>
+<p>imageは<strong>choose an image</strong>、次に<strong>upload</strong>をクリックして、入れたい写真をアップロードして下さい。アップロードされた写真をクリックして<strong>choose Selected</strong>すれば、写真が挿入されます。
+alt textは写真の説明でも入れて下さい。空白でも大丈夫です。</p>
+<p><strong>でもtitleに文章を入れないで！！</strong></p>
+<p>確かに本来であればここにはタイトルを入れるのですが、記事を書く上で写真サイズを変えるメニューがないのが不便だったので、ここに1〜100の数字を入れて写真サイズを変えられるように仕様変更しています。100で画面一杯に表示されます。基本は100を入力してください。</p>
+<h3 id="文書の保存">　文書の保存</h3>
+<p>文章が書けたら保存して、公開してみましょう。記事設定の非公開をオンにしていると保存しても公開されないので注意しましょう。これがオフになっていることを確認して、上部の<strong>save</strong>ボタンを押してください。</p>
+<p><img src="https://koyophy.netlify.com/img/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2018-12-27-22.22.19.png" alt="" style="width: 100%"></p>
+<p>数秒すると、右のほうに<strong>set</strong>が表示されるのでクリックして下に出てきた<strong>Ready</strong>をクリックして下さい。</p>
+<p><img src="https://koyophy.netlify.com/img/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2018-12-27-22.23.55.png" alt="" style="width: 100%"></p>
+<p>また数秒後に、<strong>Entry Status Updated</strong>というお知らせが表示されたら、<strong>Publish</strong>をクリックししたに出てきた<strong>Publish now</strong>をクリック！</p>
+<p><img src="https://koyophy.netlify.com/img/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2018-12-27-22.24.42.png" alt="" style="width: 100%"></p>
+<p>そうすれば、保存と記事の公開が完了します。お疲れ様でした。</p>
+<h2 id="中間ゴール">中間ゴール</h2>
+<p>このような感じで、記事を投稿することができます。簡単、、、でしょ？
+固定ページ(部員紹介)もこのような感じで編集できます。部員紹介はJavascript使ってるけどね！</p>
+<p>記事の投稿が出来れば、ほぼ仕事は終わったようなもの。あとは、これだけでは物足りないであろう上級者編に移りたいと思います。分からなかったら見て見ぬフリをしてください。</p>
+<h3 id="数式">数式</h3>
+<p>手書きの数式を写真に撮って載せるのもアリですけど、見にくいし醜い。
+そんな時は記事設定のmathをオンにして、MathJaxコードを記事に書けば綺麗な数式を表示することができます。</p>
+<p><div class="h-scroll">$$\frac{d}{dt}(\frac{\partial L }{\partial \dot{\theta_1}})-\frac{\partial L }{\partial \theta_1} = 0$$</div></p>
+<p>Mathjaxコードについては、<a href="http://easy-copy-mathjax.xxxx7.com">サンプル</a>を見てもらうとわかりやすいと思います。<br>
+また僕が昔書いた<a href="https://koyophy.netlify.com/post/double-pendu/">二重振り子についての記事</a>やその<a href="https://raw.githubusercontent.com/koyophysics/web/master/content/post/pendu.md">ソースコード</a>を見てもらうとわかりやすいと思います。また、手書きの文字をLaTexに変換してくれる便利なサービス(<a href="https://webdemo.myscript.com/views/main/math.html#">こちら</a>)もあるようなので、活用してみてください。</p>
+<h2 id="物理部のアカウント">物理部のアカウント</h2>
+<p>現在、物理部が所有しているアカウントは</p>
+<p>・github<br>
+・netlify<br>
+・DISQUS(記事の最後のコメント欄)<br>
+・Youtube<br>
+・Twitter<br>
+・googleアカウント</p>
+<p><br>
+この6つです。Twitterとかも定期的に更新してます。学校の評判を地に貶めるような発言は慎むようにしてくださいね(ブーメラン)</p>
+<p><a href="https://search.google.com/search-console?utm_source=about-page">google console</a>にアクセスすれば、サイト閲覧数などの分析を見ることができます。気になったら見てみてください。</p>
+
+                      
+                  
+
+                  
+   <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jia-yang-xue-yuan-wu-li-bu" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <br><br>
+    
+    <footer>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <ul class="list-inline text-center">
+                    
+                      <li>
+                        <a href="mailto:koyobutsuri@gmail.com">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                    
+                    
+                    
+                    <li>
+                      <a href="https://github.com/koyophysics/web">
+                        <span class="fa-stack fa-lg">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://twitter.com/koyophysics">
+                        <span class="fa-stack fa-lg">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCoM7hhjA0OisVtQv2ZwlEfw">
+                        <span class="fa-stack fa-lg">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    
+                  </ul>
+                  <p class="copyright text-muted">© 2018-2020 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
+                  
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://koyophy.netlify.com/js/bootstrap.min.js"></script>
+    
+    <script src="https://koyophy.netlify.com/js/clean-blog.min.js"></script>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-117865841-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+</body>
+
+</html>
+

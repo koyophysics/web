@@ -14,10 +14,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="パンジャンドラムではなく、オムニホイールです。">
     <meta name="author" content="H﨑">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="オムニホイール, Blynk">
 
 
-    <title>オムニホイールで全方向移動 - 甲陽学院高校 物理部(新)</title>
+    <title>オムニホイールで全方向移動 - 甲陽学院高校 物理部</title>
 
     
 
@@ -74,7 +74,7 @@
                     </li>
                     
                     <li>
-                        <a href="https://koyophy.netlify.com/page/%E4%BD%9C%E5%93%81%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC/">作品ギャラリー</a>
+                        <a href="https://koyophy.netlify.com/page/%E6%B4%BB%E5%8B%95%E5%AE%9F%E7%B8%BE/">活動実績</a>
                     </li>
                     
                     <li>
@@ -121,43 +121,25 @@
                 <div class="col-lg-12 col-lg-offset-0 col-md-18 col-md-offset-1">
                   
                       
-                          
-
-<h2 id="はじめに">はじめに</h2>
-
-<p>物理部部長のH崎です。<br />
+                          <h2 id="はじめに">はじめに</h2>
+<p>物理部部長のH崎です。<br>
 この記事では今年製作したオムニホイールについて紹介したいと思います。
 ※パンジャンドラムではありません</p>
-
 <h2 id="オムニホイールとは">オムニホイールとは？</h2>
-
-<p><img src="https://koyophy.netlify.com/img/omni/1.jpg" alt="Drawing" style="width: 60%"/></p>
-
+<!-- raw HTML omitted -->
 <p>まずはこの写真を見てみて下さい。</p>
-
-<h3 id="んん-車輪の上に車輪がついてる">んん？　車輪の上に車輪がついてる、、、</h3>
-
-<p>と思ったあなた、なかなか勘が鋭い！<br />
+<h3 id="んん車輪の上に車輪がついてる">んん？　車輪の上に車輪がついてる、、、</h3>
+<p>と思ったあなた、なかなか勘が鋭い！<br>
 このようにオムニホイールは車輪の外周に<strong>回転方向に対して垂直の方向</strong>で車輪がついています。</p>
-
 <h2 id="なぜ垂直">なぜ垂直？</h2>
-
-<div class="movie-wrap">
-  <iframe width="854" height="480" src="https://www.youtube.com/embed/Yh-UOlq65_k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-
-<p>この動画を見てもらうのが一番わかりやすいと思います。<br />
-普通の車輪の場合、横方向に対する動きは摩擦が大きく、滑らかに移動することができません。<br />
+<!-- raw HTML omitted -->
+<p>この動画を見てもらうのが一番わかりやすいと思います。<br>
+普通の車輪の場合、横方向に対する動きは摩擦が大きく、滑らかに移動することができません。<br>
 しかし、オムニホイールの場合、横方向に対して新たに車輪がついてるため、摩擦なく全方向に移動することができます。</p>
-
-<h3 id="まあ-音展に来てもらうのが一番なんですけどねww">まあ、音展に来てもらうのが一番なんですけどねww</h3>
-
+<h3 id="まあ音展に来てもらうのが一番なんですけどねww">まあ、音展に来てもらうのが一番なんですけどねww</h3>
 <p>ということで、北館4F物理講義室でお待ちしています。</p>
-
-<h2 id="作り方-ハード編">作り方(ハード編)</h2>
-
+<h2 id="作り方ハード編">作り方(ハード編)</h2>
 <p>必要な主な材料は以下の通りです。</p>
-
 <ul>
 <li>オムニホイール　× 4</li>
 <li>ステッピングモーター(NEMA17) × 4</li>
@@ -168,42 +150,25 @@
 <li>モーター固定用の金具 × 4</li>
 <li>MDF版など(土台)</li>
 </ul>
-
-<p><img src="https://koyophy.netlify.com/img/omni/6.jpg" alt="Drawing" style="width: 60%"/></p>
-
+<!-- raw HTML omitted -->
 <p>↑自作モーターシールド(A4988とArduinoを接続)</p>
-
-<p><img src="https://koyophy.netlify.com/img/omni/3.jpg" alt="Drawing" style="width: 60%"/></p>
-
+<!-- raw HTML omitted -->
 <p>↑A4988とBLEモジュールを接続したところ(旧バージョン)</p>
-
 <p>実はオムニホイールを使った作品は去年も展示していました。</p>
-
-<p><img src="https://koyophy.netlify.com/img/omni/5.jpg" alt="Drawing" style="width: 60%"/></p>
-
+<!-- raw HTML omitted -->
 <p>車輪を見るとわかるのですが、オムニホイールを買う資金がなかったので、自分で設計して3Dプリンタで印刷しました。印刷時間は合計二日にも及びます。そこそこの出来ではありましたが、純正品とは滑らかさの点で比べ物になりませんでした。</p>
-
-<h2 id="作り方-ソフト編">作り方(ソフト編)</h2>
-
+<h2 id="作り方ソフト編">作り方(ソフト編)</h2>
 <p>去年のバージョンはパソコンの画面上でマウスを動かして操作するという、ユーザービリティのかけらもないような仕様でしたが、今年は違います。</p>
-
 <h3 id="スマホから操作できます">スマホから操作できます！！</h3>
-
-<p>これは大きいのではないでしょうか。多分赤ちゃんでも操作できます(今時の子供はスマホリテラシーが高い)<br />
+<p>これは大きいのではないでしょうか。多分赤ちゃんでも操作できます(今時の子供はスマホリテラシーが高い)<br>
 具体的にはBlynkというアプリを用いて、BLE経由でコマンドをオムニホイール車に送信しています。</p>
-
 <h3 id="ソースコード">ソースコード</h3>
-
-<script src="https://gist.github.com/hamataku/e2399f709114d706139fa725ae153357.js"></script>
-
+<!-- raw HTML omitted -->
 <h2 id="完成">完成！</h2>
-
-<p><blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">オムニホイールで全方向移動車作ったから、その動画<br>iPadとはBluetoothで接続してます。またホームページにまとめるかも <a href="https://t.co/UwGVQnTvvv">pic.twitter.com/UwGVQnTvvv</a></p>&mdash; 甲陽學院髙等學挍 物理部 (@koyobutsuri) <a href="https://twitter.com/koyobutsuri/status/1018021585960120320?ref_src=twsrc%5Etfw">2018年7月14日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-
-<p>どうでしょうか。真ん中の円をタッチして動かすだけで、その方向に移動するようになり、直感的な操作が可能になりました。<br />
+<!-- raw HTML omitted -->
+<p>どうでしょうか。真ん中の円をタッチして動かすだけで、その方向に移動するようになり、直感的な操作が可能になりました。<br>
 動かす大きさが大きいほど、早く移動するようになっています。また右回転や左回転にも対応しています。</p>
-
-<p>ロボコンに出場する気はさらさらありませんので、これ以上の機能をつけるつもりはありません（風船割るとか）<br />
+<p>ロボコンに出場する気はさらさらありませんので、これ以上の機能をつけるつもりはありません（風船割るとか）<br>
 オムニホイールの仕組みだけでも理解していただければ幸いです。</p>
 
                       
@@ -288,7 +253,7 @@
                     
                     
                   </ul>
-                  <p class="copyright text-muted">© 2018-2019 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
+                  <p class="copyright text-muted">© 2018-2020 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
                   
 
                 </div>

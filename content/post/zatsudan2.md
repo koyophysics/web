@@ -3,7 +3,7 @@ title: 科研費イベントの紹介
 slug: zatsudan2
 date: '2019-09-02'
 image: /img/todai0-w640.jpg
-description: -夏休み中に科研費主催のイベントに参加しました
+description: 夏休み中に科研費主催のイベントに参加しました
 author: A藤
 tags:
   - 雑談

@@ -19,7 +19,7 @@ draft: false
 [前回](https://koyophy.netlify.com/post/hugo1/)、何気にコピペして使用したconfig.tomlですが、ちゃんと意味があります。  
 これを編集すれば、一気に自分のサイトっぽくなります。
 
-```
+```toml
 baseurl = "" #公開する予定のサイトのURL
 title = "HugoWeb" #サイトのタイトル
 canonifyurls = true #絶対パスにする設定
@@ -68,17 +68,17 @@ disqusShortname = "" #DisqusのID(コメント欄)
   url = "/"
   weight = -100
 ```
-<br>
+
 ## _index.mdの作成
 ホームのページにあいさつや紹介などを書いてみます。  
 次のコードを実行しましょう。
-```
+```bash
 hugo new _index.md
 ```
 これで/content/_index.mdが作成されました。
 
 では、このコードを書き込みましょう。
-```
+```html
 ---
 title: home
 ---
@@ -96,7 +96,7 @@ title: home
 ## index.htmlの編集
 /layout/index.htmlがホームのページのHTMLファイルなので、これを編集します。
 
-```
+```html
 〜中略〜
     <!-- Main Content -->
     <div class="container">
@@ -114,7 +114,7 @@ title: home
 
 〜中略〜
 ```
-```
+```html
 <article>
 {{ .Content }}
 </article>
@@ -132,18 +132,16 @@ index.htmlはトップページを司っているので、ここを変更する�
 ## 運命の時、、、
 
 保存できたら、testディレクトリの中で
-```
+```bash
 hugo server --disableFastRender
 ```
 を実行し、ブラウザで http://localhost:1313/ にアクセス！  
 エラー吐いたりうまく表示されない場合は、どこかの工程でミスをしている可能性が高いです。  
 僕はこの方法で大丈夫だったので、あなたもうまくいったはず、、、
 
-<img src="/img/0423/1.png" alt="Drawing" style="width: 100%"/>
-
+![](/img/0423/1.png "100")
 このように表示されたら大成功です。
 
 ## まとめ
 config.tomlの編集である程度の設定はできるのですが、細かい設定は直接HTMLソースをいじったほうが手っ取り早いと思います。  
 目的のページのHTMLソースを変更すれば、自由に作り変えることができるわけです。
-それについては後々紹介したいと思います。

@@ -14,10 +14,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="記念すべき第一回。後輩が今後もこのサイトを運営できるように、Hugoの使い方を書いていきます。">
     <meta name="author" content="H﨑">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="Hugo">
 
 
-    <title>Hugoでサイト開発入門　第1回 - 甲陽学院高校 物理部(新)</title>
+    <title>Hugoでサイト開発入門　第1回 - 甲陽学院高校 物理部</title>
 
     
 
@@ -74,7 +74,7 @@
                     </li>
                     
                     <li>
-                        <a href="https://koyophy.netlify.com/page/%E4%BD%9C%E5%93%81%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC/">作品ギャラリー</a>
+                        <a href="https://koyophy.netlify.com/page/%E6%B4%BB%E5%8B%95%E5%AE%9F%E7%B8%BE/">活動実績</a>
                     </li>
                     
                     <li>
@@ -121,25 +121,15 @@
                 <div class="col-lg-12 col-lg-offset-0 col-md-18 col-md-offset-1">
                   
                       
-                          
-
-<p><img src="https://koyophy.netlify.com/img/0421/1.png" alt="Hugo" style="width: 100%" /></p>
-
+                          <p><img src="https://koyophy.netlify.com/img/0421/1.png" alt="Hugo" style="width: 100%"></p>
 <p>どーも。物理部部長のH﨑です。記事を書くのは初めてなので拙い部分もあるかもしれませんが、大目に見ていただければなぁと思います。</p>
-
 <p>初回はHugoとGitHub Pagesを使ってサイトを公開するまでを紹介したいと思います。</p>
-
 <h2 id="hugoとは">Hugoとは？</h2>
-
 <p>Hugoと言っても聞き馴染みがないと思いますが、静的サイトジェネレータといって、初心者でも結構簡単にサイトを作れてしまいます。
 正攻法でサイト作るとなると、HTMLとCSSを書いて、そのうえJavaScript、、、そんなん知るかとなるわけですが、そんな面倒な作業を肩代わりしてくれます！</p>
-
 <p>ちなみに公式サイトでもGo言語がどうたらこうたらと書かれていますが、実際はGo言語の存在を意識する必要は全くありません。</p>
-
 <h2 id="インストール">インストール</h2>
-
 <p>僕はMacユーザなので(ﾄﾞﾔ!)、Macでのインストールの方法です。</p>
-
 <pre><code>//homebrewをすでにインストールしている場合は不要
 xcode-select --install
 ruby -e &quot;$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)&quot;
@@ -148,41 +138,26 @@ ruby -e &quot;$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)&
 brew update
 brew install hugo
 hugo version
-</code></pre>
-
-<p>Hugoのバージョンが表示されれば完了です。</p>
-
+</code></pre><p>Hugoのバージョンが表示されれば完了です。</p>
 <h2 id="使ってみよう">使ってみよう！</h2>
-
 <p>作りたい場所のディレクトリに入って、</p>
-
 <pre><code>hugo new site サイト名
-</code></pre>
-
-<p>今回は</p>
-
+</code></pre><p>今回は</p>
 <pre><code>hugo new site test
-</code></pre>
-
-<p>としています。
+</code></pre><p>としています。
 これでサイトの雛形が出来上がりました。</p>
-
 <h3 id="テーマの適応">テーマの適応</h3>
-
 <p>僕はこのテーマを使って、作成しました。
-<a href="https://themes.gohugo.io/startbootstrap-clean-blog/">https://themes.gohugo.io/startbootstrap-clean-blog/</a><br />
+<a href="https://themes.gohugo.io/startbootstrap-clean-blog/">https://themes.gohugo.io/startbootstrap-clean-blog/</a><br>
 Downloadからzipをダウンロードしましょう！</p>
-
-<p>では、ファイルの移行作業です。<br />
-・archetypes→archetypesに置換<br />
-・imagesそのままコピー<br />
-・layouts→layoutに置換<br />
+<p>では、ファイルの移行作業です。<br>
+・archetypes→archetypesに置換<br>
+・imagesそのままコピー<br>
+・layouts→layoutに置換<br>
 ・static→static置換</p>
-
-<p>次にconfig.tomlを編集します。<br />
-本家サイトとほぼ同じですが、これをコピーして保存しましょう。<br />
+<p>次にconfig.tomlを編集します。<br>
+本家サイトとほぼ同じですが、これをコピーして保存しましょう。<br>
 パラメータは適宜変更して下さい。</p>
-
 <pre><code>baseurl = &quot;http://humboldtux.github.io/&quot;
 title = &quot;Start Bootstrap Clean Blog&quot;
 canonifyurls = true
@@ -221,17 +196,10 @@ disqusShortname = &quot;&quot;
   name = &quot;Archives&quot;
   url = &quot;/post/&quot;
   weight = -180
-</code></pre>
-
-<h2 id="記事を書いてみる">記事を書いてみる</h2>
-
+</code></pre><h2 id="記事を書いてみる">記事を書いてみる</h2>
 <p>次のコードを実行すると、post以下にtest.mdというMarkdownが作成されます。</p>
-
 <pre><code>hugo new post/test.md
-</code></pre>
-
-<p>試しに以下のコードをtest.mdに書き込みましょう。</p>
-
+</code></pre><p>試しに以下のコードをtest.mdに書き込みましょう。</p>
 <pre><code>---
 title: testテスト
 draft: false
@@ -240,29 +208,18 @@ date: '2018-04-15'
 ---
 
 Hello World!!
-</code></pre>
-
-<p>保存できたら、testディレクトリの中で</p>
-
+</code></pre><p>保存できたら、testディレクトリの中で</p>
 <pre><code>hugo server --disableFastRender
-</code></pre>
-
-<p>を実行し、ブラウザで <a href="http://localhost:1313/">http://localhost:1313/</a> にアクセス！</p>
-
-<p><img src="https://koyophy.netlify.com/img/0421/2.png" alt="Drawing" style="width: 100%"/></p>
-
-<p>このようなサイトが表示されたら、大成功！<br />
+</code></pre><p>を実行し、ブラウザで http://localhost:1313/ にアクセス！</p>
+<!-- raw HTML omitted -->
+<p>このようなサイトが表示されたら、大成功！<br>
 あとは自分仕様にパラメータを変更していけば、サイトの完成です。</p>
-
 <h2 id="まとめ">まとめ</h2>
-
-<p>どうでしょうか。うまく表示されましたか？<br />
-基本コマンドライン操作でなかなかとっつきにくいですが、、、慣れですね。<br />
+<p>どうでしょうか。うまく表示されましたか？<br>
+基本コマンドライン操作でなかなかとっつきにくいですが、、、慣れですね。   <br>
 皆さんもぜひ、Hugoを使って見て下さい。</p>
-
 <h1 id="make-it-possible">Make IT Possible!!</h1>
-
-<p><br></p>
+<!-- raw HTML omitted -->
 
                       
                   
@@ -346,7 +303,7 @@ Hello World!!
                     
                     
                   </ul>
-                  <p class="copyright text-muted">© 2018-2019 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
+                  <p class="copyright text-muted">© 2018-2020 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
                   
 
                 </div>

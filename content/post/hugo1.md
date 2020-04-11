@@ -26,7 +26,7 @@ Hugoと言っても聞き馴染みがないと思いますが、静的サイト�
 
 ## インストール
 僕はMacユーザなので(ﾄﾞﾔ!)、Macでのインストールの方法です。
-```
+```bash
 //homebrewをすでにインストールしている場合は不要
 xcode-select --install
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
@@ -41,11 +41,11 @@ Hugoのバージョンが表示されれば完了です。
 ## 使ってみよう！
 
 作りたい場所のディレクトリに入って、
-```
+```bash
 hugo new site サイト名
 ```
 今回は
-```
+```bash
 hugo new site test
 ```
 としています。
@@ -66,7 +66,7 @@ Downloadからzipをダウンロードしましょう！
 次にconfig.tomlを編集します。  
 本家サイトとほぼ同じですが、これをコピーして保存しましょう。  
 パラメータは適宜変更して下さい。
-```
+```toml
 baseurl = "http://humboldtux.github.io/"
 title = "Start Bootstrap Clean Blog"
 canonifyurls = true
@@ -108,11 +108,11 @@ disqusShortname = ""
 ```
 ## 記事を書いてみる
 次のコードを実行すると、post以下にtest.mdというMarkdownが作成されます。
-```
+```bash
 hugo new post/test.md
 ```
 試しに以下のコードをtest.mdに書き込みましょう。
-```
+```yaml
 ---
 title: testテスト
 draft: false
@@ -123,7 +123,7 @@ date: '2018-04-15'
 Hello World!!
 ```
 保存できたら、testディレクトリの中で
-```
+```bash
 hugo server --disableFastRender
 ```
 を実行し、ブラウザで http://localhost:1313/ にアクセス！  

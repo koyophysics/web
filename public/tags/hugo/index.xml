@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on 甲陽学院高校 物理部(新)</title>
+    <title>Hugo on 甲陽学院高校 物理部</title>
     <link>https://koyophy.netlify.com/tags/hugo/</link>
-    <description>Recent content in Hugo on 甲陽学院高校 物理部(新)</description>
+    <description>Recent content in Hugo on 甲陽学院高校 物理部</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>© 2018-2019 Koyo Physics. All Rights Reserved.</copyright>
+    <copyright>© 2018-2020 Koyo Physics. All Rights Reserved.</copyright>
     <lastBuildDate>Wed, 26 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://koyophy.netlify.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +14,10 @@
     
     <item>
       <title>サイト整備の備忘録</title>
-      <link>https://koyophy.netlify.com/post/maintain/</link>
+      <link>https://koyophy.netlify.com/post/site-exp/</link>
       <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyophy.netlify.com/post/maintain/</guid>
+      <guid>https://koyophy.netlify.com/post/site-exp/</guid>
       <description>物理部部長のH﨑です。もうそろそろ受験に向けてスイッチを切り替えないといけない季節なので、このサイト運営に必要な知識をここに全て残しておきた</description>
     </item>
     

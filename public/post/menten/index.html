@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+
+<head>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    
+      
+        <script type="text/x-mathjax-config">
+          MathJax.Hub.Config({
+              tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+              linebreaks: {automatic: true}
+          });
+        </script>
+        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML&locale=ja"></script>
+      
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="オハエリスメンテン？いや、ミカエリスメンテン">
+    <meta name="author" content="H﨑">
+    <meta name="keywords" content="生物">
+
+
+    <title>ミカエリスメンテン公式の導出とその意味 - 甲陽学院高校 物理部</title>
+
+    
+
+    
+    <link href="https://koyophy.netlify.com/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="https://koyophy.netlify.com/css/clean-blog.min.css" rel="stylesheet">
+
+    
+    <link href="//use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="https://koyophy.netlify.com/favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="https://koyophy.netlify.com/favicon/apple-touch-icon.png" sizes="152x152">
+    <link rel="icon" href="https://koyophy.netlify.com/favicon/icon-192x192.png" sizes="192x192" type="image/png">
+
+    
+    
+    
+
+</head>
+
+<body>
+
+    
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://koyophy.netlify.com">Koyo Physics Club</a>
+            </div>
+
+                       
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li>
+                        <a href="https://koyophy.netlify.com/">ホーム</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyophy.netlify.com/post/">活動記録</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyophy.netlify.com/page/%E3%82%AF%E3%83%A9%E3%83%96%E7%B4%B9%E4%BB%8B/">クラブ紹介</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyophy.netlify.com/page/%E6%B4%BB%E5%8B%95%E5%AE%9F%E7%B8%BE/">活動実績</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyophy.netlify.com/admin/#/">管理者ログイン</a>
+                    </li>
+                    
+                  </ul>
+            </div>
+           
+
+        </div>
+        
+    </nav>
+
+
+    
+    
+    <header class="intro-header" style="background-image: url('https://koyophy.netlify.com/img/blue.jpg')">
+      
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+             <div class="post-heading">
+               <h1>ミカエリスメンテン公式の導出とその意味</h1>
+               <br>
+               <h2 class="subheading">オハエリスメンテン？いや、ミカエリスメンテン</h2>
+               <span class="meta">
+                 
+<i class="far fa-edit"></i> T中　<i class="far fa-clock"></i>  2018/12/29　
+<i class="fas fa-tag"></i> <a href="https://koyophy.netlify.com/tags/%E7%94%9F%E7%89%A9">生物</a>
+
+
+               </span>
+             </div>
+           </div>
+        </div>
+      </div>
+    </header>
+
+    
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-lg-offset-0 col-md-18 col-md-offset-1">
+                  
+                      
+                          <h2 id="はじめに">はじめに</h2>
+<p>どうも、物理部員のT中K太郎です。
+僕は今年の音展で特に作品制作もせず、このままでは物理部員として何もせずに卒業してしまいそうなので、せめて何か形として残せれば・・と思い記事を書くことにしました。文章を書くことは不慣れで拙い文章ではあると思いますが、どうかお付き合いください。</p>
+<p>今回の記事では、反応速度論の特に酵素反応速度論といわれる分野の<strong>ミカエリスメンテン公式の導出とその意味</strong>について扱っていきたいと思います。(反応速度論については<a href="https://koyophy.netlify.com/img/sokudo.pdf">こちら</a>)</p>
+<h2 id="導出">導出</h2>
+<p><div class="h-scroll">$$\mathrm{E}+\mathrm{S} \rightleftarrows \mathrm{E}\mathrm{S} \rightarrow \mathrm{E}+\mathrm{P}　\cdots①$$</div></p>
+<p>今回考える反応はよく細胞内でも行われている①の反応です。<br>
+Eは<strong>酵素</strong>、Sは<strong>基質</strong>、ESは<strong>酵素基質複合体</strong>(中間体)、Pは<strong>生成物</strong>を表します。<br>
+①の式は</p>
+<h4 id="酵素と基質が反応可逆反応して酵素基質複合体になり酵素と生成物になる">「酵素と基質が反応(可逆反応)して酵素基質複合体になり、酵素と生成物になる」</h4>
+<p>という反応を表します。①の式の横軸を時間、縦軸を濃度とするグラフで表すと図１のようになります。</p>
+<p>図１</p>
+<p><img src="https://koyophy.netlify.com/img/36378.jpg" alt="" style="width: 100%"></p>
+<p>グラフを詳しく見ていきたいと思います（それぞれの物質の濃度変化についてわかりやすくするために※の領域を広く書いていますが、実際は一瞬で※の領域は終わってしまいます）</p>
+<p>**生成物(P)**は0から徐々に濃度が上昇し、**基質(S)**は酵素と反応することで濃度が低下します。<br>
+**酵素(E)**は基質と結びつくことで酵素基質複合体になって濃度は低くなりますが、酵質基質複合体が分解されることによって元と同じ濃度に戻ります。<br>
+**酵素基質複合体(ES)**は0から徐々に濃度が上昇するものの、分解によって濃度が低下していきます。</p>
+<p>生成物(P)がどのような速度で生成されていくかについて考えてみます。ここでいざ「①の式を解こう！」と思っても簡単に解くことは出来ません。全ての時間について解くのは難しいので、図①の青色で囲まれた区間に限って考えます。</p>
+<p>この青色の区間には特徴があり、酵素基質複合体の濃度を<strong>ほぼ一定</strong>とみなすことが出来るのです！このような状態を反応速度論では「<strong>定常状態</strong>」といいます(酵素の濃度より基質の濃度の方が十分に大きく、定常状態が存在するものとします)</p>
+<p><div class="h-scroll">$$\mathrm{E} + \mathrm{S} \overset{\mathrm{k}_{+1}}{\underset{\mathrm{k}_{-1}} \rightleftharpoons} \mathrm{ES}  \overset{\mathrm{k}_{+2}} {\longrightarrow} \mathrm{E} + \mathrm{P}　\cdots②$$</div></p>
+<p>E+SがESとなる時の右向きの反応の速度定数を$\mathrm{k}_{+1}$左向きの反応の速度定数を$\mathrm{k}_{-1}$、ESが$\mathrm{E}＋\mathrm{P}$となるときの速度定数を$\mathrm{k}_{+2}$とします。
+このとき酵素基質複合体(ES)の濃度変化に注目すると、</p>
+<p><div class="h-scroll">$$\frac{ \mathrm{d}[\mathrm{ES}]}{\mathrm{d}t} = \mathrm{k}_{+1}[\mathrm{E}][\mathrm{S}]-(\mathrm{k}_{-1}+\mathrm{k}_{+2})[\mathrm{ES}]　\cdots③$$</div></p>
+<p>$\frac{ \mathrm{d}[\mathrm{ES}]}{\mathrm{d}t}$は$[\mathrm{ES}]$の速度を表し(数学Ⅲ)、$\mathrm{k}_{+1}[\mathrm{E}] [\mathrm{S}] $は生成物の速度を表し、$(\mathrm{k}_{-1}+\mathrm{k}_{+2})[\mathrm{ES}]$は消費物の速度を表します。今回は定常状態が存在すると仮定しているので、③は左辺=右辺＝0となります。</p>
+<p><div class="h-scroll">$$[\mathrm{E}]_r=[\mathrm{E}]+[\mathrm{ES}]　\cdots④$$</div></p>
+<p>酵素($\mathrm{E}$)にはまだ基質と反応していない状態か、基質と反応できている状態しか存在しないので、$[\mathrm{E}]$と$[\mathrm{ES}]$の和であるは一定であることを④は示します。
+ここで③と④から$[\mathrm{E}]$を消去し整理すると</p>
+<p><div class="h-scroll">\begin{align}
+[\mathrm{ES}] &amp;= \frac{\mathrm{k}_{+1}[\mathrm{E}]_r[\mathrm{S}]} {\mathrm{k}_{-1}+\mathrm{k}_{+2}+\mathrm{k}_{+1}[\mathrm{S}]}\\\<br>
+&amp;=\frac{[\mathrm{E}]_r[\mathrm{S}]} {\frac{\mathrm{k}_{-1}+\mathrm{k}_{+2}}{\mathrm{k}_{+1}}+[\mathrm{S}]}　\cdots⑤
+\end{align} </div></p>
+<p>$[\mathrm{P}]$の速度を$v$とすると$v=\frac{ \mathrm{d}[\mathrm{P}]}{\mathrm{d}t}$と表せます(数Ⅲ)。<br>
+そして②の式から$$v=\frac{ \mathrm{d}[\mathrm{P}]}{\mathrm{d}t}=\mathrm{k}_{+2}[\mathrm{ES}]  \cdots⑥$$<br>
+ここで⑥の式に⑤の式を代入します。すると</p>
+<p><div class="h-scroll">$$v=\frac{ \mathrm{d}[\mathrm{P}]}{\mathrm{d}t}=\mathrm{k}_{+2}[\mathrm{ES}]=\frac{\mathrm{k}_{+2}[\mathrm{E}]_r[\mathrm{S}]} {\frac{\mathrm{k}_{-1}+\mathrm{k}_{+2}}{\mathrm{k}_{+1}}+[\mathrm{S}]}  \cdots⑦$$</div></p>
+<p>⑦の式における$\frac{\mathrm{k}_{-1}+\mathrm{k}_{+2}}{\mathrm{k}_{+1}}$を**ミカエリスメンテン定数(Km)**と言います。
+⑦の式で[S]が大きくなるほどミカエリスメンテン定数を無視することができ、[S]で約分することができます。<br>
+そして基質が多いほど速度($v$)は上がり、$\mathrm{k}_{+2}[\mathrm{E}]_r$は定数なので、$\mathrm{k}_{+2}[\mathrm{E}]_r=v_{max}$とすることができます。
+よって、</p>
+<p><div class="h-scroll">$$v=\frac{ \mathrm{d}[\mathrm{P}]}{\mathrm{d}t}=\mathrm{k}_{+2}[\mathrm{ES}]=\frac{\mathrm{k}_{+2}[\mathrm{E}]_r[\mathrm{S}]} {\frac{\mathrm{k}_{-1}+\mathrm{k}_{+2}}{\mathrm{k}_{+1}}+[\mathrm{S}]}$$
+$$\Rightarrow v=\frac{v_{max}[\mathrm{S}]}{\mathrm{K}_m+[\mathrm{S}]}$$</div></p>
+<p>この$v=\frac{v_{max}[\mathrm{S}]}{\mathrm{K}_m+[\mathrm{S}]}$という式を**ミカエリスメンテン公式**といいます。</p>
+<h2 id="ミカエリスメンテン公式の意味">ミカエリスメンテン公式の意味</h2>
+<p>図２</p>
+<p><img src="https://koyophy.netlify.com/img/400px-s-vplot.gif" alt="" style="width: 100%"></p>
+<p>図２のグラフは縦軸が<strong>反応速度</strong>、横軸が<strong>基質濃度</strong>となっています。</p>
+<p>基質濃度がミカエリスメンテン定数の時、ミカエリスメンテン公式から$v=\frac{v_{max}}{2}$となります。よってミカエリスメンテン定数は速度が最大速度の半分となる時の基質濃度であることがわかります。</p>
+<p>つまりミカエリスメンテン定数を調べることで<strong>酵素の基質に対する親和性</strong>を求めることが出来ます。</p>
+<p>基質濃度が小さい時、ミカエリスメンテン公式の右辺の分母で[S]は無視することができ、$\mathrm{Km}$、$v_{max}$は定数より速度($v$)は基質濃度に比例します。
+基質濃度が大きい時、ミカエリスメンテン公式の右辺の分母で$\mathrm{Km}$は無視することができ、[S]で約分することができるので速度($v$)は$v_{max}$に向かっていきます。</p>
+<p>つまり基質濃度が大きくなることによって<strong>反応速度が飽和する</strong>ということがわかります。</p>
+<h2 id="まとめ">まとめ</h2>
+<p>僕がミカエリスメンテン公式を知ったのは学校の生物の授業でした。授業ではあまり触れずに終わりましたが、ネーミングのインパクトがチンダル現象並に強い上に、Youtuberのはなおさんがことあるたびに口にしていたのが気になって・・・</p>
+<p>僕自身初めてこのような記事を書いてみましたが、読者全員にわかってもらえるような表現をするということが、自分の思っていた以上に大変ということがわかりました。また自分で調べたことを記事の形でまとめることで、改めて知識を深められたのでよかったと思います(こっちの方がメイン!?)</p>
+<p>最後までご覧いただきありがとうございました。</p>
+<h2 id="参考資料データ出典">参考資料・データ出典</h2>
+<p>②の式と図２のグラフ<br>
+<a href="https://ja.wikipedia.org/wiki/">https://ja.wikipedia.org/wiki/</a>ミカエリス・メンテン式</p>
+
+                      
+                  
+
+                  
+   <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jia-yang-xue-yuan-wu-li-bu" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <br><br>
+    
+    <footer>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <ul class="list-inline text-center">
+                    
+                      <li>
+                        <a href="mailto:koyobutsuri@gmail.com">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                    
+                    
+                    
+                    <li>
+                      <a href="https://github.com/koyophysics/web">
+                        <span class="fa-stack fa-lg">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://twitter.com/koyophysics">
+                        <span class="fa-stack fa-lg">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCoM7hhjA0OisVtQv2ZwlEfw">
+                        <span class="fa-stack fa-lg">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    
+                    
+                  </ul>
+                  <p class="copyright text-muted">© 2018-2020 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
+                  
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://koyophy.netlify.com/js/bootstrap.min.js"></script>
+    
+    <script src="https://koyophy.netlify.com/js/clean-blog.min.js"></script>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-117865841-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+</body>
+
+</html>
+

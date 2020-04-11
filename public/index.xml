@@ -1,32 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>トップページ on 甲陽学院高校 物理部(新)</title>
+    <title>トップページ on 甲陽学院高校 物理部</title>
     <link>https://koyophy.netlify.com/</link>
-    <description>Recent content in トップページ on 甲陽学院高校 物理部(新)</description>
+    <description>Recent content in トップページ on 甲陽学院高校 物理部</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>© 2018-2019 Koyo Physics. All Rights Reserved.</copyright>
-    <lastBuildDate>Sat, 29 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <copyright>© 2018-2020 Koyo Physics. All Rights Reserved.</copyright>
+    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://koyophy.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>東大准教授との雑談</title>
+      <link>https://koyophy.netlify.com/post/zatsudan4/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://koyophy.netlify.com/post/zatsudan4/</guid>
+      <description>はじめに みなさんこんにちは、ヒラ部員のA藤です。今回は僕が8月26日に東京大学に行って、工学研究科の准教授の森本さんと対談をしたときのことを</description>
+    </item>
+    
+    <item>
+      <title>科研費イベントの紹介</title>
+      <link>https://koyophy.netlify.com/post/zatsudan2/</link>
+      <pubDate>Mon, 02 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://koyophy.netlify.com/post/zatsudan2/</guid>
+      <description>はじめに みなさんこんにちは，ヒラ部員のA藤です．今回は僕がこの夏休み中に参加した，２つのひらめき★ときめきサイエンスのイベントについて紹介し</description>
+    </item>
+    
+    <item>
       <title>ミカエリスメンテン公式の導出とその意味</title>
-      <link>https://koyophy.netlify.com/post/hanao/</link>
+      <link>https://koyophy.netlify.com/post/menten/</link>
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyophy.netlify.com/post/hanao/</guid>
+      <guid>https://koyophy.netlify.com/post/menten/</guid>
       <description>はじめに どうも、物理部員のT中K太郎です。 僕は今年の音展で特に作品制作もせず、このままでは物理部員として何もせずに卒業してしまいそうなので、</description>
     </item>
     
     <item>
       <title>サイト整備の備忘録</title>
-      <link>https://koyophy.netlify.com/post/maintain/</link>
+      <link>https://koyophy.netlify.com/post/site-exp/</link>
       <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyophy.netlify.com/post/maintain/</guid>
+      <guid>https://koyophy.netlify.com/post/site-exp/</guid>
       <description>物理部部長のH﨑です。もうそろそろ受験に向けてスイッチを切り替えないといけない季節なので、このサイト運営に必要な知識をここに全て残しておきた</description>
     </item>
     
@@ -41,10 +59,10 @@
     
     <item>
       <title>数学・理科甲子園2018兵庫県大会に出場しました！</title>
-      <link>https://koyophy.netlify.com/post/olympic/</link>
+      <link>https://koyophy.netlify.com/post/olympic2018/</link>
       <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyophy.netlify.com/post/olympic/</guid>
+      <guid>https://koyophy.netlify.com/post/olympic2018/</guid>
       <description>はじめに 数学・理科オタク界隈では超有名な「数学・理科甲子園」の兵庫県予選に出場してきました。天文部部長のO野君に実技担当(電子工作に限る)と</description>
     </item>
     
@@ -58,7 +76,7 @@
     </item>
     
     <item>
-      <title>フーリエ変換でお絵かきしてみよう〜実践編〜</title>
+      <title>Processingでフーリエ変換〜実践編〜</title>
       <link>https://koyophy.netlify.com/post/fourier3/</link>
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -67,7 +85,7 @@
     </item>
     
     <item>
-      <title>フーリエ変換でお絵かきしてみよう〜導入編〜</title>
+      <title>Processingでフーリエ変換〜導入編〜</title>
       <link>https://koyophy.netlify.com/post/fourier1/</link>
       <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
       
@@ -86,11 +104,11 @@
     
     <item>
       <title>二重振り子のシミュレーション</title>
-      <link>https://koyophy.netlify.com/post/double-pendu/</link>
+      <link>https://koyophy.netlify.com/post/pendu/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://koyophy.netlify.com/post/double-pendu/</guid>
-      <description>二重振り子とは？？ 物理部らしいことしてみた 二重振り子はカオス現象ですが、運動方程式をラグランジアンに変換して、Runge–Kutta法で微分</description>
+      <guid>https://koyophy.netlify.com/post/pendu/</guid>
+      <description>二重振り子とは？？ 普通の振り子の先にもう一つ振り子をつないだだけの簡単な構造なのですが、これがまた興味深い。いわゆるカオスな運動をします。 カ</description>
     </item>
     
     <item>
@@ -144,16 +162,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://koyophy.netlify.com/page/%E3%82%AF%E3%83%A9%E3%83%96%E7%B4%B9%E4%BB%8B/</guid>
-      <description>部員 ●103回生 S藤 登山が好き A藤 アントワーヌオーギュスタンパルマンティエ ●102回生 2019年度部長 O野 物理部待望の新入生かつ救世主 ●10</description>
+      <description>部員 ●103回生登山が好き-正部員−-準部員-活動内容 物理や工学に興味がある生徒が集まって日々活動しています。 同じような趣味を持つ者同士で知</description>
     </item>
     
     <item>
-      <title>作品ギャラリー</title>
-      <link>https://koyophy.netlify.com/page/%E4%BD%9C%E5%93%81%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC/</link>
+      <title>活動実績</title>
+      <link>https://koyophy.netlify.com/page/%E6%B4%BB%E5%8B%95%E5%AE%9F%E7%B8%BE/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://koyophy.netlify.com/page/%E4%BD%9C%E5%93%81%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC/</guid>
-      <description>物理部員が必死で作った作品たち。 全く活動してなさそうなふりをして、 ちゃんと活動してます。 2018年 ・ドローン ・3Dプリンタ ・オムニホイール(</description>
+      <guid>https://koyophy.netlify.com/page/%E6%B4%BB%E5%8B%95%E5%AE%9F%E7%B8%BE/</guid>
+      <description>2019年 ・甲陽学院高校運動場でロケットの打ち上げに成功 ・物理チャレンジ2020に部員2名が出場．うち1名は東京エレクトロン賞および銀賞を獲</description>
     </item>
     
   </channel>

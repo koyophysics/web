@@ -1,6 +1,6 @@
 ---
 title: 二重振り子のシミュレーション
-slug: double-pendu
+slug: pendu
 date: '2018-06-28'
 image: /img/7a519aae-daac-4117-8e29-a212c7e16499.jpeg
 description: 二重振り子を例にカオス理論について解説します(オタ芸ではありません。似てるけど)

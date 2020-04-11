@@ -22,10 +22,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="フーリエ変換を視覚的に理解できるお絵かきプログラムを作ってみましょう！">
     <meta name="author" content="H﨑">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="フーリエ変換, processing">
 
 
-    <title>フーリエ変換でお絵かきしてみよう〜実践編〜 - 甲陽学院高校 物理部(新)</title>
+    <title>Processingでフーリエ変換〜実践編〜 - 甲陽学院高校 物理部</title>
 
     
 
@@ -82,7 +82,7 @@
                     </li>
                     
                     <li>
-                        <a href="https://koyophy.netlify.com/page/%E4%BD%9C%E5%93%81%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC/">作品ギャラリー</a>
+                        <a href="https://koyophy.netlify.com/page/%E6%B4%BB%E5%8B%95%E5%AE%9F%E7%B8%BE/">活動実績</a>
                     </li>
                     
                     <li>
@@ -106,7 +106,7 @@
         <div class="row">
            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
              <div class="post-heading">
-               <h1>フーリエ変換でお絵かきしてみよう〜実践編〜</h1>
+               <h1>Processingでフーリエ変換〜実践編〜</h1>
                <br>
                <h2 class="subheading">フーリエ変換を視覚的に理解できるお絵かきプログラムを作ってみましょう！</h2>
                <span class="meta">
@@ -129,65 +129,44 @@
                 <div class="col-lg-12 col-lg-offset-0 col-md-18 col-md-offset-1">
                   
                       
-                          
-
-<h2 id="はじめに">はじめに</h2>
-
-<p>前回、フーリエ変換について詳しく見てきましたが、「いまいちピンとこない」と言う方も多かったのではないでしょうか。<br />
+                          <h2 id="はじめに">はじめに</h2>
+<p>前回、フーリエ変換について詳しく見てきましたが、「いまいちピンとこない」と言う方も多かったのではないでしょうか。<br>
 そんな方に、「なんとしてでもフーリエ変換の面白さを伝えたい！！」ということで作ったプログラムを今回の記事で説明していきたいと思います。</p>
-
-<p><blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">フーリエ変換でピーポくん書くやつの進化版!?作った<br>ペンの軌跡をXY方向でそれぞれに離散フーリエ変換(DFT)かけて、円の回転に置き換えるというもの<br>ソースコードは、じきに公開するつもり <a href="https://t.co/4buibaN8Ri">pic.twitter.com/4buibaN8Ri</a></p>&mdash; 甲陽學院髙等學挍 物理部 (@koyobutsuri) <a href="https://twitter.com/koyobutsuri/status/1033577694498238464?ref_src=twsrc%5Etfw">2018年8月26日</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-
-<p>上の動画を見ていただければわかるように、複数の円がグルグル回っていたのがわかると思います。とても複雑な動きをしているように見えますが、実は円の回転速度や大きさは一定でただ単純に円の周りを円が回っているだけです。ニョロニョロとして気持ち悪いですが、どんな絵でも円の回転運動で描画することができます。<br />
+<!-- raw HTML omitted -->
+<p>上の動画を見ていただければわかるように、複数の円がグルグル回っていたのがわかると思います。とても複雑な動きをしているように見えますが、実は円の回転速度や大きさは一定でただ単純に円の周りを円が回っているだけです。ニョロニョロとして気持ち悪いですが、どんな絵でも円の回転運動で描画することができます。<br>
 どのような仕組みなのか順番にご説明したいと思います。</p>
-
 <h2 id="仕組み">仕組み</h2>
-
 <p>大まかな流れとしては</p>
-
 <ol>
-<li>ペンの移動をXY方向で別々にサンプリング<br /></li>
-<li>波形をフーリエ変換でsinとcosの成分に分割<br /></li>
-<li>sinとcosを合成して、sinだけの関数に直す<br /></li>
-<li>それらを元に円を描画<br /></li>
+<li>ペンの移動をXY方向で別々にサンプリング</li>
+<li>波形をフーリエ変換でsinとcosの成分に分割</li>
+<li>sinとcosを合成して、sinだけの関数に直す</li>
+<li>それらを元に円を描画</li>
 </ol>
-
 <p>sinとcosはそもそも単位円周上を回る点のXY方向の座標を表すものであるため、円運動に変換することができます。</p>
-
 <h2 id="プログラム解説">プログラム解説</h2>
-
 <p>説明が必要とされると思われる箇所を解説していきたいと思います。</p>
-
 <h3 id="波形の表示">波形の表示</h3>
-
-<p><script src="https://gist.github.com/hamataku/43985b256b3cae17c4d4bdeb5d8f3e37.js"></script>
-現在のピクセル情報をloadPixels()関数で読み取り、それを左と上に順に配列をシフトし、updatePixels()で更新することで、まるでオシロスコープのように波形を移動させています。</p>
-
-<h3 id="離散フーリエ変換-dft">離散フーリエ変換(DFT)</h3>
-
-<p><script src="https://gist.github.com/hamataku/bf80143d858f6d9729ed8b1e64dcb984.js"></script>
-引数として渡された波形データを下の数式を元に離散フーリエ変換を行い、配列に代入します。realは実数部分をimagは虚数部分の配列です。渡されるimagのデータは全て0であるため、計算の際は使用していません。</p>
-
+<!-- raw HTML omitted -->
+<p>現在のピクセル情報をloadPixels()関数で読み取り、それを左と上に順に配列をシフトし、updatePixels()で更新することで、まるでオシロスコープのように波形を移動させています。</p>
+<h3 id="離散フーリエ変換dft">離散フーリエ変換(DFT)</h3>
+<!-- raw HTML omitted -->
+<p>引数として渡された波形データを下の数式を元に離散フーリエ変換を行い、配列に代入します。realは実数部分をimagは虚数部分の配列です。渡されるimagのデータは全て0であるため、計算の際は使用していません。</p>
 <p><div class="h-scroll">\begin{eqnarray}
-F_n &amp;=&amp;\frac{1}{N}\sum_{k=0}^{N-1} f_ke^{-i\frac{2n\pi}{N}k}\\<br />
-     &amp;=&amp;\frac{1}{N}\sum_{k=0}^{N-1} f_k\Bigl(\cos(\frac{2n\pi}{N}k)-i\sin(\frac{2n\pi}{N}k)\Bigl)
+F_n &amp;=&amp;\frac{1}{N}\sum_{k=0}^{N-1} f_ke^{-i\frac{2n\pi}{N}k}\\<br>
+&amp;=&amp;\frac{1}{N}\sum_{k=0}^{N-1} f_k\Bigl(\cos(\frac{2n\pi}{N}k)-i\sin(\frac{2n\pi}{N}k)\Bigl)
 \end{eqnarray} </div></p>
-
 <h3 id="円の座標に変換">円の座標に変換</h3>
-
-<p><script src="https://gist.github.com/hamataku/432c34266ff46f166adc976b4efe9736.js"></script>
-DFT関数でsinとcosの係数を求めることができましたが、sinとcosの和をsin単体にまとめることができれば、円の運動として表すことができるようになります。そのために使うのが<strong>三角関数の合成公式</strong>です。
+<!-- raw HTML omitted -->
+<p>DFT関数でsinとcosの係数を求めることができましたが、sinとcosの和をsin単体にまとめることができれば、円の運動として表すことができるようになります。そのために使うのが<strong>三角関数の合成公式</strong>です。
 $$a\sin\theta+b\cos\theta=\sqrt{a^2+b^2}\sin(\theta+\alpha)$$
 $$\tan\alpha=\frac{b}{a}$$
-問題はどうやって$\alpha$を求めるかということですが、processingには便利な関数が用意されています。<br />
+問題はどうやって$\alpha$を求めるかということですが、processingには便利な関数が用意されています。<br>
 それは<strong>atan2関数</strong>です。これは$\tan$の逆関数で、aとbを代入することでαの値を求めることができます。</p>
-
 <h2 id="お待ちかねの全プログラム公開">お待ちかねの全プログラム公開！</h2>
-
-<p><script src="https://gist.github.com/hamataku/7da767bdd1953763fe15eb51446d6c16.js"></script>
-processingで書いたコードですので、ご自身のパソコンにprocessingをインストールして、お試しください。<br />
+<!-- raw HTML omitted -->
+<p>processingで書いたコードですので、ご自身のパソコンにprocessingをインストールして、お試しください。<br>
 コードに関しては「動けばいいやん」という精神で記述しているので、見にくいところもあると思いますが、お許し下さい。</p>
-
 <p>ここの箇所はご自身の環境に合わせて調節して見て下さい。</p>
 
                       
@@ -272,7 +251,7 @@ processingで書いたコードですので、ご自身のパソコンにprocess
                     
                     
                   </ul>
-                  <p class="copyright text-muted">© 2018-2019 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
+                  <p class="copyright text-muted">© 2018-2020 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
                   
 
                 </div>

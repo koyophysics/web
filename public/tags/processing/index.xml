@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Processing on 甲陽学院高校 物理部(新)</title>
+    <title>processing on 甲陽学院高校 物理部</title>
     <link>https://koyophy.netlify.com/tags/processing/</link>
-    <description>Recent content in Processing on 甲陽学院高校 物理部(新)</description>
+    <description>Recent content in processing on 甲陽学院高校 物理部</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>© 2018-2019 Koyo Physics. All Rights Reserved.</copyright>
+    <copyright>© 2018-2020 Koyo Physics. All Rights Reserved.</copyright>
     <lastBuildDate>Sat, 15 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://koyophy.netlify.com/tags/processing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>フーリエ変換でお絵かきしてみよう〜実践編〜</title>
+      <title>Processingでフーリエ変換〜実践編〜</title>
       <link>https://koyophy.netlify.com/post/fourier3/</link>
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
       

@@ -14,10 +14,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="HugoでWeb開発の第二回。今回はサイトを自分好みに変更する方法をご紹介します。">
     <meta name="author" content="H﨑">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="Hugo">
 
 
-    <title>Hugoでサイト開発入門　第2回 - 甲陽学院高校 物理部(新)</title>
+    <title>Hugoでサイト開発入門　第2回 - 甲陽学院高校 物理部</title>
 
     
 
@@ -74,7 +74,7 @@
                     </li>
                     
                     <li>
-                        <a href="https://koyophy.netlify.com/page/%E4%BD%9C%E5%93%81%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC/">作品ギャラリー</a>
+                        <a href="https://koyophy.netlify.com/page/%E6%B4%BB%E5%8B%95%E5%AE%9F%E7%B8%BE/">活動実績</a>
                     </li>
                     
                     <li>
@@ -121,16 +121,11 @@
                 <div class="col-lg-12 col-lg-offset-0 col-md-18 col-md-offset-1">
                   
                       
-                          
-
-<p>どーも。物理部部長のH﨑です。<br />
+                          <p>どーも。物理部部長のH﨑です。<br>
 前回の続きで、Hugoで作ったサイトを自分仕様に変えていく方法をご紹介します。</p>
-
-<h2 id="config-tomlの編集">config.tomlの編集</h2>
-
-<p><a href="https://koyophy.netlify.com/post/hugo1/">前回</a>、何気にコピペして使用したconfig.tomlですが、ちゃんと意味があります。<br />
+<h2 id="configtomlの編集">config.tomlの編集</h2>
+<p><a href="https://koyophy.netlify.com/post/hugo1/">前回</a>、何気にコピペして使用したconfig.tomlですが、ちゃんと意味があります。<br>
 これを編集すれば、一気に自分のサイトっぽくなります。</p>
-
 <pre><code>baseurl = &quot;&quot; #公開する予定のサイトのURL
 title = &quot;HugoWeb&quot; #サイトのタイトル
 canonifyurls = true #絶対パスにする設定
@@ -178,22 +173,8 @@ disqusShortname = &quot;&quot; #DisqusのID(コメント欄)
   name = &quot;その他&quot;
   url = &quot;/&quot;
   weight = -100
-</code></pre>
-
-<p><br></p>
-
-<h2 id="index-mdの作成">_index.mdの作成</h2>
-
-<p>ホームのページにあいさつや紹介などを書いてみます。<br />
-次のコードを実行しましょう。</p>
-
-<pre><code>hugo new _index.md
-</code></pre>
-
-<p>これで/content/_index.mdが作成されました。</p>
-
+</code></pre><!-- raw HTML omitted -->
 <p>では、このコードを書き込みましょう。</p>
-
 <pre><code>---
 title: home
 ---
@@ -202,17 +183,12 @@ title: home
 &lt;/div&gt;
 
 # こんにちは！
-</code></pre>
-
-<p>ちなみにMarkdownはMarkdown書式だけでなく、
+</code></pre><p>ちなみにMarkdownはMarkdown書式だけでなく、
 <strong>HTMLのコードを埋め込む</strong>
-こともできます。<br />
+こともできます。<br>
 上のコードでは文字のサイズ変更と中央揃えを行なっています。</p>
-
-<h2 id="index-htmlの編集">index.htmlの編集</h2>
-
+<h2 id="indexhtmlの編集">index.htmlの編集</h2>
 <p>/layout/index.htmlがホームのページのHTMLファイルなので、これを編集します。</p>
-
 <pre><code>〜中略〜
     &lt;!-- Main Content --&gt;
     &lt;div class=&quot;container&quot;&gt;
@@ -229,42 +205,25 @@ title: home
           {{ range first $posts (where .Data.Pages &quot;Type&quot; &quot;post&quot;) }}
 
 〜中略〜
-</code></pre>
-
-<pre><code>&lt;article&gt;
+</code></pre><pre><code>&lt;article&gt;
 {{ .Content }}
 &lt;/article&gt;
-</code></pre>
-
-<p>このコードを追加することで、Hugoが_index.mdを読み込んで表示するようになります。</p>
-
+</code></pre><p>このコードを追加することで、Hugoが_index.mdを読み込んで表示するようになります。</p>
 <h2 id="tips">Tips</h2>
-
 <p>index.htmlはトップページを司っているので、ここを変更することで色々変えることができます。</p>
-
-<p>例えば、{{ .Site.Title }}を『物理部』に書き換えると、サイトの題名を『物理部』に変更できます。<br />
+<p>例えば、{{ .Site.Title }}を『物理部』に書き換えると、サイトの題名を『物理部』に変更できます。<br>
 ナビゲーションバーの題名と違うものにしたい時にとても便利です。</p>
-
 <p>あとは『Older Posts』を『過去の投稿』とすれば、日本語ページらしくなります。</p>
-
 <h2 id="運命の時">運命の時、、、</h2>
-
 <p>保存できたら、testディレクトリの中で</p>
-
 <pre><code>hugo server --disableFastRender
-</code></pre>
-
-<p>を実行し、ブラウザで <a href="http://localhost:1313/">http://localhost:1313/</a> にアクセス！<br />
-エラー吐いたりうまく表示されない場合は、どこかの工程でミスをしている可能性が高いです。<br />
+</code></pre><p>を実行し、ブラウザで http://localhost:1313/ にアクセス！<br>
+エラー吐いたりうまく表示されない場合は、どこかの工程でミスをしている可能性が高いです。<br>
 僕はこの方法で大丈夫だったので、あなたもうまくいったはず、、、</p>
-
-<p><img src="https://koyophy.netlify.com/img/0423/1.png" alt="Drawing" style="width: 100%"/></p>
-
+<!-- raw HTML omitted -->
 <p>このように表示されたら大成功です。</p>
-
 <h2 id="まとめ">まとめ</h2>
-
-<p>config.tomlの編集である程度の設定はできるのですが、細かい設定は直接HTMLソースをいじったほうが手っ取り早いと思います。<br />
+<p>config.tomlの編集である程度の設定はできるのですが、細かい設定は直接HTMLソースをいじったほうが手っ取り早いと思います。<br>
 目的のページのHTMLソースを変更すれば、自由に作り変えることができるわけです。
 それについては後々紹介したいと思います。</p>
 
@@ -350,7 +309,7 @@ title: home
                     
                     
                   </ul>
-                  <p class="copyright text-muted">© 2018-2019 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
+                  <p class="copyright text-muted">© 2018-2020 Koyo Physics. All Rights Reserved.<br>Code released under the Apache 2.0 license.</p>
                   
 
                 </div>
