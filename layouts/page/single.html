@@ -25,27 +25,39 @@
                 <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
                   <!-- 部員表示　ここから -->
                   {{ if eq .File.TranslationBaseName "introduction" }}
-                  <h2>部員</h2>
-                  <ul id="all-tags">
-                    {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-                    {{ if strings.Contains $name "回生" }}
-                    <li><a href="/tags/{{ $name | urlize }}">{{ $name }}</a></li>
-                    <ul>
-                      {{ range $taxonomy.Pages }}
-                      <li hugo-nav="{{ .RelPermalink}}">
-                        <a href="{{ .Permalink}}"> {{ .Params.Name }}
-                        {{ if ne .Params.Description "" }}
-                          ({{ .Params.Description }})
-                        {{ end }}
-                      </a></li>
+                    <h2>部員</h2>
+                    {{ $tagmap := .Site.Taxonomies.tags}}
+                    {{ range $val := seq 200 -1 90 }}
+                      {{ $name := (print $val "回生")}}
+                      {{ with index $tagmap $name }}
+                        {{ $taxonomy := index $tagmap $name}}
+                        <div onclick="obj=document.getElementById('{{ $name }}').style; obj.display=(obj.display=='none')?'block':'none';">
+                        <a style="cursor:pointer;">
+                          <font size="6" color=#3b75b7>
+                            <u>●{{ $name }}</u></font></a>
+                        </div>
+
+                        <div id="{{ $name }}" style="display:none;clear:both;">
+                        {{ range $taxonomy.Pages }}
+                            {{ if .Params.Mypage }}
+                              <a href="{{ .Permalink}}" style="color:blue;text-decoration:none;">
+                            {{ end }}
+                            <h3>　● {{ .Params.Title }}
+                            {{ if ne .Params.Description "" }}
+                              ({{ .Params.Description }})
+                            {{ end }}
+                            </h3>
+                            {{ if .Params.Mypage }}
+                              </a>
+                            {{ end }}
+                          {{ end }}
+                        </div>
                       {{ end }}
-                    </ul>
                     {{ end }}
-                    {{ end }}
-                  </ul>
                   {{ end }}
                   <!-- 部員表示　ここまで -->
-
+                  
+                  <br>
                   {{ .Content }}
                   {{ partial "comments.html" .}}
                 </div>

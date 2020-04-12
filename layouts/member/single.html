@@ -8,7 +8,11 @@
         <div class="row">
            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
              <div class="post-heading">
-               <h1>{{ .Params.Name }}</h1>
+               <h1>{{ .Params.Title }}
+                 {{ if ne .Params.Description "" }}
+                   ({{ .Params.Description }})
+                 {{ end }}
+               </h1>
                <h2 class="subheading">{{ .Params.Nickname }}</h2>
                <span class="meta">
                  {{ partial "tags.html" .}}

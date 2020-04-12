@@ -1,7 +1,7 @@
 ---
-title: O川(レオン)
+title: K本
 nickname:  #ここは任意。ない場合は何も書かなくてよい
-description: "" #肩書など。ここも任意。ない場合は何も書かなくてよい
+description:  #肩書など。ここも任意。ない場合は何も書かなくてよい
 tags:
   - 101回生 #書くのはXXX回生だけにしてください。
 mypage: false

@@ -1,7 +1,7 @@
 <div class="post-preview">
   <a href="{{ .Permalink }}">
-    <h2 class="post-title">・{{ .Params.Name }}
-      {{ if ne .Params.Description nil }}
+    <h2 class="post-title">・{{ .Params.Title }}
+      {{ if ne .Params.Description "" }}
          ({{ .Params.Description }})
       {{ end }}
     </h2>

@@ -50,4 +50,8 @@ collections:
     delete: true
     draft: falses
     fields: # ページ作成画面で使う。Front Matterの値を書く
+      - {label: "名前", name: "title", widget: "string"}
+      - {label: "ニックネーム(省略可)", name: "nickname", widget: "string"}
+      - {label: "肩書とか(省略可)", name: "description", widget: "string"}
+      - {label: "「XXX回生」と記入して。（「」はいらない）", name: "tags", widget: "list"}
       - {label: "本文", name: "body", widget: "markdown"}
