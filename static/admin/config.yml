@@ -40,3 +40,11 @@ collections:
     draft: false
     fields: # ページ作成画面で使う。Front Matterの値を書く
       - {label: "本文", name: "body", widget: "markdown"}
+
+  - label: "部員紹介" # 管理画面のサイドバーで使う
+    name: "toppage" # 管理画面のパスで使う　例：/admin/collections/blog
+    folder: "content/member" # Markdownを保存するディレクトリ。Hugoのsectionにあたる
+    create: true # 新しいページを作ることを許可する
+    draft: falses
+    fields: # ページ作成画面で使う。Front Matterの値を書く
+      - {label: "本文", name: "body", widget: "markdown"}
