@@ -1,6 +1,5 @@
 ---
 title: 部誌アーカイブ
-draft: false
 slug: archive
 image: /img/purple.jpg
 ---
@@ -9,9 +8,9 @@ image: /img/purple.jpg
 
 ## 2019年
 
-・甲陽学院高校運動場でロケットの打ち上げに成功
+・甲陽学院高校運動場でロケットの打ち上げに成功  
 
-・物理チャレンジ2020に部員2名が出場．うち1名は東京エレクトロン賞および銀賞を獲得，国際物理オリンピック日本代表に内定
+・物理チャレンジ2020に部員2名が出場．うち1名は東京エレクトロン賞および銀賞を獲得，国際物理オリンピック日本代表に内定  
 
 ・[紙の部誌 Vol.1はこちら](https://drive.google.com/file/d/1kqcOgT40SN2cI492k85obYSvaM8dBmGS/view?usp=sharing)\
 ・[紙の部誌 Vol.2はこちら](https://drive.google.com/file/d/1ejQsLRt31welabbX6JyfRpVl9EnzaBAr/view?usp=sharing)\
