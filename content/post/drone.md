@@ -10,6 +10,7 @@ tags:
 math: false
 comments: true
 draft: false
+authorpage: "member/h崎"
 ---
 物理部部長のH﨑です。  
 高1の音展でドローンを自作したのですが、これまた記録等を全く残していなかったので、改めて紹介します。  

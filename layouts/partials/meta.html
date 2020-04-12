@@ -1,5 +1,11 @@
 {{ if .Site.Params.ShowReadTime }}
   A {{ .ReadingTime }} minute read,
 {{ end }}
-<i class="far fa-edit"></i> {{ .Params.author }}　<i class="far fa-clock"></i>  {{ dateFormat (.Site.Params.DateForm | default "Mon, Jan 2, 2006") .Date }}　
+<i class="far fa-edit"></i>
+{{ if .Params.authorpage }}
+  <a href={{ .Site.BaseURL }}/{{.Params.authorpage}}><u>{{ .Params.author }}</u></a>　
+{{ else }}
+  {{ .Params.author }}　
+{{ end }}
+<i class="far fa-clock"></i>  {{ dateFormat (.Site.Params.DateForm | default "Mon, Jan 2, 2006") .Date }}　
 {{ partial "tags.html" .}}

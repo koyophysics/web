@@ -9,6 +9,7 @@ tags:
 math: false
 comments: true
 draft: false
+authorpage: "member/h崎"
 ---
 
 ![Hugo](/img/0421/1.png "100")

@@ -30,7 +30,7 @@ weight = 100
 [permalinks]
 post  = "/:section/:filename/"
 page = "/:section/:filename/"
-member  = "/:section/:filename/"
+member  = "/:section/:title/"
 
 [params]
   DateForm = "2006/1/2"#変えるな絶対！！呪文やこれは！！

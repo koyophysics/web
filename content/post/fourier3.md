@@ -10,6 +10,7 @@ author: H﨑
 draft: false
 comments: true
 math: true
+authorpage: "member/h崎"
 ---
 
 ## はじめに

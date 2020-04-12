@@ -9,6 +9,7 @@ tags:
 math: true
 comments: true
 draft: false
+authorpage: "member/h崎"
 ---
 
 <img src="/img/fourier/8.jpg" alt="Drawing" style="width: 100%"/>

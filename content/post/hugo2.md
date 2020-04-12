@@ -9,6 +9,7 @@ tags:
 math: false
 comments: true
 draft: false
+authorpage: "member/h崎"
 ---
 
 どーも。物理部部長のH﨑です。  
