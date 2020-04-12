@@ -1,6 +1,5 @@
 ---
 title: '物理オリンピックへの道（Part0:You never fail until you stop trying）'
-slug: IPhO_0
 date: '2020-04-01'
 image: /img/img_0444.jpeg
 description: 国際物理オリンピック日本代表の部員による，物理オリンピックについての紹介Part0

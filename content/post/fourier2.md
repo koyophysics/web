@@ -1,6 +1,5 @@
 ---
 title: フーリエ変換でお絵かきしてみよう〜理論編〜
-slug: fourier2
 date: '2018-09-10'
 image: /img/c85068e9-852d-442e-a299-3ea502db1673.png
 description: 数式を使って、フーリエ変換の仕組みを徹底解剖！

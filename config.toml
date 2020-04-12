@@ -1,4 +1,4 @@
-baseurl = "https://koyophy.netlify.app"
+baseurl = "https://koyophy.netlify.com"
 title = "甲陽学院高校 物理部"
 canonifyurls = true
 paginate = 6
@@ -11,23 +11,26 @@ pygmentsCodefences = true
 pygmentsUseClasses = true
 
 [author]
-  name = "T.H."
+name = "T.H."
 
 [related]
-
 threshold = 80
-
 includeNewer = false
-
 toLower = false
 
 [[related.indices]]
 name  = "author"
 toLower = true
 weight = 100
+
 [[related.indices]]
 name  = "tags"
 weight = 100
+
+[permalinks]
+post  = "/:section/:filename/"
+page = "/:section/:filename/"
+member  = "/:section/:filename/"
 
 [params]
   DateForm = "2006/1/2"#変えるな絶対！！呪文やこれは！！
@@ -36,7 +39,7 @@ weight = 100
   email = "koyobutsuri@gmail.com"
   postSummariesFrontPage = 6 #Number of post summaries to show on front page, comment out to allow default(4)
   showReadTime = false #set to false to exclude read time from header of post
-
+  listSections = ["post", "page", "member"]
 
 [[params.social]]
   title = "github"

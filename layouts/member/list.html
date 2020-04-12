@@ -20,9 +20,6 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          {{ if eq .Section "post" }}
-          <script async src="https://cse.google.com/cse.js?cx=015021849101661340119:xouinhkjqiv"></script>
-          {{ end }}
           <div class="gcse-search"></div>
           {{ range .Paginator.Pages }}
               {{ .Render "archive" }}

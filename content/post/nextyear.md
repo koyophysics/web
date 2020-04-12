@@ -1,6 +1,5 @@
 ---
 title: 来年、部員増えるってよ
-slug: nextyear
 date: '2018-12-23'
 image: /img/edb0cf19-99f0-4b91-8b86-5ec921b034a2.jpeg
 description: たまにはゆるーいブログもいいかなと

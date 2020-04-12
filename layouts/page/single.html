@@ -23,6 +23,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">
+                  <!-- 部員表示　ここから -->
+                  {{ if eq .File.TranslationBaseName "introduction" }}
+                  <h2>部員</h2>
+                  <ul id="all-tags">
+                    {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                    {{ if strings.Contains $name "回生" }}
+                    <li><a href="/tags/{{ $name | urlize }}">{{ $name }}</a></li>
+                    <ul>
+                      {{ range $taxonomy.Pages }}
+                      <li hugo-nav="{{ .RelPermalink}}">
+                        <a href="{{ .Permalink}}"> {{ .Params.Name }}
+                        {{ if ne .Params.Description "" }}
+                          ({{ .Params.Description }})
+                        {{ end }}
+                      </a></li>
+                      {{ end }}
+                    </ul>
+                    {{ end }}
+                    {{ end }}
+                  </ul>
+                  {{ end }}
+                  <!-- 部員表示　ここまで -->
+
                   {{ .Content }}
                   {{ partial "comments.html" .}}
                 </div>

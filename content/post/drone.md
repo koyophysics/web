@@ -1,6 +1,5 @@
 ---
 title: 自作ドローン製作記
-slug: drone
 date: '2018-05-03'
 image: /img/3d4cef88-6116-49dc-90ff-37fa2ee89975.png
 description: 2017年度の音展でドローンを製作した時の製作記です。

@@ -1,6 +1,5 @@
 ---
 title: Processingでフーリエ変換〜実践編〜
-slug: fourier3
 date: '2018-09-15'
 tags:
     - "フーリエ変換"

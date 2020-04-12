@@ -1,6 +1,5 @@
 ---
 title: ミカエリスメンテン公式の導出とその意味
-slug: menten
 date: '2018-12-29'
 image: /img/img_6515.jpg
 description: オハエリスメンテン？いや、ミカエリスメンテン

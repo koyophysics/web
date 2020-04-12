@@ -1,7 +1,7 @@
 ---
 title: クラブ紹介
-slug: introduction
 image: /img/orange.jpg
+# ファイル名はintroduction.md以外に変更しないで下さい！！！
 ---
 ## 部員
 

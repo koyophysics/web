@@ -1,6 +1,5 @@
 ---
 title: 第二回実験会の備忘録
-slug: zatsudan3
 date: '2019-09-02'
 image: /img/a400c56c-30e8-43ae-b537-c2e7e5d61616.jpeg
 author: A藤

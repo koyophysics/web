@@ -1,6 +1,5 @@
 ---
 title: Processingでライフゲーム
-slug: lifegame
 date: '2018-06-27'
 tags:
     - "ライフゲーム"

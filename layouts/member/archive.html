@@ -1,0 +1,9 @@
+<div class="post-preview">
+  <a href="{{ .Permalink }}">
+    <h2 class="post-title">・{{ .Params.Name }}
+      {{ if ne .Params.Description nil }}
+         ({{ .Params.Description }})
+      {{ end }}
+    </h2>
+  </a>
+</div>

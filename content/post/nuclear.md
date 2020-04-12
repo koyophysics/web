@@ -1,6 +1,5 @@
 ---
 title: 核分裂と軽水炉の基本原理について
-slug: nuclear
 date: '2018-09-24'
 image: /img/1d327eb1-3760-4c9f-a4bc-e917d818b5ff.jpeg
 description: あまり知られていない核分裂の基本的な仕組みについて解説します。

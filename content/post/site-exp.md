@@ -1,6 +1,5 @@
 ---
 title: サイト整備の備忘録
-slug: site-exp
 date: '2018-12-26'
 image: /img/9ef34fd2-3730-45a0-83a2-abe1473a950b.jpeg
 description: これを読めば、誰でもサイト運営できる！はず。

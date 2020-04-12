@@ -1,6 +1,5 @@
 ---
 title: 東大准教授との雑談
-slug: zatsudan4
 date: '2019-09-09'
 image: /img/todai0-w640.jpg
 description: 夏休み中に東大准教授とお話しさせて頂きました

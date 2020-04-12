@@ -1,6 +1,5 @@
 ---
 title: 部誌アーカイブ
-slug: archive
 image: /img/purple.jpg
 ---
 <h4><div style="text-align: center;">

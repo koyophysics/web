@@ -1,6 +1,5 @@
 ---
 title: 数学・理科甲子園2018兵庫県大会に出場しました！
-slug: olympic2018
 date: '2018-12-17'
 image: /img/19d0edcd-0986-4790-8ba8-7cd1a296d264.png
 description: 10月27日に開催された数理甲子園の大会結果を残しておきます

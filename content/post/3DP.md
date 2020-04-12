@@ -1,10 +1,9 @@
 ---
 title: 木製3Dプリンタ製作記
-slug: 3DP
 date: '2018-05-01'
 image: /img/ca7a2306-b058-46fc-9cd1-002f9081667c.png
 description: 中3の時に3Dプリンタを自作したのですが、記録等を全く残していなかったので、改めてご紹介します。
-author: 濱﨑 拓
+author: H濱
 tags:
   - 3Dプリンタ
 math: false

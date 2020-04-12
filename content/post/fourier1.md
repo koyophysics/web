@@ -1,6 +1,5 @@
 ---
 title: Processingでフーリエ変換〜導入編〜
-slug: fourier1
 date: '2018-09-08'
 image: /img/c85068e9-852d-442e-a299-3ea502db1673.png
 description: 現代のあらゆる技術を支えているフーリエ変換について、できる限りわかりやすく解説します。
