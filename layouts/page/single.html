@@ -34,7 +34,7 @@
                         <div onclick="obj=document.getElementById('{{ $name }}').style; obj.display=(obj.display=='none')?'block':'none';">
                         <a style="cursor:pointer;">
                           <font size="6" color=#3b75b7>
-                            <u>●{{ $name }}</u></font></a>
+                            <u>●{{ $name }}{{if ge (sub (int (now.Format "2006")) $val) 1919}}(引退){{ end }}</u></font></a>
                         </div>
 
                         <div id="{{ $name }}" style="display:none;clear:both;">
@@ -56,7 +56,7 @@
                     {{ end }}
                   {{ end }}
                   <!-- 部員表示　ここまで -->
-                  
+
                   <br>
                   {{ .Content }}
                   {{ partial "comments.html" .}}
