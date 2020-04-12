@@ -14,7 +14,6 @@ collections:
     create: true # 新しいページを作ることを許可する
     fields: # ページ作成画面で使う。Front Matterの値を書く
       - {label: "タイトル", name: "title", widget: "string"}
-      - {label: "公開URL名", name: "slug", widget: "string"}
       - {label: "公開日", name: "date", widget: "datetime", default: "", format: "YYYY-MM-DD"}
       - {label: "サムネイル画像", name: "image", widget: "image"}
       - {label: "説明", name: "description", widget: "string"}
@@ -31,7 +30,6 @@ collections:
     create: true # 新しいページを作ることを許可する
     fields: # ページ作成画面で使う。Front Matterの値を書く
       - {label: "タイトル", name: "title", widget: "string"}
-      - {label: "公開URL名", name: "slug", widget: "string"}
       - {label: "サムネイル画像", name: "image", widget: "image"}
       - {label: "本文", name: "body", widget: "markdown"}
 
