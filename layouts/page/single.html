@@ -42,10 +42,11 @@
                             {{ if .Params.Mypage }}
                               <a href="{{ .Permalink}}" style="color:blue;text-decoration:none;">
                             {{ end }}
-                            <h3>　● {{ .Params.Title }}
+                            <h3>　● {{ if .Params.Mypage }}<u>{{ end }}{{ .Params.Title }}
                             {{ if ne .Params.Description "" }}
                               ({{ .Params.Description }})
                             {{ end }}
+                            {{ if .Params.Mypage }}</u>{{ end }}
                             </h3>
                             {{ if .Params.Mypage }}
                               </a>

@@ -1,7 +1,7 @@
 <i class="fas fa-tag"></i> {{ range $index, $tag :=  .Params.tags }}
   {{- if eq $index 0 -}}
-    <a href="/tags/{{ urlize . }}">{{ lower . }}</a>
+    <u><a href="/tags/{{ urlize . }}">{{ lower . }}</a></u>
   {{- else -}}
-    , <a href="/tags/{{ urlize . }}">{{ lower . }}</a>
+    , <u><a href="/tags/{{ urlize . }}">{{ lower . }}</a></u>
   {{- end -}}
 {{ end }}

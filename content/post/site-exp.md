@@ -9,6 +9,7 @@ tags:
 math: true
 comments: true
 draft: false
+authorpage: "member/h崎"
 ---
 ![](/img/9ef34fd2-3730-45a0-83a2-abe1473a950b.jpeg "100")
 

@@ -9,6 +9,7 @@ tags:
 math: false
 comments: true
 draft: false
+authorpage: "member/h崎"
 ---
 ## 冬、代替わりの季節
 

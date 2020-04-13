@@ -10,6 +10,7 @@ tags:
 math: true
 comments: true
 draft: false
+authorpage: "member/h崎"
 ---
 
 ## 二重振り子とは？？
