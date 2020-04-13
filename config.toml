@@ -75,6 +75,6 @@ member  = "/:section/:title/"
   weight = -100
 
 [[menu.main]]
-  name = "管理者ログイン"
+  name = "管理者ログイン" #変更しないで！
   url = "/admin/#/"
   weight = 0

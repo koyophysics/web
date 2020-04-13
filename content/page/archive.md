@@ -1,6 +1,6 @@
 ---
 title: 部誌アーカイブ
-image: /img/purple.jpg
+image: /img/background/4.jpg
 ---
 <h4><div style="text-align: center;">
 各年度の活動実績です。 <br><br></div></h4>

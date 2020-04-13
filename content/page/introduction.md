@@ -1,6 +1,6 @@
 ---
 title: クラブ紹介
-image: /img/orange.jpg
+image: /img/background/3.jpg
 # ファイル名はintroduction.md以外に変更しないで下さい！！！
 ---
 <!-- ここに部員紹介が挟まる(layout/member/single.htmlに記述してある) -->
