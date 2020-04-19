@@ -1,6 +1,6 @@
 ---
-title: 部員の雑談5
-date: '2019-09-02'
+title: ロケット打ち上げ会
+date: 2019-09-02
 image: /img/a400c56c-30e8-43ae-b537-c2e7e5d61616.jpeg
 description: ロケット打ち上げ会の記録
 author: A藤
