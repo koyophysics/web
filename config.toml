@@ -76,5 +76,5 @@ member  = "/:section/:title/"
 
 [[menu.main]]
   name = "管理者ログイン" #変更しないで！
-  url = "/admin/#/"
+  url = "https://app.forestry.io/users/auth/github?origin=login"
   weight = 0
