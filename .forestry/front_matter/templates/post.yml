@@ -29,3 +29,5 @@ fields:
 - type: text
   name: authorpage
   label: authorpage
+pages:
+- content/post/tsubuyaki.md
