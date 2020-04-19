@@ -1,18 +1,17 @@
 ---
 title: 物理オリンピックへの道（Part0:You never fail until you stop trying）
-date: 2020-04-01
-image: "/img/img_0445.jpeg"
+date: 2020-04-01T00:00:00.000Z
+image: /img/img_0445.jpeg
 description: 国際物理オリンピック日本代表の部員による，物理オリンピックについての紹介Part0
 author: "+9"
 tags:
-- JPhO
-- IPhO
-- 物理チャレンジ，国際物理オリンピック
+  - JPhO
+  - IPhO
+  - 物理チャレンジ，国際物理オリンピック
 math: false
 comments: true
+draft: false
 authorpage: member/-9
-draft: true
-
 ---
 ![](/img/img_0445.jpeg "100")
 
