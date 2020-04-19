@@ -22,7 +22,7 @@ draft: true
 
 Part0の今回は，ややシラバス調に，物理オリンピックの概要と全体的な流れを説明します．Part1以降は時系列に沿って，僕の体験も交えつつ，物理オリンピックの楽しさを伝えていく予定です．
 
-# Part：You never fail until you stop trying
+# Part0：You never fail until you stop trying
 
 ## 0-0.競技科学という道
 
