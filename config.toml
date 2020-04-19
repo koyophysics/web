@@ -3,7 +3,6 @@ title = "甲陽学院高校 物理部"
 canonifyurls = true
 paginate = 6
 languageCode = "ja-jp"
-copyright = "© 2018-2020 Koyo Physics. All Rights Reserved."
 googleAnalytics = "UA-117865841-1" # delete or comment to disable Google Analytics JS generation
 disqusShortname = "jia-yang-xue-yuan-wu-li-bu" #delete or comment to disable Disqus comments
 hasCJKLanguage = "true"
