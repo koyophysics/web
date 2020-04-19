@@ -20,3 +20,4 @@ fields:
 - type: boolean
   name: mypage
   label: mypage
+  description: オンにするとマイページが作成される
