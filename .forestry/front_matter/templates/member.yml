@@ -14,6 +14,9 @@ fields:
 - type: list
   name: tags
   label: tags
+  description: "「1XX回生」と記入してね<br>(カッコはいらないよ)"
+  config:
+    use_select: false
 - type: boolean
   name: comments
   label: comments
