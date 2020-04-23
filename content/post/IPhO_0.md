@@ -5,7 +5,10 @@ image: /img/img_0445.jpeg
 description: 国際物理オリンピック日本代表の部員による，物理オリンピックについての紹介Part0
 author: "+9"
 tags:
-  - JPhO IPhO 物理チャレンジ 国際物理オリンピック
+  - JPhO
+  - IPhO
+  - 物理チャレンジ
+  - 国際物理オリンピック
 math: false
 comments: true
 draft: false
