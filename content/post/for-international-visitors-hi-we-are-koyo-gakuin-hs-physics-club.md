@@ -5,10 +5,12 @@ image: /img/スクリーンショット-2020-04-23-16.44.42.png
 description: Intorduction to Koyo Gakuin High School Physics Club
 author: "+9"
 tags:
-  - 部活紹介 Introduction
+  - 部活紹介
+  - Introduction
 math: false
 comments: true
 draft: true
+authorpage: "member/-9"
 ---
 Welcome to our home page!
 
