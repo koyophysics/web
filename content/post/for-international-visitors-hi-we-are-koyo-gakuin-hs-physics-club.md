@@ -1,6 +1,6 @@
 ---
 title: "For International Visitors: Hi, We Are Koyo Gakuin HS Physics Club!"
-date: 2020-04-23
+date: 2020-04-23T00:00:00.000Z
 image: /img/スクリーンショット-2020-04-23-16.44.42.png
 description: Intorduction to Koyo Gakuin High School Physics Club
 author: "+9"
@@ -9,8 +9,8 @@ tags:
   - Introduction
 math: false
 comments: true
-draft: true
-authorpage: "member/-9"
+draft: false
+authorpage: member/-9
 ---
 Welcome to our home page!
 
