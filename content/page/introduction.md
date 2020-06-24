@@ -12,4 +12,6 @@ image: "/img/background/3.jpg"
 
 <font size  = "6">[物理部入部希望の方へ(随時募集中です！)](/pdf/keizi.pdf)</font> 
 
+↓甲陽物理部のオンラインワークスペースです
+
 [https://join.slack.com/t/koyophysics/shared_invite/zt-ffejv5sx-s14Vi909PQ0vbQQtkzUE_Q](https://join.slack.com/t/koyophysics/shared_invite/zt-ffejv5sx-s14Vi909PQ0vbQQtkzUE_Q "https://join.slack.com/t/koyophysics/shared_invite/zt-ffejv5sx-s14Vi909PQ0vbQQtkzUE_Q")
