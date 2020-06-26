@@ -14,8 +14,8 @@ image: "/img/background/3.jpg"
 
  
 
-* **入部希望者へ**
+* **入部希望者へ (重要)**
 
-↓甲陽物理部のオンラインワークスペースです。入部を希望する方はこちらにお願いします。
+入部を希望する方は7/1(水)放課後すぐに特別棟3階物理講義室に集まってください。
 
-[https://join.slack.com/t/koyophysics/shared_invite/zt-ffejv5sx-s14Vi909PQ0vbQQtkzUE_Q](https://join.slack.com/t/koyophysics/shared_invite/zt-ffejv5sx-s14Vi909PQ0vbQQtkzUE_Q "https://join.slack.com/t/koyophysics/shared_invite/zt-ffejv5sx-s14Vi909PQ0vbQQtkzUE_Q")
+↓甲陽物理部のオンラインワークスペースです。入部を希望する方は良ければこちらにもお願いします。[https://join.slack.com/t/koyophysics/shared_invite/zt-ffejv5sx-s14Vi909PQ0vbQQtkzUE_Q](https://join.slack.com/t/koyophysics/shared_invite/zt-ffejv5sx-s14Vi909PQ0vbQQtkzUE_Q "https://join.slack.com/t/koyophysics/shared_invite/zt-ffejv5sx-s14Vi909PQ0vbQQtkzUE_Q")
