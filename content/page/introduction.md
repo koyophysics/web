@@ -12,10 +12,10 @@ image: "/img/background/3.jpg"
 
 <font size  = "6">[物理部入部希望の方へ(随時募集中です！)](/pdf/keizi.pdf)</font>
 
- 
-
 * **入部希望者へ (重要)**
 
-入部を希望する方は7/1(水)放課後すぐに特別棟3階物理講義室に集まってください。
+入部を希望する方は7/1(水)放課後すぐに特別棟4階物理講義室に集まってください。
 
-↓甲陽物理部のオンラインワークスペースです。入部を希望する方は良ければこちらにもお願いします。[https://join.slack.com/t/koyophysics/shared_invite/zt-ffejv5sx-s14Vi909PQ0vbQQtkzUE_Q](https://join.slack.com/t/koyophysics/shared_invite/zt-ffejv5sx-s14Vi909PQ0vbQQtkzUE_Q "https://join.slack.com/t/koyophysics/shared_invite/zt-ffejv5sx-s14Vi909PQ0vbQQtkzUE_Q")
+↓甲陽物理部のオンラインワークスペースです。入部を希望する方は良ければこちらにも。お願いします
+
+[https://join.slack.com/t/koyophysics/shared_invite/zt-ffejv5sx-s14Vi909PQ0vbQQtkzUE_Q](https://join.slack.com/t/koyophysics/shared_invite/zt-ffejv5sx-s14Vi909PQ0vbQQtkzUE_Q "https://join.slack.com/t/koyophysics/shared_invite/zt-ffejv5sx-s14Vi909PQ0vbQQtkzUE_Q")
