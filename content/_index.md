@@ -5,7 +5,7 @@ title: トップページ
 <br>
 
 <h2>2020年度実績</h2>
-<div style="margin-left:12px;">
+<div style="margin-left:60px;">
 
 第2回ロケット発射実験
 
