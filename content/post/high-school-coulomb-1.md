@@ -1,19 +1,19 @@
 ---
 title: 高校生のためのクーロンの法則-1
 date: 2021-03-04
-image: /img/800px-raijin-ogata-emuseum.jpg
+image: "/img/800px-raijin-ogata-emuseum.jpg"
 description: クーロンの法則をもっと知りたい高校生のためのシリーズ第1回。
 author: "+9"
 tags:
-  - 高校物理
-  - 電磁気
-  - わかりやすく
-  - 静電気
-  - クーロンの法則
-  - クーロン力
+- 高校物理
+- 電磁気
+- わかりやすく
+- 静電気
+- クーロンの法則
+- クーロン力
 math: true
 comments: true
-draft: false
+
 ---
 # クーロンの法則わからんっっっ！！！
 
