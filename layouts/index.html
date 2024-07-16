@@ -20,14 +20,14 @@
     <!-- Main Content -->
     <div class="container">
       <article>
-      {{ .Content }}
+        {{ .Content }}
       </article>
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           <p><a href="/post/"><h2>活動記録</h2></a></p>
-          {{ $posts := or .Site.Params.PostSummariesFrontPage 4 }}
-          {{ range first $posts (where .Data.Pages "Type" "post") }}
-              {{ .Render "summary"}}
+          {{ $posts := .Site.Params.PostSummariesFrontPage | default 4 }}
+          {{ range first $posts (where .Site.RegularPages "Type" "post") }}
+            {{ .Render "summary"}}
           {{ end }}
           <!-- Pager -->
           <ul class="pager">

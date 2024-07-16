@@ -4,7 +4,6 @@ backend:
   branch: master
 
 media_folder: "static/img"
-publish_mode: editorial_workflow
 public_folder: "/img"
 
 collections:
@@ -12,9 +11,9 @@ collections:
     name: "post" # 管理画面のパスで使う　例：/admin/collections/blog
     folder: "content/post" # Markdownを保存するディレクトリ。Hugoのsectionにあたる
     create: true # 新しいページを作ることを許可する
+    delete: true
     fields: # ページ作成画面で使う。Front Matterの値を書く
       - {label: "タイトル", name: "title", widget: "string"}
-      - {label: "公開URL名", name: "slug", widget: "string"}
       - {label: "公開日", name: "date", widget: "datetime", default: "", format: "YYYY-MM-DD"}
       - {label: "サムネイル画像", name: "image", widget: "image"}
       - {label: "説明", name: "description", widget: "string"}
@@ -28,10 +27,10 @@ collections:
   - label: "固定ページ" # 管理画面のサイドバーで使う
     name: "page" # 管理画面のパスで使う　例：/admin/collections/blog
     folder: "content/page" # Markdownを保存するディレクトリ。Hugoのsectionにあたる
-    create: true # 新しいページを作ることを許可する
+    create: false # 新しいページを作ることを許可する
+    delete: false
     fields: # ページ作成画面で使う。Front Matterの値を書く
       - {label: "タイトル", name: "title", widget: "string"}
-      - {label: "公開URL名", name: "slug", widget: "string"}
       - {label: "サムネイル画像", name: "image", widget: "image"}
       - {label: "本文", name: "body", widget: "markdown"}
 
@@ -39,6 +38,20 @@ collections:
     name: "toppage" # 管理画面のパスで使う　例：/admin/collections/blog
     folder: "content" # Markdownを保存するディレクトリ。Hugoのsectionにあたる
     create: false # 新しいページを作ることを許可する
+    delete: false
     draft: false
     fields: # ページ作成画面で使う。Front Matterの値を書く
+      - {label: "本文", name: "body", widget: "markdown"}
+
+  - label: "部員紹介" # 管理画面のサイドバーで使う
+    name: "member" # 管理画面のパスで使う　例：/admin/collections/blog
+    folder: "content/member" # Markdownを保存するディレクトリ。Hugoのsectionにあたる
+    create: true # 新しいページを作ることを許可する
+    delete: true
+    draft: falses
+    fields: # ページ作成画面で使う。Front Matterの値を書く
+      - {label: "名前", name: "title", widget: "string"}
+      - {label: "ニックネーム(省略可)", name: "nickname", widget: "string"}
+      - {label: "肩書とか(省略可)", name: "description", widget: "string"}
+      - {label: "「XXX回生」と記入して。（「」はいらない）", name: "tags", widget: "list"}
       - {label: "本文", name: "body", widget: "markdown"}

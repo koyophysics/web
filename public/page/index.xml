@@ -2,32 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on 甲陽学院高校 物理部</title>
-    <link>https://koyophy.netlify.com/page/</link>
+    <link>https://koyophy.netlify.app/page/</link>
     <description>Recent content in Pages on 甲陽学院高校 物理部</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja-jp</language>
-    <copyright>© 2018-2020 Koyo Physics. All Rights Reserved.</copyright>
-    
-	<atom:link href="https://koyophy.netlify.com/page/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://koyophy.netlify.app/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>クラブ紹介</title>
-      <link>https://koyophy.netlify.com/page/%E3%82%AF%E3%83%A9%E3%83%96%E7%B4%B9%E4%BB%8B/</link>
+      <link>https://koyophy.netlify.app/page/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://koyophy.netlify.com/page/%E3%82%AF%E3%83%A9%E3%83%96%E7%B4%B9%E4%BB%8B/</guid>
-      <description>部員 ●103回生登山が好き-正部員−-準部員-活動内容 物理や工学に興味がある生徒が集まって日々活動しています。 同じような趣味を持つ者同士で知</description>
+      <guid>https://koyophy.netlify.app/page/introduction/</guid>
+      <description>活動内容 物理や工学に興味がある生徒が集まって日々活動しています。 同じような趣味を持つ者同士で知識を交換し、新たなことに興味を持つことができる</description>
     </item>
-    
     <item>
-      <title>活動実績</title>
-      <link>https://koyophy.netlify.com/page/%E6%B4%BB%E5%8B%95%E5%AE%9F%E7%B8%BE/</link>
+      <title>部誌アーカイブ</title>
+      <link>https://koyophy.netlify.app/page/archive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://koyophy.netlify.com/page/%E6%B4%BB%E5%8B%95%E5%AE%9F%E7%B8%BE/</guid>
+      <guid>https://koyophy.netlify.app/page/archive/</guid>
       <description>2019年 ・甲陽学院高校運動場でロケットの打ち上げに成功 ・物理チャレンジ2020に部員2名が出場．うち1名は東京エレクトロン賞および銀賞を獲</description>
     </item>
-    
   </channel>
 </rss>

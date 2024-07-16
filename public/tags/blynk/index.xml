@@ -2,24 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blynk on 甲陽学院高校 物理部</title>
-    <link>https://koyophy.netlify.com/tags/blynk/</link>
+    <link>https://koyophy.netlify.app/tags/blynk/</link>
     <description>Recent content in Blynk on 甲陽学院高校 物理部</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja-jp</language>
-    <copyright>© 2018-2020 Koyo Physics. All Rights Reserved.</copyright>
     <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://koyophy.netlify.com/tags/blynk/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://koyophy.netlify.app/tags/blynk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>オムニホイールで全方向移動</title>
-      <link>https://koyophy.netlify.com/post/omni/</link>
+      <link>https://koyophy.netlify.app/post/omni/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://koyophy.netlify.com/post/omni/</guid>
+      <guid>https://koyophy.netlify.app/post/omni/</guid>
       <description>はじめに 物理部部長のH崎です。 この記事では今年製作したオムニホイールについて紹介したいと思います。 ※パンジャンドラムではありません オムニホイ</description>
     </item>
-    
   </channel>
 </rss>

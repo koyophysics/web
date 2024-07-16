@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+
+<head>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    
+      
+        <script type="text/x-mathjax-config">
+          MathJax.Hub.Config({
+              tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+              linebreaks: {automatic: true}
+          });
+        </script>
+        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML&locale=ja"></script>
+      
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="クーロンの法則をもっと知りたい高校生のためのシリーズ第1回。">
+    <meta name="author" content="">
+    <meta name="keywords" content="高校物理, 電磁気, わかりやすく, 静電気, クーロンの法則, クーロン力">
+
+
+    <title>高校生のためのクーロンの法則-1 - 甲陽学院高校 物理部</title>
+
+    
+    <link href="https://koyophy.netlify.app//css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="https://koyophy.netlify.app//css/clean-blog.min.css" rel="stylesheet">
+    <link href="https://koyophy.netlify.app/css/syntax.css" rel="stylesheet">
+
+    
+    <link href="//use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="https://koyophy.netlify.app//favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="https://koyophy.netlify.app//favicon/apple-touch-icon.png" sizes="152x152">
+    <link rel="icon" href="https://koyophy.netlify.app//favicon/icon-192x192.png" sizes="192x192" type="image/png">
+
+    
+    
+    
+
+</head>
+
+<body>
+
+    
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://koyophy.netlify.app/">Koyo Physics Club</a>
+            </div>
+
+                       
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li>
+                        <a href="https://koyophy.netlify.app/">ホーム</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyophy.netlify.app/post/">活動記録</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyophy.netlify.app/page/introduction/">クラブ紹介</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://koyophy.netlify.app/page/archive/">部誌アーカイブ</a>
+                    </li>
+                    
+                  </ul>
+            </div>
+           
+
+        </div>
+        
+    </nav>
+
+
+    
+    
+    <header class="intro-header" style="background-image: url('https://koyophy.netlify.app//img/background/blue.jpg')">
+      
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+             <div class="post-heading">
+               <h1>高校生のためのクーロンの法則-1</h1>
+               <br>
+               <h2 class="subheading">クーロンの法則をもっと知りたい高校生のためのシリーズ第1回。</h2>
+               <span class="meta">
+                 
+<i class="far fa-edit"></i>
+
+  &#43;9　
+
+<i class="far fa-clock"></i>  2021/3/4　
+<i class="fas fa-tag"></i> <u><a href="https://koyophy.netlify.app/tags/%E9%AB%98%E6%A0%A1%E7%89%A9%E7%90%86">高校物理</a></u>, <u><a href="https://koyophy.netlify.app/tags/%E9%9B%BB%E7%A3%81%E6%B0%97">電磁気</a></u>, <u><a href="https://koyophy.netlify.app/tags/%E3%82%8F%E3%81%8B%E3%82%8A%E3%82%84%E3%81%99%E3%81%8F">わかりやすく</a></u>, <u><a href="https://koyophy.netlify.app/tags/%E9%9D%99%E9%9B%BB%E6%B0%97">静電気</a></u>, <u><a href="https://koyophy.netlify.app/tags/%E3%82%AF%E3%83%BC%E3%83%AD%E3%83%B3%E3%81%AE%E6%B3%95%E5%89%87">クーロンの法則</a></u>, <u><a href="https://koyophy.netlify.app/tags/%E3%82%AF%E3%83%BC%E3%83%AD%E3%83%B3%E5%8A%9B">クーロン力</a></u>
+
+
+               </span>
+             </div>
+           </div>
+        </div>
+      </div>
+    </header>
+
+    
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  
+                      
+                          <h1 id="クーロンの法則わからんっっっ">クーロンの法則わからんっっっ！！！</h1>
+<h1 id="教科書参考書よりもっと深く理解したい">教科書・参考書よりもっと深く理解したい！！！</h1>
+<p>このシリーズはそんな高校生のためのものです。</p>
+<p>現役高校生が書いているのでわかりやすいこと間違いなし！！！</p>
+<h2 id="第1章-電気ってなんやねんを調べた人々の歴史">第1章. 電気ってなんやねん（を調べた人々の歴史）</h2>
+<p>冬になると、ドアノブを触ったり、シャツを脱ぐときにバチッてきますよね。私たちにとって最も身近な電気的現象は<strong>静電気</strong>ではないでしょうか？それは、古代ギリシア人にとっても同じでした。</p>
+<p>時を遡ること前6世紀、ギリシアの人々は遠い北の国から運ばれてくるコハクに興味津々でした。コハクを摩擦すると、羽毛やホコリを引きつけます。とても不思議なこの現象に注目した初期の人物に、タレスがいます（下図：コハク摩擦現象について考察されたタレス先生）。なお、コハクのギリシア語ήλεκτρονは英語electricityの語源だと言われています。</p>
+<p><img src="https://koyophy.netlify.app/img/thales.jpg" alt="" style="width: 50%"></p>
+<p>紀元前から興味を保たれていたのにもかかわらず、本格的に電気の研究が始まったのは1600年代でした。1640年、ドイツのゲーリッケが起電気を発明します。これは、硫黄の球を回転させて手で摩擦し、硫黄を帯電させるというものでした。以後さまざまな起電気が発明されます。日本でも平賀源内がエレキテルなる起電気を作成しました。</p>
+<p>さて、1729年にイギリスのグレイは、摩擦した樹脂が示す電気的性質（＝羽毛などを引きつける性質）が金属を通じて移動することを発見しました。</p>
+<p><strong>何かが移動している！！！！！</strong></p>
+<p>「電気」なるものの実在が確認されたわけです。グレイはこの「電気」を導くものを<strong>導体</strong>、導かないものを<strong>不導体</strong>と分類しました。</p>
+<p>1733年には、フランスのデュフォイが電気には2種類あることを発見します。すなわち、ガラス棒を絹で摩擦したときと、樹脂を猫の皮で摩擦したときでは電気の種類が違ったのです。どう異なるのかというと、異なる種類の電気同士には引き合う力が、同じ種類の電気同士にはしりぞけあう力が働き、異なる種類の電気を接触させると中和して電気的性質を失うことがわかりました。</p>
+<p>さらに1747年、アメリカ（といっても独立前）のフランクリンは</p>
+<p><strong>電気は一種類の流体である</strong></p>
+<p>と主張し、デュフォイの発見に説明を与えました。つまり、電気という流体が過剰な状態（+）と不足している状態（-）が2種類の電気的性質として確認されるのである、というわけです（下図：電気の一流体説を提唱されたフランクリン氏）。</p>
+<p><img src="https://koyophy.netlify.app/img/benfranklinduplessis.jpg" alt="" style="width: 50%"></p>
+<p>これらの定性的な（＝性質に注目した）電気の探求は、1700年代後半のクーロンらによる定量的な（＝数値に注目した）研究へと繋がっていきます。</p>
+<p><em>「電気」の実態を探った人々の歴史を理解していただけたでしょうか？次回はクーロンの法則に注目して、電気現象の定量的考察を行います。</em></p>
+
+                      
+                  
+
+                  
+   
+
+
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <br><br>
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <ul class="list-inline text-center">
+              
+                <li>
+                  <a href="mailto:koyobutsuri@gmail.com">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+              
+              
+                
+                <li>
+                  <a href="https://github.com/koyophysics/web">
+                    <span class="fa-stack fa-lg">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+                
+                <li>
+                  <a href="https://twitter.com/koyophysics">
+                    <span class="fa-stack fa-lg">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+                
+                <li>
+                  <a href="https://www.youtube.com/channel/UCoM7hhjA0OisVtQv2ZwlEfw">
+                    <span class="fa-stack fa-lg">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+                
+              
+            </ul>
+            <p class="copyright text-muted">© 2018-2024 Koyo Physics. All Rights Reserved. <br>Code released under the Apache 2.0 license.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    
+    <script src="https://koyophy.netlify.app//js/bootstrap.min.js"></script>
+    
+    <script src="https://koyophy.netlify.app//js/clean-blog.min.js"></script>
+    
+  
+
+
+
+</body>
+
+</html>
+

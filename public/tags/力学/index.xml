@@ -2,24 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>力学 on 甲陽学院高校 物理部</title>
-    <link>https://koyophy.netlify.com/tags/%E5%8A%9B%E5%AD%A6/</link>
+    <link>https://koyophy.netlify.app/tags/%E5%8A%9B%E5%AD%A6/</link>
     <description>Recent content in 力学 on 甲陽学院高校 物理部</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja-jp</language>
-    <copyright>© 2018-2020 Koyo Physics. All Rights Reserved.</copyright>
     <lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://koyophy.netlify.com/tags/%E5%8A%9B%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://koyophy.netlify.app/tags/%E5%8A%9B%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>二重振り子のシミュレーション</title>
-      <link>https://koyophy.netlify.com/post/pendu/</link>
+      <link>https://koyophy.netlify.app/post/pendu/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://koyophy.netlify.com/post/pendu/</guid>
+      <guid>https://koyophy.netlify.app/post/pendu/</guid>
       <description>二重振り子とは？？ 普通の振り子の先にもう一つ振り子をつないだだけの簡単な構造なのですが、これがまた興味深い。いわゆるカオスな運動をします。 カ</description>
     </item>
-    
   </channel>
 </rss>
